@@ -1,0 +1,1212 @@
+| 1. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 83.73
+| 2. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 83.26
+| 3. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 81.68
+| 4. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 76.34
+| 5. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 75.75
+| 6. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 75.32
+| 7. Model: dim_512_lay_8_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 75.32
+| 8. Model: dim_512_lay_9_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 75.29
+| 9. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 74.95
+| 10. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 73.14
+| 11. Model: dim_512_lay_7_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 72.09
+| 12. Model: dim_512_lay_5_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 71.27
+| 13. Model: dim_512_lay_9_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 71.18
+| 14. Model: dim_256_lay_9_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 70.96
+| 15. Model: dim_256_lay_9_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 70.93
+| 16. Model: dim_512_lay_6_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 70.75
+| 17. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 70.62
+| 18. Model: dim_256_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 70.5
+| 19. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 70.32
+| 20. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 70.26
+| 21. Model: dim_512_lay_6_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 69.18
+| 22. Model: dim_128_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 68.78
+| 23. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 68.51
+| 24. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 68.38
+| 25. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 67.99
+| 26. Model: dim_512_lay_10_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 67.61
+| 27. Model: dim_128_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 67.42
+| 28. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 67.22
+| 29. Model: dim_128_lay_8_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 66.81
+| 30. Model: dim_256_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 66.44
+| 31. Model: dim_256_lay_5_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 66.21
+| 32. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 66.0
+| 33. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 65.92
+| 34. Model: dim_512_lay_6_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 65.55
+| 35. Model: dim_512_lay_6_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 65.4
+| 36. Model: dim_128_lay_8_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 65.38
+| 37. Model: dim_128_lay_9_lr_0.1_do_0_kernel_3_maxtok_500, accuracy: 65.21
+| 38. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 65.11
+| 39. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 65.08
+| 40. Model: dim_512_lay_5_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 65.08
+| 41. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 64.9
+| 42. Model: dim_512_lay_5_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 64.64
+| 43. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 64.34
+| 44. Model: dim_512_lay_5_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 64.17
+| 45. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 64.11
+| 46. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 64.04
+| 47. Model: dim_512_lay_6_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 63.91
+| 48. Model: dim_512_lay_6_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 63.86
+| 49. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 63.82
+| 50. Model: dim_256_lay_7_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 63.78
+| 51. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 63.33
+| 52. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 63.28
+| 53. Model: dim_512_lay_5_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 63.28
+| 54. Model: dim_512_lay_8_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 63.21
+| 55. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 63.16
+| 56. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 62.76
+| 57. Model: dim_256_lay_4_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 62.57
+| 58. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 62.54
+| 59. Model: dim_128_lay_8_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 62.5
+| 60. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 62.38
+| 61. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 62.35
+| 62. Model: dim_512_lay_7_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 62.13
+| 63. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 62.12
+| 64. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 62.02
+| 65. Model: dim_512_lay_5_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 61.77
+| 66. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 61.59
+| 67. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 61.47
+| 68. Model: dim_512_lay_6_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 61.21
+| 69. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 61.04
+| 70. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 60.99
+| 71. Model: dim_512_lay_5_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 60.73
+| 72. Model: dim_512_lay_9_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 60.65
+| 73. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 60.63
+| 74. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 60.56
+| 75. Model: dim_256_lay_7_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 60.16
+| 76. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 60.16
+| 77. Model: dim_512_lay_7_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 60.02
+| 78. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 59.85
+| 79. Model: dim_512_lay_5_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 59.69
+| 80. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 59.63
+| 81. Model: dim_512_lay_5_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 59.58
+| 82. Model: dim_128_lay_10_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 59.34
+| 83. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 59.33
+| 84. Model: dim_512_lay_2_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 59.24
+| 85. Model: dim_512_lay_7_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 59.15
+| 86. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 59.02
+| 87. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 58.94
+| 88. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 58.92
+| 89. Model: dim_256_lay_4_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 58.9
+| 90. Model: dim_256_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 58.81
+| 91. Model: dim_512_lay_6_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 58.76
+| 92. Model: dim_512_lay_2_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 58.49
+| 93. Model: dim_128_lay_6_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 58.41
+| 94. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 58.41
+| 95. Model: dim_256_lay_7_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 58.34
+| 96. Model: dim_512_lay_7_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 58.33
+| 97. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 58.21
+| 98. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 58.18
+| 99. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 58.07
+| 100. Model: dim_128_lay_4_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 57.99
+| 101. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 57.88
+| 102. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 57.81
+| 103. Model: dim_512_lay_10_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 57.76
+| 104. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 57.72
+| 105. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 57.33
+| 106. Model: dim_512_lay_2_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 57.29
+| 107. Model: dim_256_lay_5_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 57.27
+| 108. Model: dim_128_lay_6_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 57.25
+| 109. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 57.15
+| 110. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 57.11
+| 111. Model: dim_256_lay_10_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 56.75
+| 112. Model: dim_256_lay_5_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 56.74
+| 113. Model: dim_512_lay_8_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 56.54
+| 114. Model: dim_256_lay_8_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 56.37
+| 115. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 56.29
+| 116. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 56.29
+| 117. Model: dim_256_lay_8_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 56.2
+| 118. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 56.02
+| 119. Model: dim_512_lay_9_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 55.98
+| 120. Model: dim_128_lay_8_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 55.89
+| 121. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 55.88
+| 122. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 55.85
+| 123. Model: dim_512_lay_8_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 55.84
+| 124. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 55.55
+| 125. Model: dim_256_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 55.54
+| 126. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 55.52
+| 127. Model: dim_256_lay_6_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 55.5
+| 128. Model: dim_512_lay_10_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 55.05
+| 129. Model: dim_128_lay_6_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 54.98
+| 130. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 54.96
+| 131. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 54.85
+| 132. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 54.83
+| 133. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 54.83
+| 134. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 54.81
+| 135. Model: dim_512_lay_10_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 54.66
+| 136. Model: dim_128_lay_7_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 54.61
+| 137. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 54.61
+| 138. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 54.32
+| 139. Model: dim_512_lay_9_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 54.31
+| 140. Model: dim_256_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 54.17
+| 141. Model: dim_512_lay_8_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 53.93
+| 142. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 53.82
+| 143. Model: dim_512_lay_5_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 53.66
+| 144. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 53.58
+| 145. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 53.56
+| 146. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 53.56
+| 147. Model: dim_128_lay_7_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 53.28
+| 148. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 53.28
+| 149. Model: dim_512_lay_10_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 53.19
+| 150. Model: dim_512_lay_4_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 53.14
+| 151. Model: dim_512_lay_9_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 53.1
+| 152. Model: dim_128_lay_10_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 53.06
+| 153. Model: dim_512_lay_7_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 53.06
+| 154. Model: dim_256_lay_6_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 53.0
+| 155. Model: dim_256_lay_5_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 52.96
+| 156. Model: dim_512_lay_8_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 52.92
+| 157. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 52.91
+| 158. Model: dim_128_lay_8_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 52.88
+| 159. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 52.84
+| 160. Model: dim_256_lay_9_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 52.57
+| 161. Model: dim_512_lay_5_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 52.48
+| 162. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 52.44
+| 163. Model: dim_128_lay_7_lr_0.1_do_0_kernel_3_maxtok_500, accuracy: 52.27
+| 164. Model: dim_512_lay_10_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 52.27
+| 165. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 52.26
+| 166. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 52.23
+| 167. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 52.06
+| 168. Model: dim_256_lay_5_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 51.99
+| 169. Model: dim_256_lay_7_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 51.86
+| 170. Model: dim_256_lay_9_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 51.76
+| 171. Model: dim_256_lay_9_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 51.65
+| 172. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 51.64
+| 173. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 51.53
+| 174. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 51.45
+| 175. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 51.35
+| 176. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 51.32
+| 177. Model: dim_512_lay_8_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 51.25
+| 178. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 51.09
+| 179. Model: dim_128_lay_10_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 50.96
+| 180. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 50.91
+| 181. Model: dim_512_lay_6_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 50.83
+| 182. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 50.74
+| 183. Model: dim_256_lay_8_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 50.73
+| 184. Model: dim_256_lay_4_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 50.66
+| 185. Model: dim_512_lay_8_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 50.65
+| 186. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 50.61
+| 187. Model: dim_128_lay_7_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 50.57
+| 188. Model: dim_512_lay_6_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 50.57
+| 189. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 50.48
+| 190. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 50.45
+| 191. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 50.44
+| 192. Model: dim_128_lay_9_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 50.42
+| 193. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 50.35
+| 194. Model: dim_512_lay_4_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 50.31
+| 195. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 50.26
+| 196. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 50.09
+| 197. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 50.09
+| 198. Model: dim_256_lay_5_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 49.84
+| 199. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 49.83
+| 200. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 49.74
+| 201. Model: dim_512_lay_9_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 49.73
+| 202. Model: dim_128_lay_5_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 49.56
+| 203. Model: dim_128_lay_6_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 49.56
+| 204. Model: dim_512_lay_7_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 49.55
+| 205. Model: dim_512_lay_8_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 49.48
+| 206. Model: dim_512_lay_5_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 49.47
+| 207. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_3_maxtok_100, accuracy: 49.4
+| 208. Model: dim_256_lay_8_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 49.38
+| 209. Model: dim_128_lay_9_lr_0.1_do_0.5_kernel_3_maxtok_100, accuracy: 49.29
+| 210. Model: dim_512_lay_2_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 49.25
+| 211. Model: dim_128_lay_9_lr_0.1_do_0.5_kernel_4_maxtok_100, accuracy: 49.21
+| 212. Model: dim_512_lay_5_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 49.16
+| 213. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 49.08
+| 214. Model: dim_256_lay_10_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 49.0
+| 215. Model: dim_128_lay_10_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 48.91
+| 216. Model: dim_256_lay_7_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 48.88
+| 217. Model: dim_128_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 48.81
+| 218. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 48.81
+| 219. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 48.68
+| 220. Model: dim_256_lay_7_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 48.52
+| 221. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 48.43
+| 222. Model: dim_128_lay_4_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 48.39
+| 223. Model: dim_128_lay_9_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 48.35
+| 224. Model: dim_256_lay_7_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 48.11
+| 225. Model: dim_256_lay_8_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 48.03
+| 226. Model: dim_128_lay_10_lr_0.1_do_0_kernel_3_maxtok_500, accuracy: 47.99
+| 227. Model: dim_512_lay_9_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 47.87
+| 228. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 47.69
+| 229. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 47.68
+| 230. Model: dim_512_lay_5_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 47.65
+| 231. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 47.63
+| 232. Model: dim_256_lay_7_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 47.63
+| 233. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 47.63
+| 234. Model: dim_256_lay_7_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 47.55
+| 235. Model: dim_256_lay_9_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 47.47
+| 236. Model: dim_512_lay_4_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 47.43
+| 237. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 47.38
+| 238. Model: dim_512_lay_6_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 47.34
+| 239. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 47.34
+| 240. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 47.18
+| 241. Model: dim_128_lay_8_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 47.05
+| 242. Model: dim_512_lay_6_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 47.05
+| 243. Model: dim_256_lay_5_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 46.91
+| 244. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 46.86
+| 245. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 46.82
+| 246. Model: dim_256_lay_5_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 46.74
+| 247. Model: dim_128_lay_6_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 46.72
+| 248. Model: dim_256_lay_4_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 46.68
+| 249. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 46.68
+| 250. Model: dim_512_lay_10_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 46.6
+| 251. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 46.55
+| 252. Model: dim_128_lay_10_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 46.43
+| 253. Model: dim_128_lay_6_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 46.33
+| 254. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 46.29
+| 255. Model: dim_512_lay_6_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 46.25
+| 256. Model: dim_128_lay_5_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 46.02
+| 257. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 45.99
+| 258. Model: dim_512_lay_5_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 45.89
+| 259. Model: dim_512_lay_10_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 45.87
+| 260. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 45.82
+| 261. Model: dim_256_lay_9_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 45.76
+| 262. Model: dim_128_lay_7_lr_0.1_do_0.5_kernel_3_maxtok_50, accuracy: 45.65
+| 263. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 45.56
+| 264. Model: dim_128_lay_6_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 45.55
+| 265. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 45.52
+| 266. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 45.47
+| 267. Model: dim_256_lay_9_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 45.37
+| 268. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 45.37
+| 269. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 45.35
+| 270. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 45.35
+| 271. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 45.33
+| 272. Model: dim_128_lay_8_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 45.25
+| 273. Model: dim_256_lay_4_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 45.2
+| 274. Model: dim_512_lay_10_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 45.11
+| 275. Model: dim_512_lay_8_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 45.09
+| 276. Model: dim_128_lay_6_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 45.08
+| 277. Model: dim_256_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 45.08
+| 278. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 45.08
+| 279. Model: dim_512_lay_6_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 45.08
+| 280. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 45.07
+| 281. Model: dim_256_lay_6_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 45.02
+| 282. Model: dim_256_lay_3_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 44.86
+| 283. Model: dim_128_lay_8_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 44.76
+| 284. Model: dim_128_lay_4_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 44.63
+| 285. Model: dim_128_lay_9_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 44.6
+| 286. Model: dim_128_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 44.59
+| 287. Model: dim_128_lay_6_lr_0.1_do_0.5_kernel_4_maxtok_100, accuracy: 44.58
+| 288. Model: dim_256_lay_7_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 44.54
+| 289. Model: dim_128_lay_8_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 44.46
+| 290. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 44.45
+| 291. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 44.13
+| 292. Model: dim_512_lay_4_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 44.06
+| 293. Model: dim_128_lay_8_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 43.93
+| 294. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 43.87
+| 295. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 43.78
+| 296. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 43.77
+| 297. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 43.73
+| 298. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 43.67
+| 299. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_4_maxtok_500, accuracy: 43.67
+| 300. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 43.59
+| 301. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 43.56
+| 302. Model: dim_512_lay_8_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 43.56
+| 303. Model: dim_512_lay_9_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 43.54
+| 304. Model: dim_512_lay_10_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 43.52
+| 305. Model: dim_512_lay_10_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 43.49
+| 306. Model: dim_256_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 43.42
+| 307. Model: dim_512_lay_6_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 43.41
+| 308. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 43.38
+| 309. Model: dim_512_lay_7_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 43.24
+| 310. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 43.23
+| 311. Model: dim_512_lay_5_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 43.19
+| 312. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 43.11
+| 313. Model: dim_512_lay_10_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 42.99
+| 314. Model: dim_512_lay_6_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 42.94
+| 315. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 42.77
+| 316. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 42.67
+| 317. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_2_maxtok_2000, accuracy: 42.66
+| 318. Model: dim_256_lay_6_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 42.56
+| 319. Model: dim_256_lay_4_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 42.34
+| 320. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 42.29
+| 321. Model: dim_128_lay_5_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 42.21
+| 322. Model: dim_128_lay_3_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 42.19
+| 323. Model: dim_512_lay_2_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 42.17
+| 324. Model: dim_256_lay_6_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 42.06
+| 325. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 42.03
+| 326. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 42.01
+| 327. Model: dim_256_lay_10_lr_0.1_do_0_kernel_5_maxtok_2000, accuracy: 41.9
+| 328. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 41.9
+| 329. Model: dim_512_lay_8_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 41.9
+| 330. Model: dim_512_lay_5_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 41.88
+| 331. Model: dim_128_lay_6_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 41.82
+| 332. Model: dim_512_lay_4_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 41.81
+| 333. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 41.79
+| 334. Model: dim_256_lay_3_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 41.76
+| 335. Model: dim_128_lay_3_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 41.69
+| 336. Model: dim_256_lay_9_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 41.68
+| 337. Model: dim_512_lay_5_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 41.58
+| 338. Model: dim_256_lay_3_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 41.55
+| 339. Model: dim_512_lay_2_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 41.55
+| 340. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 41.54
+| 341. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_3_maxtok_500, accuracy: 41.42
+| 342. Model: dim_512_lay_7_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 41.29
+| 343. Model: dim_128_lay_8_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 41.25
+| 344. Model: dim_256_lay_6_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 41.23
+| 345. Model: dim_512_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 41.15
+| 346. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 41.08
+| 347. Model: dim_128_lay_4_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 41.07
+| 348. Model: dim_512_lay_3_lr_0.1_do_0.5_kernel_4_maxtok_2000, accuracy: 41.07
+| 349. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 40.86
+| 350. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 40.85
+| 351. Model: dim_128_lay_7_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 40.84
+| 352. Model: dim_128_lay_10_lr_0.1_do_0.5_kernel_4_maxtok_100, accuracy: 40.79
+| 353. Model: dim_128_lay_8_lr_0.1_do_0.5_kernel_3_maxtok_100, accuracy: 40.76
+| 354. Model: dim_128_lay_9_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 40.68
+| 355. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 40.66
+| 356. Model: dim_128_lay_10_lr_0.1_do_0.5_kernel_5_maxtok_100, accuracy: 40.63
+| 357. Model: dim_256_lay_8_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 40.57
+| 358. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 40.44
+| 359. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 40.4
+| 360. Model: dim_512_lay_7_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 40.4
+| 361. Model: dim_256_lay_3_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 40.24
+| 362. Model: dim_128_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 40.23
+| 363. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 40.2
+| 364. Model: dim_256_lay_10_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 40.18
+| 365. Model: dim_256_lay_5_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 40.11
+| 366. Model: dim_128_lay_7_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 40.1
+| 367. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 40.07
+| 368. Model: dim_512_lay_8_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 40.06
+| 369. Model: dim_512_lay_3_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 39.94
+| 370. Model: dim_256_lay_4_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 39.87
+| 371. Model: dim_256_lay_9_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 39.85
+| 372. Model: dim_256_lay_8_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 39.83
+| 373. Model: dim_128_lay_5_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 39.8
+| 374. Model: dim_512_lay_1_lr_0.01_do_0_kernel_5_maxtok_25, accuracy: 39.75
+| 375. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 39.72
+| 376. Model: dim_512_lay_4_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 39.68
+| 377. Model: dim_512_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 39.68
+| 378. Model: dim_512_lay_1_lr_0.01_do_0_kernel_4_maxtok_50, accuracy: 39.64
+| 379. Model: dim_512_lay_3_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 39.59
+| 380. Model: dim_128_lay_4_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 39.53
+| 381. Model: dim_128_lay_9_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 39.5
+| 382. Model: dim_256_lay_3_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 39.44
+| 383. Model: dim_128_lay_3_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 39.36
+| 384. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 39.36
+| 385. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 39.27
+| 386. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 39.23
+| 387. Model: dim_128_lay_7_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 39.22
+| 388. Model: dim_128_lay_8_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 39.22
+| 389. Model: dim_512_lay_8_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 39.11
+| 390. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_4_maxtok_500, accuracy: 39.1
+| 391. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 39.03
+| 392. Model: dim_512_lay_5_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 39.01
+| 393. Model: dim_256_lay_8_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 38.94
+| 394. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 38.84
+| 395. Model: dim_256_lay_9_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 38.76
+| 396. Model: dim_512_lay_1_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 38.66
+| 397. Model: dim_512_lay_6_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 38.65
+| 398. Model: dim_512_lay_7_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 38.55
+| 399. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 38.44
+| 400. Model: dim_128_lay_8_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 38.33
+| 401. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 38.31
+| 402. Model: dim_256_lay_4_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 38.29
+| 403. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 38.28
+| 404. Model: dim_256_lay_9_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 38.27
+| 405. Model: dim_256_lay_9_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 38.22
+| 406. Model: dim_512_lay_9_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 38.17
+| 407. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 38.1
+| 408. Model: dim_128_lay_9_lr_0.1_do_0_kernel_5_maxtok_2000, accuracy: 37.85
+| 409. Model: dim_256_lay_6_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 37.84
+| 410. Model: dim_256_lay_7_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 37.84
+| 411. Model: dim_256_lay_3_lr_0.1_do_0.5_kernel_4_maxtok_2000, accuracy: 37.78
+| 412. Model: dim_256_lay_9_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 37.67
+| 413. Model: dim_512_lay_1_lr_0.01_do_0_kernel_4_maxtok_25, accuracy: 37.67
+| 414. Model: dim_128_lay_6_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 37.66
+| 415. Model: dim_128_lay_2_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 37.57
+| 416. Model: dim_256_lay_7_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 37.56
+| 417. Model: dim_256_lay_10_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 37.56
+| 418. Model: dim_128_lay_4_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 37.5
+| 419. Model: dim_256_lay_10_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 37.48
+| 420. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 37.48
+| 421. Model: dim_512_lay_3_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 37.46
+| 422. Model: dim_128_lay_9_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 37.45
+| 423. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 37.45
+| 424. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 37.32
+| 425. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_2_maxtok_2000, accuracy: 37.23
+| 426. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 37.22
+| 427. Model: dim_512_lay_7_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 37.2
+| 428. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 37.14
+| 429. Model: dim_256_lay_4_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 37.11
+| 430. Model: dim_512_lay_1_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 37.11
+| 431. Model: dim_256_lay_6_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 37.01
+| 432. Model: dim_512_lay_2_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 37.01
+| 433. Model: dim_128_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 36.98
+| 434. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_3_maxtok_100, accuracy: 36.85
+| 435. Model: dim_128_lay_8_lr_0.1_do_0_kernel_3_maxtok_500, accuracy: 36.84
+| 436. Model: dim_256_lay_8_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 36.84
+| 437. Model: dim_512_lay_9_lr_0.1_do_0_kernel_2_maxtok_1000, accuracy: 36.84
+| 438. Model: dim_128_lay_7_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 36.72
+| 439. Model: dim_256_lay_10_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 36.71
+| 440. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 36.61
+| 441. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 36.56
+| 442. Model: dim_128_lay_4_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 36.54
+| 443. Model: dim_256_lay_4_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 36.53
+| 444. Model: dim_512_lay_5_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 36.53
+| 445. Model: dim_512_lay_8_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 36.48
+| 446. Model: dim_256_lay_6_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 36.47
+| 447. Model: dim_128_lay_9_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 36.32
+| 448. Model: dim_256_lay_9_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 36.31
+| 449. Model: dim_128_lay_8_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 36.3
+| 450. Model: dim_512_lay_2_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 36.3
+| 451. Model: dim_512_lay_9_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 36.3
+| 452. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 36.14
+| 453. Model: dim_512_lay_5_lr_0.1_do_0_kernel_2_maxtok_1000, accuracy: 36.1
+| 454. Model: dim_512_lay_10_lr_0.1_do_0_kernel_2_maxtok_1000, accuracy: 36.1
+| 455. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 36.08
+| 456. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 36.05
+| 457. Model: dim_256_lay_3_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 35.98
+| 458. Model: dim_256_lay_6_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 35.95
+| 459. Model: dim_128_lay_3_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 35.93
+| 460. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 35.93
+| 461. Model: dim_128_lay_8_lr_0.1_do_0.5_kernel_2_maxtok_100, accuracy: 35.86
+| 462. Model: dim_256_lay_7_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 35.86
+| 463. Model: dim_256_lay_10_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 35.84
+| 464. Model: dim_256_lay_10_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 35.79
+| 465. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_5_maxtok_500, accuracy: 35.76
+| 466. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_2_maxtok_2000, accuracy: 35.67
+| 467. Model: dim_256_lay_8_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 35.63
+| 468. Model: dim_512_lay_8_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 35.62
+| 469. Model: dim_128_lay_4_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 35.61
+| 470. Model: dim_128_lay_8_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 35.48
+| 471. Model: dim_256_lay_3_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 35.48
+| 472. Model: dim_256_lay_4_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 35.47
+| 473. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_4_maxtok_500, accuracy: 35.4
+| 474. Model: dim_256_lay_5_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 35.35
+| 475. Model: dim_512_lay_9_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 35.32
+| 476. Model: dim_128_lay_2_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 35.31
+| 477. Model: dim_512_lay_9_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 35.3
+| 478. Model: dim_128_lay_8_lr_0.1_do_0.25_kernel_2_maxtok_100, accuracy: 35.28
+| 479. Model: dim_256_lay_2_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 35.27
+| 480. Model: dim_512_lay_7_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 35.26
+| 481. Model: dim_512_lay_6_lr_0.1_do_0.5_kernel_3_maxtok_2000, accuracy: 35.21
+| 482. Model: dim_128_lay_8_lr_0.1_do_0.5_kernel_3_maxtok_50, accuracy: 35.09
+| 483. Model: dim_512_lay_6_lr_0.01_do_0.5_kernel_3_maxtok_100, accuracy: 35.06
+| 484. Model: dim_256_lay_4_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 34.93
+| 485. Model: dim_512_lay_3_lr_0.01_do_0_kernel_4_maxtok_25, accuracy: 34.92
+| 486. Model: dim_128_lay_9_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 34.83
+| 487. Model: dim_128_lay_4_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 34.82
+| 488. Model: dim_128_lay_9_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 34.82
+| 489. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 34.79
+| 490. Model: dim_128_lay_6_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 34.66
+| 491. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_3_maxtok_500, accuracy: 34.66
+| 492. Model: dim_512_lay_6_lr_0.1_do_0_kernel_4_maxtok_2000, accuracy: 34.62
+| 493. Model: dim_128_lay_8_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 34.6
+| 494. Model: dim_128_lay_10_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 34.52
+| 495. Model: dim_256_lay_9_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 34.52
+| 496. Model: dim_128_lay_3_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 34.51
+| 497. Model: dim_512_lay_7_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 34.51
+| 498. Model: dim_128_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 34.48
+| 499. Model: dim_512_lay_2_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 34.45
+| 500. Model: dim_512_lay_9_lr_0.1_do_0_kernel_3_maxtok_500, accuracy: 34.45
+| 501. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 34.4
+| 502. Model: dim_512_lay_5_lr_0.1_do_0.5_kernel_3_maxtok_2000, accuracy: 34.39
+| 503. Model: dim_512_lay_8_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 34.39
+| 504. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 34.35
+| 505. Model: dim_512_lay_3_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 34.31
+| 506. Model: dim_256_lay_8_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 34.3
+| 507. Model: dim_128_lay_6_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 34.21
+| 508. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_5_maxtok_500, accuracy: 34.21
+| 509. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 34.14
+| 510. Model: dim_128_lay_3_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 34.03
+| 511. Model: dim_128_lay_9_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 34.03
+| 512. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 33.99
+| 513. Model: dim_128_lay_8_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 33.96
+| 514. Model: dim_512_lay_7_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 33.9
+| 515. Model: dim_256_lay_7_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 33.86
+| 516. Model: dim_256_lay_7_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 33.79
+| 517. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 33.75
+| 518. Model: dim_512_lay_10_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 33.69
+| 519. Model: dim_512_lay_3_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 33.66
+| 520. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 33.65
+| 521. Model: dim_128_lay_9_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 33.64
+| 522. Model: dim_128_lay_6_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 33.45
+| 523. Model: dim_128_lay_8_lr_0.1_do_0.5_kernel_4_maxtok_50, accuracy: 33.45
+| 524. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 33.45
+| 525. Model: dim_512_lay_6_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 33.4
+| 526. Model: dim_256_lay_4_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 33.34
+| 527. Model: dim_256_lay_2_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 33.12
+| 528. Model: dim_512_lay_5_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 32.94
+| 529. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_2_maxtok_2000, accuracy: 32.83
+| 530. Model: dim_256_lay_2_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 32.82
+| 531. Model: dim_256_lay_8_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 32.82
+| 532. Model: dim_256_lay_1_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 32.78
+| 533. Model: dim_512_lay_6_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 32.74
+| 534. Model: dim_128_lay_4_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 32.73
+| 535. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 32.68
+| 536. Model: dim_512_lay_7_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 32.64
+| 537. Model: dim_512_lay_10_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 32.61
+| 538. Model: dim_256_lay_8_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 32.58
+| 539. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 32.58
+| 540. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 32.52
+| 541. Model: dim_128_lay_2_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 32.49
+| 542. Model: dim_128_lay_4_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 32.47
+| 543. Model: dim_256_lay_2_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 32.47
+| 544. Model: dim_128_lay_9_lr_0.1_do_0.5_kernel_5_maxtok_100, accuracy: 32.44
+| 545. Model: dim_128_lay_9_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 32.38
+| 546. Model: dim_256_lay_8_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 32.38
+| 547. Model: dim_128_lay_9_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 32.36
+| 548. Model: dim_512_lay_4_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 32.27
+| 549. Model: dim_512_lay_5_lr_0.1_do_0.5_kernel_4_maxtok_2000, accuracy: 32.27
+| 550. Model: dim_512_lay_2_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 32.26
+| 551. Model: dim_256_lay_8_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 32.25
+| 552. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 32.25
+| 553. Model: dim_128_lay_9_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 32.17
+| 554. Model: dim_128_lay_7_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 32.14
+| 555. Model: dim_256_lay_7_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 32.08
+| 556. Model: dim_256_lay_3_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 32.05
+| 557. Model: dim_128_lay_7_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 32.01
+| 558. Model: dim_256_lay_4_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 31.99
+| 559. Model: dim_128_lay_8_lr_0.1_do_0.5_kernel_5_maxtok_100, accuracy: 31.94
+| 560. Model: dim_256_lay_8_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 31.92
+| 561. Model: dim_256_lay_9_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 31.92
+| 562. Model: dim_128_lay_6_lr_0.1_do_0.5_kernel_5_maxtok_100, accuracy: 31.85
+| 563. Model: dim_256_lay_4_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 31.83
+| 564. Model: dim_512_lay_1_lr_0.01_do_0_kernel_5_maxtok_50, accuracy: 31.83
+| 565. Model: dim_256_lay_10_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 31.75
+| 566. Model: dim_512_lay_6_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 31.68
+| 567. Model: dim_256_lay_5_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 31.65
+| 568. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 31.65
+| 569. Model: dim_512_lay_5_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 31.64
+| 570. Model: dim_256_lay_3_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 31.62
+| 571. Model: dim_512_lay_5_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 31.56
+| 572. Model: dim_512_lay_8_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 31.46
+| 573. Model: dim_512_lay_8_lr_0.01_do_0.5_kernel_2_maxtok_25, accuracy: 31.44
+| 574. Model: dim_128_lay_4_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 31.43
+| 575. Model: dim_256_lay_10_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 31.39
+| 576. Model: dim_512_lay_6_lr_0.1_do_0.25_kernel_2_maxtok_2000, accuracy: 31.38
+| 577. Model: dim_256_lay_6_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 31.27
+| 578. Model: dim_512_lay_7_lr_0.01_do_0.5_kernel_3_maxtok_100, accuracy: 31.25
+| 579. Model: dim_256_lay_6_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 31.16
+| 580. Model: dim_256_lay_8_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 31.13
+| 581. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 31.11
+| 582. Model: dim_128_lay_6_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 31.03
+| 583. Model: dim_256_lay_10_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 31.01
+| 584. Model: dim_128_lay_10_lr_0.1_do_0.5_kernel_3_maxtok_100, accuracy: 30.99
+| 585. Model: dim_512_lay_10_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 30.99
+| 586. Model: dim_128_lay_9_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 30.96
+| 587. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_3_maxtok_100, accuracy: 30.94
+| 588. Model: dim_512_lay_5_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 30.83
+| 589. Model: dim_256_lay_7_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 30.79
+| 590. Model: dim_256_lay_6_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 30.78
+| 591. Model: dim_512_lay_9_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 30.78
+| 592. Model: dim_512_lay_8_lr_0.1_do_0.5_kernel_2_maxtok_500, accuracy: 30.7
+| 593. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 30.63
+| 594. Model: dim_512_lay_3_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 30.61
+| 595. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 30.59
+| 596. Model: dim_512_lay_9_lr_0.1_do_0_kernel_4_maxtok_2000, accuracy: 30.57
+| 597. Model: dim_128_lay_4_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 30.55
+| 598. Model: dim_256_lay_4_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 30.53
+| 599. Model: dim_256_lay_3_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 30.52
+| 600. Model: dim_128_lay_5_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 30.51
+| 601. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 30.5
+| 602. Model: dim_256_lay_5_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 30.47
+| 603. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 30.4
+| 604. Model: dim_512_lay_8_lr_0.01_do_0.5_kernel_3_maxtok_100, accuracy: 30.4
+| 605. Model: dim_256_lay_7_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 30.35
+| 606. Model: dim_512_lay_3_lr_0.01_do_0_kernel_5_maxtok_25, accuracy: 30.33
+| 607. Model: dim_128_lay_3_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 30.31
+| 608. Model: dim_256_lay_3_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 30.25
+| 609. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 30.24
+| 610. Model: dim_256_lay_10_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 30.22
+| 611. Model: dim_128_lay_2_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 30.18
+| 612. Model: dim_256_lay_8_lr_0.1_do_0_kernel_2_maxtok_1000, accuracy: 30.18
+| 613. Model: dim_128_lay_5_lr_0.1_do_0.25_kernel_4_maxtok_100, accuracy: 30.15
+| 614. Model: dim_256_lay_7_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 30.09
+| 615. Model: dim_256_lay_10_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 30.09
+| 616. Model: dim_512_lay_5_lr_0.01_do_0.5_kernel_3_maxtok_100, accuracy: 30.09
+| 617. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_5_maxtok_500, accuracy: 30.03
+| 618. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 30.0
+| 619. Model: dim_128_lay_5_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 29.99
+| 620. Model: dim_128_lay_7_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 29.99
+| 621. Model: dim_128_lay_8_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 29.96
+| 622. Model: dim_512_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 29.92
+| 623. Model: dim_256_lay_5_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 29.85
+| 624. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_4_maxtok_500, accuracy: 29.82
+| 625. Model: dim_512_lay_8_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 29.78
+| 626. Model: dim_128_lay_7_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 29.73
+| 627. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 29.69
+| 628. Model: dim_256_lay_8_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 29.69
+| 629. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 29.64
+| 630. Model: dim_128_lay_3_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 29.6
+| 631. Model: dim_128_lay_10_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 29.57
+| 632. Model: dim_512_lay_2_lr_0.1_do_0.5_kernel_4_maxtok_2000, accuracy: 29.57
+| 633. Model: dim_256_lay_4_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 29.56
+| 634. Model: dim_256_lay_5_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 29.56
+| 635. Model: dim_512_lay_7_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 29.56
+| 636. Model: dim_128_lay_7_lr_0.1_do_0.5_kernel_4_maxtok_100, accuracy: 29.55
+| 637. Model: dim_256_lay_6_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 29.52
+| 638. Model: dim_128_lay_8_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 29.5
+| 639. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 29.47
+| 640. Model: dim_256_lay_2_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 29.43
+| 641. Model: dim_128_lay_8_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 29.41
+| 642. Model: dim_256_lay_6_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 29.39
+| 643. Model: dim_512_lay_1_lr_0.01_do_0_kernel_4_maxtok_100, accuracy: 29.39
+| 644. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 29.35
+| 645. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 29.3
+| 646. Model: dim_128_lay_9_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 29.29
+| 647. Model: dim_256_lay_7_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 29.28
+| 648. Model: dim_512_lay_10_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 29.19
+| 649. Model: dim_256_lay_3_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 29.08
+| 650. Model: dim_128_lay_7_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 29.07
+| 651. Model: dim_256_lay_10_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 29.04
+| 652. Model: dim_128_lay_10_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 29.0
+| 653. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 28.95
+| 654. Model: dim_128_lay_5_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 28.94
+| 655. Model: dim_512_lay_6_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 28.93
+| 656. Model: dim_256_lay_9_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 28.91
+| 657. Model: dim_256_lay_5_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 28.9
+| 658. Model: dim_512_lay_8_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 28.89
+| 659. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_4_maxtok_500, accuracy: 28.89
+| 660. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 28.87
+| 661. Model: dim_512_lay_7_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 28.82
+| 662. Model: dim_256_lay_8_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 28.8
+| 663. Model: dim_128_lay_5_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 28.77
+| 664. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 28.77
+| 665. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 28.74
+| 666. Model: dim_512_lay_2_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 28.69
+| 667. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 28.69
+| 668. Model: dim_256_lay_4_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 28.67
+| 669. Model: dim_512_lay_5_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 28.67
+| 670. Model: dim_128_lay_3_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 28.65
+| 671. Model: dim_512_lay_4_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 28.65
+| 672. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 28.65
+| 673. Model: dim_256_lay_10_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 28.64
+| 674. Model: dim_256_lay_8_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 28.6
+| 675. Model: dim_128_lay_9_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 28.48
+| 676. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 28.38
+| 677. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_3_maxtok_500, accuracy: 28.35
+| 678. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 28.33
+| 679. Model: dim_512_lay_10_lr_0.01_do_0.5_kernel_2_maxtok_25, accuracy: 28.3
+| 680. Model: dim_128_lay_6_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 28.26
+| 681. Model: dim_512_lay_4_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 28.26
+| 682. Model: dim_256_lay_6_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 28.21
+| 683. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 28.21
+| 684. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 28.2
+| 685. Model: dim_128_lay_6_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 28.11
+| 686. Model: dim_128_lay_4_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 28.09
+| 687. Model: dim_512_lay_8_lr_0.1_do_0.5_kernel_4_maxtok_2000, accuracy: 28.08
+| 688. Model: dim_128_lay_8_lr_0.01_do_0.5_kernel_5_maxtok_50, accuracy: 28.06
+| 689. Model: dim_128_lay_10_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 28.06
+| 690. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_5_maxtok_500, accuracy: 28.06
+| 691. Model: dim_256_lay_6_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 28.04
+| 692. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_3_maxtok_500, accuracy: 27.82
+| 693. Model: dim_128_lay_4_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 27.78
+| 694. Model: dim_128_lay_3_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 27.77
+| 695. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_4_maxtok_500, accuracy: 27.72
+| 696. Model: dim_128_lay_6_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 27.71
+| 697. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 27.69
+| 698. Model: dim_128_lay_4_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 27.67
+| 699. Model: dim_512_lay_5_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 27.65
+| 700. Model: dim_128_lay_5_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 27.61
+| 701. Model: dim_512_lay_1_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 27.59
+| 702. Model: dim_128_lay_5_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 27.56
+| 703. Model: dim_128_lay_6_lr_0.1_do_0.5_kernel_3_maxtok_100, accuracy: 27.5
+| 704. Model: dim_128_lay_7_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 27.43
+| 705. Model: dim_512_lay_3_lr_0.1_do_0.25_kernel_2_maxtok_2000, accuracy: 27.43
+| 706. Model: dim_128_lay_5_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 27.42
+| 707. Model: dim_128_lay_10_lr_0.1_do_0.5_kernel_2_maxtok_50, accuracy: 27.42
+| 708. Model: dim_128_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 27.39
+| 709. Model: dim_256_lay_8_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 27.39
+| 710. Model: dim_512_lay_10_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 27.37
+| 711. Model: dim_512_lay_9_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 27.34
+| 712. Model: dim_256_lay_5_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 27.32
+| 713. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_2_maxtok_2000, accuracy: 27.29
+| 714. Model: dim_256_lay_3_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 27.24
+| 715. Model: dim_512_lay_1_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 27.2
+| 716. Model: dim_256_lay_4_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 27.19
+| 717. Model: dim_256_lay_2_lr_0.1_do_0.25_kernel_5_maxtok_1000, accuracy: 27.17
+| 718. Model: dim_512_lay_3_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 27.11
+| 719. Model: dim_512_lay_5_lr_0.001_do_0.25_kernel_3_maxtok_25, accuracy: 27.1
+| 720. Model: dim_512_lay_9_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 27.06
+| 721. Model: dim_512_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_500, accuracy: 27.04
+| 722. Model: dim_256_lay_5_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 27.03
+| 723. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 27.0
+| 724. Model: dim_128_lay_5_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 26.98
+| 725. Model: dim_128_lay_8_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 26.93
+| 726. Model: dim_512_lay_2_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 26.9
+| 727. Model: dim_256_lay_2_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 26.86
+| 728. Model: dim_128_lay_8_lr_0.1_do_0.5_kernel_4_maxtok_100, accuracy: 26.82
+| 729. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_4_maxtok_500, accuracy: 26.8
+| 730. Model: dim_256_lay_2_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 26.75
+| 731. Model: dim_512_lay_10_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 26.75
+| 732. Model: dim_256_lay_2_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 26.62
+| 733. Model: dim_512_lay_3_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 26.56
+| 734. Model: dim_256_lay_5_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 26.51
+| 735. Model: dim_128_lay_1_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 26.5
+| 736. Model: dim_256_lay_7_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 26.5
+| 737. Model: dim_256_lay_5_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 26.42
+| 738. Model: dim_256_lay_10_lr_0.1_do_0_kernel_2_maxtok_2000, accuracy: 26.37
+| 739. Model: dim_256_lay_2_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 26.27
+| 740. Model: dim_128_lay_3_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 26.19
+| 741. Model: dim_256_lay_8_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 26.19
+| 742. Model: dim_128_lay_7_lr_0.1_do_0_kernel_4_maxtok_500, accuracy: 26.15
+| 743. Model: dim_256_lay_8_lr_0.1_do_0_kernel_4_maxtok_2000, accuracy: 26.15
+| 744. Model: dim_512_lay_9_lr_0.01_do_0_kernel_4_maxtok_25, accuracy: 26.15
+| 745. Model: dim_512_lay_7_lr_0.01_do_0_kernel_4_maxtok_100, accuracy: 26.14
+| 746. Model: dim_256_lay_3_lr_0.1_do_0.5_kernel_3_maxtok_2000, accuracy: 26.08
+| 747. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 26.04
+| 748. Model: dim_512_lay_9_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 26.03
+| 749. Model: dim_128_lay_2_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 26.02
+| 750. Model: dim_128_lay_4_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 25.98
+| 751. Model: dim_128_lay_6_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 25.97
+| 752. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 25.97
+| 753. Model: dim_256_lay_4_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 25.9
+| 754. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 25.9
+| 755. Model: dim_128_lay_3_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 25.81
+| 756. Model: dim_128_lay_7_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 25.79
+| 757. Model: dim_256_lay_2_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 25.79
+| 758. Model: dim_512_lay_10_lr_0.1_do_0_kernel_2_maxtok_2000, accuracy: 25.77
+| 759. Model: dim_128_lay_5_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 25.72
+| 760. Model: dim_128_lay_8_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 25.72
+| 761. Model: dim_128_lay_7_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 25.59
+| 762. Model: dim_128_lay_3_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 25.55
+| 763. Model: dim_256_lay_1_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 25.55
+| 764. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 25.55
+| 765. Model: dim_512_lay_9_lr_0.01_do_0_kernel_5_maxtok_50, accuracy: 25.54
+| 766. Model: dim_256_lay_3_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 25.51
+| 767. Model: dim_512_lay_9_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 25.45
+| 768. Model: dim_512_lay_9_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 25.43
+| 769. Model: dim_256_lay_5_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 25.42
+| 770. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 25.38
+| 771. Model: dim_512_lay_4_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 25.37
+| 772. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_5_maxtok_100, accuracy: 25.36
+| 773. Model: dim_256_lay_9_lr_0.1_do_0_kernel_2_maxtok_500, accuracy: 25.33
+| 774. Model: dim_512_lay_2_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 25.28
+| 775. Model: dim_512_lay_9_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 25.28
+| 776. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 25.27
+| 777. Model: dim_256_lay_3_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 25.25
+| 778. Model: dim_128_lay_9_lr_0.1_do_0.5_kernel_4_maxtok_25, accuracy: 25.24
+| 779. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 25.21
+| 780. Model: dim_512_lay_4_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 25.21
+| 781. Model: dim_128_lay_3_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 25.2
+| 782. Model: dim_128_lay_4_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 25.15
+| 783. Model: dim_128_lay_5_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 25.15
+| 784. Model: dim_512_lay_3_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 25.08
+| 785. Model: dim_512_lay_9_lr_0.1_do_0.5_kernel_2_maxtok_500, accuracy: 25.08
+| 786. Model: dim_256_lay_6_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 24.99
+| 787. Model: dim_128_lay_7_lr_0.1_do_0.5_kernel_3_maxtok_100, accuracy: 24.98
+| 788. Model: dim_256_lay_10_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 24.98
+| 789. Model: dim_128_lay_9_lr_0.1_do_0_kernel_3_maxtok_2000, accuracy: 24.97
+| 790. Model: dim_512_lay_2_lr_0.01_do_0_kernel_4_maxtok_50, accuracy: 24.97
+| 791. Model: dim_128_lay_1_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 24.92
+| 792. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_100, accuracy: 24.86
+| 793. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_2_maxtok_2000, accuracy: 24.86
+| 794. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_4_maxtok_500, accuracy: 24.86
+| 795. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_4_maxtok_500, accuracy: 24.8
+| 796. Model: dim_128_lay_7_lr_0.1_do_0.5_kernel_5_maxtok_100, accuracy: 24.77
+| 797. Model: dim_256_lay_10_lr_0.1_do_0_kernel_2_maxtok_1000, accuracy: 24.77
+| 798. Model: dim_512_lay_5_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 24.75
+| 799. Model: dim_512_lay_6_lr_0.01_do_0.5_kernel_2_maxtok_25, accuracy: 24.75
+| 800. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 24.6
+| 801. Model: dim_128_lay_4_lr_0.01_do_0.25_kernel_4_maxtok_100, accuracy: 24.58
+| 802. Model: dim_256_lay_4_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 24.5
+| 803. Model: dim_512_lay_5_lr_0.01_do_0_kernel_3_maxtok_50, accuracy: 24.5
+| 804. Model: dim_512_lay_2_lr_0.01_do_0_kernel_4_maxtok_25, accuracy: 24.49
+| 805. Model: dim_256_lay_2_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 24.46
+| 806. Model: dim_512_lay_4_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 24.45
+| 807. Model: dim_256_lay_9_lr_0.01_do_0.25_kernel_4_maxtok_50, accuracy: 24.38
+| 808. Model: dim_512_lay_6_lr_0.1_do_0_kernel_2_maxtok_500, accuracy: 24.38
+| 809. Model: dim_128_lay_6_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 24.34
+| 810. Model: dim_128_lay_1_lr_0.1_do_0_kernel_5_maxtok_50, accuracy: 24.33
+| 811. Model: dim_256_lay_2_lr_0.1_do_0.5_kernel_4_maxtok_2000, accuracy: 24.31
+| 812. Model: dim_256_lay_10_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 24.31
+| 813. Model: dim_512_lay_4_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 24.29
+| 814. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_2_maxtok_25, accuracy: 24.27
+| 815. Model: dim_128_lay_9_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 24.03
+| 816. Model: dim_512_lay_6_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 24.03
+| 817. Model: dim_256_lay_2_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 24.02
+| 818. Model: dim_512_lay_7_lr_0.01_do_0_kernel_4_maxtok_25, accuracy: 24.01
+| 819. Model: dim_128_lay_8_lr_0.1_do_0.25_kernel_4_maxtok_100, accuracy: 23.99
+| 820. Model: dim_128_lay_3_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 23.98
+| 821. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 23.94
+| 822. Model: dim_512_lay_5_lr_0.1_do_0_kernel_2_maxtok_500, accuracy: 23.93
+| 823. Model: dim_128_lay_3_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 23.92
+| 824. Model: dim_128_lay_7_lr_0.1_do_0.5_kernel_4_maxtok_50, accuracy: 23.92
+| 825. Model: dim_512_lay_3_lr_0.01_do_0_kernel_4_maxtok_100, accuracy: 23.86
+| 826. Model: dim_128_lay_5_lr_0.1_do_0_kernel_3_maxtok_500, accuracy: 23.84
+| 827. Model: dim_256_lay_6_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 23.84
+| 828. Model: dim_512_lay_3_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 23.84
+| 829. Model: dim_512_lay_10_lr_0.1_do_0_kernel_3_maxtok_500, accuracy: 23.84
+| 830. Model: dim_256_lay_1_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 23.83
+| 831. Model: dim_256_lay_3_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 23.81
+| 832. Model: dim_256_lay_4_lr_0.1_do_0.25_kernel_3_maxtok_1000, accuracy: 23.8
+| 833. Model: dim_128_lay_2_lr_0.1_do_0.25_kernel_5_maxtok_100, accuracy: 23.72
+| 834. Model: dim_256_lay_6_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 23.71
+| 835. Model: dim_512_lay_7_lr_0.01_do_0_kernel_4_maxtok_50, accuracy: 23.7
+| 836. Model: dim_256_lay_10_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 23.64
+| 837. Model: dim_128_lay_1_lr_0.1_do_0_kernel_4_maxtok_100, accuracy: 23.63
+| 838. Model: dim_512_lay_3_lr_0.01_do_0_kernel_4_maxtok_50, accuracy: 23.63
+| 839. Model: dim_512_lay_4_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 23.62
+| 840. Model: dim_512_lay_2_lr_0.01_do_0.25_kernel_3_maxtok_500, accuracy: 23.58
+| 841. Model: dim_128_lay_5_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 23.57
+| 842. Model: dim_256_lay_3_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 23.54
+| 843. Model: dim_512_lay_5_lr_0.01_do_0_kernel_3_maxtok_25, accuracy: 23.51
+| 844. Model: dim_256_lay_2_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 23.48
+| 845. Model: dim_256_lay_1_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 23.46
+| 846. Model: dim_512_lay_5_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 23.44
+| 847. Model: dim_512_lay_4_lr_0.1_do_0.5_kernel_3_maxtok_2000, accuracy: 23.4
+| 848. Model: dim_512_lay_4_lr_0.001_do_0.25_kernel_3_maxtok_25, accuracy: 23.37
+| 849. Model: dim_256_lay_4_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 23.36
+| 850. Model: dim_128_lay_7_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 23.33
+| 851. Model: dim_512_lay_6_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 23.33
+| 852. Model: dim_512_lay_6_lr_0.1_do_0.5_kernel_4_maxtok_2000, accuracy: 23.29
+| 853. Model: dim_128_lay_2_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 23.28
+| 854. Model: dim_128_lay_10_lr_0.1_do_0_kernel_4_maxtok_100, accuracy: 23.28
+| 855. Model: dim_128_lay_5_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 23.11
+| 856. Model: dim_512_lay_5_lr_0.01_do_0_kernel_3_maxtok_100, accuracy: 23.11
+| 857. Model: dim_128_lay_6_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 23.1
+| 858. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 23.1
+| 859. Model: dim_256_lay_1_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 23.03
+| 860. Model: dim_512_lay_3_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 23.02
+| 861. Model: dim_256_lay_8_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 22.97
+| 862. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_2_maxtok_25, accuracy: 22.96
+| 863. Model: dim_128_lay_3_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 22.89
+| 864. Model: dim_512_lay_4_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 22.89
+| 865. Model: dim_256_lay_3_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 22.85
+| 866. Model: dim_256_lay_10_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 22.85
+| 867. Model: dim_256_lay_2_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 22.84
+| 868. Model: dim_256_lay_6_lr_0.1_do_0.25_kernel_2_maxtok_2000, accuracy: 22.84
+| 869. Model: dim_128_lay_9_lr_0.1_do_0.5_kernel_3_maxtok_50, accuracy: 22.83
+| 870. Model: dim_512_lay_9_lr_0.01_do_0.5_kernel_2_maxtok_25, accuracy: 22.81
+| 871. Model: dim_512_lay_2_lr_0.01_do_0.5_kernel_5_maxtok_500, accuracy: 22.79
+| 872. Model: dim_128_lay_7_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 22.75
+| 873. Model: dim_128_lay_8_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 22.75
+| 874. Model: dim_128_lay_8_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 22.7
+| 875. Model: dim_256_lay_2_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 22.64
+| 876. Model: dim_512_lay_4_lr_0.01_do_0.5_kernel_5_maxtok_500, accuracy: 22.63
+| 877. Model: dim_128_lay_5_lr_0.1_do_0.5_kernel_3_maxtok_100, accuracy: 22.55
+| 878. Model: dim_512_lay_2_lr_0.01_do_0.5_kernel_3_maxtok_100, accuracy: 22.5
+| 879. Model: dim_128_lay_7_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 22.49
+| 880. Model: dim_256_lay_9_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 22.49
+| 881. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_2_maxtok_500, accuracy: 22.44
+| 882. Model: dim_128_lay_1_lr_0.1_do_0.25_kernel_5_maxtok_100, accuracy: 22.41
+| 883. Model: dim_128_lay_9_lr_0.1_do_0_kernel_4_maxtok_2000, accuracy: 22.41
+| 884. Model: dim_128_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 22.37
+| 885. Model: dim_512_lay_4_lr_0.1_do_0.5_kernel_4_maxtok_2000, accuracy: 22.35
+| 886. Model: dim_128_lay_8_lr_0.1_do_0_kernel_4_maxtok_2000, accuracy: 22.31
+| 887. Model: dim_128_lay_9_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 22.22
+| 888. Model: dim_128_lay_10_lr_0.1_do_0.5_kernel_2_maxtok_100, accuracy: 22.14
+| 889. Model: dim_512_lay_1_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 22.11
+| 890. Model: dim_128_lay_3_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 22.1
+| 891. Model: dim_512_lay_7_lr_0.1_do_0.5_kernel_4_maxtok_2000, accuracy: 22.09
+| 892. Model: dim_128_lay_9_lr_0.1_do_0.5_kernel_5_maxtok_50, accuracy: 22.07
+| 893. Model: dim_128_lay_5_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 22.02
+| 894. Model: dim_512_lay_4_lr_0.1_do_0_kernel_5_maxtok_2000, accuracy: 22.01
+| 895. Model: dim_128_lay_9_lr_0.1_do_0.5_kernel_4_maxtok_500, accuracy: 21.97
+| 896. Model: dim_512_lay_3_lr_0.01_do_0_kernel_5_maxtok_50, accuracy: 21.93
+| 897. Model: dim_128_lay_4_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 21.91
+| 898. Model: dim_256_lay_8_lr_0.01_do_0.5_kernel_5_maxtok_100, accuracy: 21.91
+| 899. Model: dim_128_lay_7_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 21.87
+| 900. Model: dim_128_lay_5_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 21.78
+| 901. Model: dim_256_lay_2_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 21.78
+| 902. Model: dim_512_lay_7_lr_0.1_do_0.5_kernel_2_maxtok_2000, accuracy: 21.78
+| 903. Model: dim_128_lay_4_lr_0.01_do_0.5_kernel_4_maxtok_50, accuracy: 21.75
+| 904. Model: dim_256_lay_8_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 21.72
+| 905. Model: dim_128_lay_1_lr_0.1_do_0_kernel_5_maxtok_100, accuracy: 21.68
+| 906. Model: dim_256_lay_7_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 21.63
+| 907. Model: dim_512_lay_2_lr_0.01_do_0_kernel_4_maxtok_100, accuracy: 21.63
+| 908. Model: dim_512_lay_4_lr_0.1_do_0.5_kernel_2_maxtok_2000, accuracy: 21.62
+| 909. Model: dim_512_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_500, accuracy: 21.58
+| 910. Model: dim_256_lay_10_lr_0.01_do_0.25_kernel_5_maxtok_50, accuracy: 21.55
+| 911. Model: dim_128_lay_6_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 21.53
+| 912. Model: dim_256_lay_7_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 21.53
+| 913. Model: dim_256_lay_3_lr_0.01_do_0.25_kernel_5_maxtok_25, accuracy: 21.52
+| 914. Model: dim_128_lay_2_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 21.5
+| 915. Model: dim_256_lay_5_lr_0.01_do_0.25_kernel_2_maxtok_25, accuracy: 21.48
+| 916. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 21.48
+| 917. Model: dim_256_lay_10_lr_0.01_do_0.5_kernel_3_maxtok_50, accuracy: 21.46
+| 918. Model: dim_512_lay_3_lr_0.1_do_0.5_kernel_5_maxtok_500, accuracy: 21.46
+| 919. Model: dim_128_lay_6_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 21.45
+| 920. Model: dim_128_lay_7_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 21.45
+| 921. Model: dim_512_lay_7_lr_0.01_do_0.25_kernel_5_maxtok_500, accuracy: 21.42
+| 922. Model: dim_256_lay_1_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 21.39
+| 923. Model: dim_256_lay_4_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 21.37
+| 924. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_4_maxtok_2000, accuracy: 21.36
+| 925. Model: dim_512_lay_8_lr_0.1_do_0_kernel_3_maxtok_2000, accuracy: 21.36
+| 926. Model: dim_512_lay_9_lr_0.01_do_0.25_kernel_2_maxtok_500, accuracy: 21.35
+| 927. Model: dim_128_lay_10_lr_0.1_do_0.5_kernel_5_maxtok_50, accuracy: 21.33
+| 928. Model: dim_256_lay_5_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 21.33
+| 929. Model: dim_128_lay_1_lr_0.1_do_0.25_kernel_4_maxtok_500, accuracy: 21.3
+| 930. Model: dim_128_lay_9_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 21.27
+| 931. Model: dim_512_lay_10_lr_0.1_do_0.5_kernel_5_maxtok_2000, accuracy: 21.27
+| 932. Model: dim_128_lay_8_lr_0.1_do_0_kernel_2_maxtok_2000, accuracy: 21.26
+| 933. Model: dim_512_lay_9_lr_0.01_do_0_kernel_5_maxtok_25, accuracy: 21.23
+| 934. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_2_maxtok_1000, accuracy: 21.2
+| 935. Model: dim_512_lay_4_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 21.2
+| 936. Model: dim_256_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_2000, accuracy: 21.14
+| 937. Model: dim_128_lay_7_lr_0.1_do_0.5_kernel_3_maxtok_25, accuracy: 21.13
+| 938. Model: dim_256_lay_1_lr_0.01_do_0.25_kernel_5_maxtok_100, accuracy: 21.13
+| 939. Model: dim_512_lay_2_lr_0.1_do_0.25_kernel_4_maxtok_1000, accuracy: 21.09
+| 940. Model: dim_128_lay_7_lr_0.01_do_0.5_kernel_4_maxtok_25, accuracy: 21.07
+| 941. Model: dim_128_lay_3_lr_0.1_do_0_kernel_5_maxtok_1000, accuracy: 21.05
+| 942. Model: dim_512_lay_5_lr_0.01_do_0.5_kernel_2_maxtok_25, accuracy: 21.05
+| 943. Model: dim_512_lay_3_lr_0.01_do_0_kernel_5_maxtok_100, accuracy: 21.04
+| 944. Model: dim_512_lay_9_lr_0.01_do_0_kernel_4_maxtok_50, accuracy: 21.01
+| 945. Model: dim_128_lay_4_lr_0.1_do_0_kernel_2_maxtok_500, accuracy: 20.97
+| 946. Model: dim_256_lay_10_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 20.94
+| 947. Model: dim_128_lay_4_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 20.8
+| 948. Model: dim_128_lay_9_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 20.8
+| 949. Model: dim_128_lay_4_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 20.79
+| 950. Model: dim_128_lay_1_lr_0.1_do_0.25_kernel_5_maxtok_50, accuracy: 20.72
+| 951. Model: dim_256_lay_2_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 20.72
+| 952. Model: dim_512_lay_7_lr_0.1_do_0.5_kernel_2_maxtok_1000, accuracy: 20.71
+| 953. Model: dim_256_lay_4_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 20.7
+| 954. Model: dim_128_lay_2_lr_0.1_do_0.25_kernel_5_maxtok_500, accuracy: 20.62
+| 955. Model: dim_128_lay_3_lr_0.1_do_0.25_kernel_3_maxtok_2000, accuracy: 20.59
+| 956. Model: dim_512_lay_5_lr_0.01_do_0_kernel_4_maxtok_50, accuracy: 20.58
+| 957. Model: dim_512_lay_9_lr_0.01_do_0.5_kernel_3_maxtok_100, accuracy: 20.58
+| 958. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_2_maxtok_50, accuracy: 20.57
+| 959. Model: dim_512_lay_7_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 20.57
+| 960. Model: dim_128_lay_5_lr_0.01_do_0.25_kernel_4_maxtok_25, accuracy: 20.54
+| 961. Model: dim_512_lay_6_lr_0.1_do_0.5_kernel_2_maxtok_2000, accuracy: 20.52
+| 962. Model: dim_128_lay_5_lr_0.1_do_0.5_kernel_5_maxtok_1000, accuracy: 20.48
+| 963. Model: dim_256_lay_9_lr_0.1_do_0.5_kernel_4_maxtok_1000, accuracy: 20.46
+| 964. Model: dim_128_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_100, accuracy: 20.44
+| 965. Model: dim_128_lay_3_lr_0.1_do_0.25_kernel_3_maxtok_500, accuracy: 20.41
+| 966. Model: dim_128_lay_6_lr_0.1_do_0.5_kernel_3_maxtok_25, accuracy: 20.39
+| 967. Model: dim_128_lay_1_lr_0.1_do_0.25_kernel_4_maxtok_50, accuracy: 20.36
+| 968. Model: dim_256_lay_8_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 20.35
+| 969. Model: dim_128_lay_5_lr_0.1_do_0.5_kernel_5_maxtok_100, accuracy: 20.28
+| 970. Model: dim_128_lay_8_lr_0.1_do_0.5_kernel_4_maxtok_25, accuracy: 20.24
+| 971. Model: dim_128_lay_4_lr_0.1_do_0.5_kernel_5_maxtok_50, accuracy: 20.22
+| 972. Model: dim_128_lay_5_lr_0.01_do_0.25_kernel_3_maxtok_50, accuracy: 20.22
+| 973. Model: dim_256_lay_4_lr_0.1_do_0.5_kernel_3_maxtok_500, accuracy: 20.22
+| 974. Model: dim_512_lay_4_lr_0.1_do_0.25_kernel_2_maxtok_2000, accuracy: 20.17
+| 975. Model: dim_256_lay_5_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 20.14
+| 976. Model: dim_128_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_100, accuracy: 20.13
+| 977. Model: dim_256_lay_6_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 20.13
+| 978. Model: dim_256_lay_2_lr_0.1_do_0.5_kernel_3_maxtok_2000, accuracy: 20.11
+| 979. Model: dim_512_lay_7_lr_0.1_do_0.5_kernel_3_maxtok_2000, accuracy: 20.11
+| 980. Model: dim_128_lay_5_lr_0.1_do_0_kernel_3_maxtok_1000, accuracy: 20.1
+| 981. Model: dim_128_lay_7_lr_1_do_0.5_kernel_5_maxtok_2000, accuracy: 20.09
+| 982. Model: dim_512_lay_7_lr_0.1_do_0_kernel_5_maxtok_2000, accuracy: 20.09
+| 983. Model: dim_256_lay_5_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 20.04
+| 984. Model: dim_256_lay_6_lr_0.01_do_0.25_kernel_5_maxtok_500, accuracy: 20.02
+| 985. Model: dim_512_lay_3_lr_0.1_do_0_kernel_2_maxtok_2000, accuracy: 19.98
+| 986. Model: dim_256_lay_9_lr_0.1_do_0.5_kernel_3_maxtok_1000, accuracy: 19.95
+| 987. Model: dim_512_lay_10_lr_0.01_do_0_kernel_5_maxtok_25, accuracy: 19.95
+| 988. Model: dim_512_lay_8_lr_0.01_do_0.25_kernel_5_maxtok_500, accuracy: 19.93
+| 989. Model: dim_512_lay_3_lr_0.1_do_0.5_kernel_3_maxtok_2000, accuracy: 19.87
+| 990. Model: dim_256_lay_9_lr_0.1_do_0.25_kernel_2_maxtok_500, accuracy: 19.85
+| 991. Model: dim_512_lay_4_lr_0.01_do_0.25_kernel_2_maxtok_100, accuracy: 19.84
+| 992. Model: dim_256_lay_2_lr_0.01_do_0.25_kernel_3_maxtok_25, accuracy: 19.83
+| 993. Model: dim_256_lay_7_lr_0.01_do_0.5_kernel_4_maxtok_100, accuracy: 19.82
+| 994. Model: dim_256_lay_5_lr_0.01_do_0.5_kernel_3_maxtok_25, accuracy: 19.79
+| 995. Model: dim_512_lay_8_lr_0.01_do_0_kernel_4_maxtok_25, accuracy: 19.79
+| 996. Model: dim_128_lay_4_lr_0.01_do_0.5_kernel_5_maxtok_25, accuracy: 19.74
+| 997. Model: dim_512_lay_7_lr_0.1_do_0_kernel_5_maxtok_500, accuracy: 19.74
+| 998. Model: dim_512_lay_8_lr_0.1_do_0.5_kernel_2_maxtok_2000, accuracy: 19.74
+| 999. Model: dim_512_lay_4_lr_0.1_do_0_kernel_4_maxtok_1000, accuracy: 19.71
+| 1000. Model: dim_256_lay_5_lr_0.1_do_0_kernel_3_maxtok_500, accuracy: 19.66
+dim_128_lay_1_lr_1_do_0.5_kernel_2_maxtok_2000
+dim_128_lay_1_lr_0.001_do_0.5_kernel_5_maxtok_50
+dim_128_lay_1_lr_0.01_do_0.5_kernel_4_maxtok_50
+dim_128_lay_1_lr_0.01_do_0_kernel_1_maxtok_500
+dim_128_lay_2_lr_10_do_0.25_kernel_3_maxtok_25
+dim_128_lay_1_lr_0.001_do_0.25_kernel_1_maxtok_25
+dim_128_lay_1_lr_0.001_do_0_kernel_3_maxtok_2000
+dim_128_lay_2_lr_10_do_0.25_kernel_5_maxtok_500
+dim_128_lay_2_lr_1_do_0.5_kernel_4_maxtok_1000
+dim_128_lay_2_lr_0.1_do_0_kernel_5_maxtok_500
+dim_128_lay_2_lr_0.1_do_0.25_kernel_1_maxtok_25
+dim_128_lay_2_lr_0.01_do_0.25_kernel_5_maxtok_50
+dim_128_lay_2_lr_0.001_do_0_kernel_4_maxtok_50
+dim_128_lay_2_lr_0.001_do_0.5_kernel_3_maxtok_100
+dim_128_lay_3_lr_10_do_0.5_kernel_3_maxtok_50
+dim_128_lay_3_lr_10_do_0_kernel_1_maxtok_500
+dim_128_lay_3_lr_0.1_do_0.25_kernel_4_maxtok_500
+dim_128_lay_3_lr_0.01_do_0.5_kernel_1_maxtok_100
+dim_128_lay_3_lr_0.001_do_0.5_kernel_4_maxtok_25
+dim_128_lay_3_lr_0.01_do_0.5_kernel_2_maxtok_500
+dim_128_lay_3_lr_0.001_do_0.5_kernel_2_maxtok_100
+dim_128_lay_3_lr_0.001_do_0.25_kernel_2_maxtok_2000
+dim_128_lay_4_lr_10_do_0.5_kernel_4_maxtok_25
+dim_128_lay_4_lr_0.1_do_0.25_kernel_3_maxtok_50
+dim_128_lay_4_lr_0.1_do_0.25_kernel_1_maxtok_500
+dim_128_lay_4_lr_0.01_do_0_kernel_3_maxtok_500
+dim_128_lay_4_lr_0.001_do_0.5_kernel_1_maxtok_25
+dim_128_lay_5_lr_10_do_0.5_kernel_3_maxtok_1000
+dim_128_lay_5_lr_10_do_0_kernel_2_maxtok_100
+dim_128_lay_5_lr_1_do_0.25_kernel_4_maxtok_2000
+dim_128_lay_5_lr_0.1_do_0.5_kernel_4_maxtok_50
+dim_128_lay_5_lr_0.001_do_0_kernel_3_maxtok_2000
+dim_128_lay_5_lr_0.001_do_0.5_kernel_4_maxtok_50
+dim_128_lay_6_lr_10_do_0.5_kernel_5_maxtok_25
+dim_128_lay_6_lr_10_do_0.5_kernel_1_maxtok_100
+dim_128_lay_6_lr_10_do_0.25_kernel_1_maxtok_50
+dim_128_lay_6_lr_1_do_0_kernel_4_maxtok_100
+dim_128_lay_6_lr_1_do_0.5_kernel_2_maxtok_100
+dim_128_lay_6_lr_0.1_do_0_kernel_3_maxtok_500
+dim_128_lay_6_lr_0.01_do_0_kernel_4_maxtok_25
+dim_128_lay_7_lr_10_do_0.5_kernel_5_maxtok_500
+dim_128_lay_7_lr_10_do_0.5_kernel_5_maxtok_1000
+dim_128_lay_7_lr_10_do_0.25_kernel_4_maxtok_25
+dim_128_lay_7_lr_1_do_0.25_kernel_5_maxtok_100
+dim_128_lay_7_lr_1_do_0_kernel_5_maxtok_100
+dim_128_lay_7_lr_0.1_do_0.5_kernel_2_maxtok_100
+dim_128_lay_7_lr_0.1_do_0.25_kernel_4_maxtok_100
+dim_128_lay_7_lr_0.01_do_0_kernel_5_maxtok_50
+dim_128_lay_8_lr_10_do_0.5_kernel_5_maxtok_25
+dim_128_lay_8_lr_10_do_0.5_kernel_5_maxtok_2000
+dim_128_lay_8_lr_1_do_0.25_kernel_3_maxtok_25
+dim_128_lay_8_lr_1_do_0.5_kernel_3_maxtok_1000
+dim_128_lay_8_lr_0.1_do_0.5_kernel_5_maxtok_2000
+dim_128_lay_8_lr_0.1_do_0.5_kernel_4_maxtok_1000
+dim_128_lay_8_lr_0.1_do_0.5_kernel_1_maxtok_500
+dim_128_lay_8_lr_0.1_do_0.25_kernel_1_maxtok_50
+dim_128_lay_8_lr_0.01_do_0.5_kernel_4_maxtok_50
+dim_128_lay_8_lr_0.01_do_0.25_kernel_1_maxtok_500
+dim_128_lay_8_lr_0.001_do_0.25_kernel_2_maxtok_500
+dim_128_lay_9_lr_10_do_0.25_kernel_5_maxtok_1000
+dim_128_lay_9_lr_10_do_0.25_kernel_4_maxtok_50
+dim_128_lay_9_lr_0.1_do_0_kernel_2_maxtok_100
+dim_128_lay_9_lr_0.1_do_0.25_kernel_1_maxtok_500
+dim_128_lay_9_lr_0.01_do_0.25_kernel_4_maxtok_2000
+dim_128_lay_9_lr_0.01_do_0.25_kernel_1_maxtok_500
+dim_128_lay_9_lr_0.001_do_0.5_kernel_5_maxtok_1000
+dim_128_lay_9_lr_0.001_do_0.5_kernel_1_maxtok_25
+dim_128_lay_10_lr_10_do_0_kernel_3_maxtok_100
+dim_128_lay_10_lr_10_do_0.5_kernel_2_maxtok_2000
+dim_128_lay_10_lr_1_do_0.5_kernel_2_maxtok_50
+dim_128_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_25
+dim_128_lay_10_lr_0.1_do_0_kernel_1_maxtok_1000
+dim_128_lay_10_lr_0.01_do_0_kernel_4_maxtok_100
+dim_128_lay_10_lr_0.01_do_0.5_kernel_1_maxtok_25
+dim_128_lay_10_lr_0.01_do_0.25_kernel_3_maxtok_1000
+dim_128_lay_10_lr_0.001_do_0_kernel_4_maxtok_50
+dim_256_lay_1_lr_10_do_0_kernel_5_maxtok_2000
+dim_256_lay_1_lr_0.001_do_0.5_kernel_1_maxtok_25
+dim_256_lay_2_lr_10_do_0.5_kernel_5_maxtok_100
+dim_256_lay_2_lr_10_do_0.25_kernel_1_maxtok_100
+dim_256_lay_2_lr_10_do_0.5_kernel_3_maxtok_2000
+dim_256_lay_2_lr_1_do_0.5_kernel_3_maxtok_500
+dim_256_lay_2_lr_0.1_do_0_kernel_3_maxtok_100
+dim_256_lay_2_lr_0.1_do_0.25_kernel_4_maxtok_500
+dim_256_lay_2_lr_0.1_do_0.25_kernel_3_maxtok_25
+dim_256_lay_2_lr_0.001_do_0_kernel_5_maxtok_25
+dim_256_lay_3_lr_0.1_do_0.5_kernel_3_maxtok_500
+dim_256_lay_3_lr_0.1_do_0.5_kernel_5_maxtok_25
+dim_256_lay_3_lr_0.1_do_0.25_kernel_4_maxtok_25
+dim_256_lay_3_lr_0.01_do_0.5_kernel_2_maxtok_25
+dim_256_lay_3_lr_0.001_do_0.5_kernel_2_maxtok_2000
+dim_256_lay_3_lr_0.001_do_0.5_kernel_1_maxtok_500
+dim_256_lay_4_lr_10_do_0.5_kernel_3_maxtok_100
+dim_256_lay_4_lr_1_do_0_kernel_5_maxtok_50
+dim_256_lay_4_lr_0.1_do_0.5_kernel_3_maxtok_2000
+dim_256_lay_4_lr_0.1_do_0.5_kernel_4_maxtok_25
+dim_256_lay_4_lr_0.1_do_0_kernel_4_maxtok_100
+dim_256_lay_4_lr_0.01_do_0.25_kernel_2_maxtok_2000
+dim_256_lay_5_lr_10_do_0.25_kernel_1_maxtok_50
+dim_256_lay_5_lr_1_do_0_kernel_3_maxtok_500
+dim_256_lay_5_lr_0.1_do_0_kernel_4_maxtok_25
+dim_256_lay_5_lr_0.01_do_0_kernel_3_maxtok_2000
+dim_256_lay_5_lr_0.01_do_0.5_kernel_1_maxtok_2000
+dim_256_lay_5_lr_0.001_do_0.5_kernel_3_maxtok_100
+dim_256_lay_5_lr_0.001_do_0_kernel_2_maxtok_500
+dim_256_lay_6_lr_10_do_0.25_kernel_3_maxtok_100
+dim_256_lay_6_lr_1_do_0.25_kernel_4_maxtok_1000
+dim_256_lay_6_lr_1_do_0.5_kernel_1_maxtok_500
+dim_256_lay_6_lr_0.1_do_0_kernel_2_maxtok_2000
+dim_256_lay_6_lr_0.01_do_0_kernel_4_maxtok_50
+dim_256_lay_6_lr_0.01_do_0.5_kernel_4_maxtok_25
+dim_256_lay_6_lr_0.01_do_0.5_kernel_3_maxtok_100
+dim_256_lay_6_lr_0.001_do_0_kernel_3_maxtok_100
+dim_256_lay_6_lr_0.001_do_0.5_kernel_2_maxtok_50
+dim_256_lay_6_lr_0.001_do_0.5_kernel_1_maxtok_100
+dim_256_lay_7_lr_10_do_0.5_kernel_4_maxtok_50
+dim_256_lay_7_lr_1_do_0.25_kernel_4_maxtok_25
+dim_256_lay_7_lr_1_do_0_kernel_2_maxtok_50
+dim_256_lay_7_lr_0.01_do_0.5_kernel_3_maxtok_2000
+dim_256_lay_7_lr_0.001_do_0.5_kernel_3_maxtok_1000
+dim_256_lay_7_lr_0.001_do_0.5_kernel_4_maxtok_500
+dim_256_lay_7_lr_0.001_do_0.5_kernel_4_maxtok_2000
+dim_256_lay_8_lr_10_do_0.5_kernel_3_maxtok_50
+dim_256_lay_8_lr_10_do_0.5_kernel_2_maxtok_25
+dim_256_lay_8_lr_0.01_do_0_kernel_5_maxtok_1000
+dim_256_lay_8_lr_0.01_do_0.25_kernel_5_maxtok_50
+dim_256_lay_8_lr_0.001_do_0.5_kernel_4_maxtok_2000
+dim_256_lay_9_lr_1_do_0_kernel_5_maxtok_25
+dim_256_lay_9_lr_1_do_0.25_kernel_2_maxtok_25
+dim_256_lay_9_lr_1_do_0.5_kernel_2_maxtok_100
+dim_256_lay_9_lr_0.1_do_0.25_kernel_2_maxtok_25
+dim_256_lay_9_lr_0.1_do_0.25_kernel_1_maxtok_500
+dim_256_lay_9_lr_0.01_do_0.5_kernel_2_maxtok_1000
+dim_256_lay_9_lr_0.001_do_0_kernel_1_maxtok_25
+dim_256_lay_10_lr_10_do_0.5_kernel_2_maxtok_50
+dim_256_lay_10_lr_1_do_0.25_kernel_4_maxtok_100
+dim_256_lay_10_lr_1_do_0.5_kernel_3_maxtok_100
+dim_256_lay_10_lr_1_do_0.25_kernel_4_maxtok_500
+dim_256_lay_10_lr_0.1_do_0_kernel_4_maxtok_25
+dim_256_lay_10_lr_0.1_do_0_kernel_3_maxtok_25
+dim_256_lay_10_lr_0.01_do_0_kernel_5_maxtok_1000
+dim_256_lay_10_lr_0.01_do_0.5_kernel_2_maxtok_500
+dim_256_lay_10_lr_0.001_do_0.5_kernel_5_maxtok_100
+dim_256_lay_10_lr_0.001_do_0.25_kernel_3_maxtok_50
+dim_256_lay_10_lr_0.001_do_0_kernel_2_maxtok_500
+dim_512_lay_1_lr_10_do_0_kernel_3_maxtok_100
+dim_512_lay_1_lr_1_do_0.25_kernel_3_maxtok_1000
+dim_512_lay_1_lr_1_do_0.5_kernel_3_maxtok_2000
+dim_512_lay_1_lr_1_do_0.25_kernel_1_maxtok_1000
+dim_512_lay_1_lr_0.1_do_0.5_kernel_5_maxtok_50
+dim_512_lay_1_lr_1_do_0_kernel_1_maxtok_500
+dim_512_lay_2_lr_10_do_0_kernel_4_maxtok_50
+dim_512_lay_2_lr_1_do_0_kernel_2_maxtok_25
+dim_512_lay_2_lr_1_do_0_kernel_2_maxtok_2000
+dim_512_lay_2_lr_0.01_do_0.25_kernel_3_maxtok_100
+dim_512_lay_2_lr_0.01_do_0.5_kernel_1_maxtok_1000
+dim_512_lay_2_lr_0.001_do_0.25_kernel_5_maxtok_2000
+dim_512_lay_2_lr_0.001_do_0.25_kernel_2_maxtok_2000
+dim_512_lay_3_lr_1_do_0_kernel_5_maxtok_100
+dim_512_lay_3_lr_1_do_0_kernel_4_maxtok_1000
+dim_512_lay_3_lr_1_do_0_kernel_1_maxtok_50
+dim_512_lay_3_lr_0.1_do_0.5_kernel_3_maxtok_25
+dim_512_lay_3_lr_0.1_do_0_kernel_4_maxtok_2000
+dim_512_lay_3_lr_0.01_do_0_kernel_3_maxtok_500
+dim_512_lay_3_lr_0.01_do_0_kernel_3_maxtok_25
+dim_512_lay_3_lr_0.001_do_0.5_kernel_5_maxtok_500
+dim_512_lay_3_lr_0.01_do_0.5_kernel_1_maxtok_500
+dim_512_lay_4_lr_0.1_do_0.5_kernel_1_maxtok_25
+dim_512_lay_4_lr_1_do_0.5_kernel_1_maxtok_25
+dim_512_lay_4_lr_0.1_do_0_kernel_2_maxtok_2000
+dim_512_lay_4_lr_0.01_do_0.25_kernel_4_maxtok_50
+dim_512_lay_4_lr_0.1_do_0_kernel_1_maxtok_1000
+dim_512_lay_4_lr_0.01_do_0_kernel_2_maxtok_50
+dim_512_lay_4_lr_0.001_do_0.25_kernel_3_maxtok_500
+dim_512_lay_4_lr_0.001_do_0.25_kernel_2_maxtok_50
+dim_512_lay_5_lr_1_do_0_kernel_4_maxtok_2000
+dim_512_lay_5_lr_0.1_do_0_kernel_1_maxtok_25
+dim_512_lay_5_lr_0.01_do_0.5_kernel_4_maxtok_500
+dim_512_lay_5_lr_0.001_do_0.25_kernel_2_maxtok_50
+dim_512_lay_6_lr_10_do_0_kernel_3_maxtok_1000
+dim_512_lay_6_lr_10_do_0.5_kernel_2_maxtok_50
+dim_512_lay_6_lr_10_do_0.25_kernel_2_maxtok_100
+dim_512_lay_6_lr_0.1_do_0_kernel_3_maxtok_25
+dim_512_lay_6_lr_0.1_do_0.25_kernel_3_maxtok_500
+dim_512_lay_6_lr_0.01_do_0.5_kernel_5_maxtok_500
+dim_512_lay_6_lr_0.1_do_0.25_kernel_1_maxtok_100
+dim_512_lay_6_lr_0.01_do_0.25_kernel_2_maxtok_2000
+dim_512_lay_6_lr_0.001_do_0.25_kernel_3_maxtok_500
+dim_512_lay_6_lr_0.001_do_0.25_kernel_3_maxtok_2000
+dim_512_lay_7_lr_10_do_0_kernel_4_maxtok_1000
+dim_512_lay_7_lr_0.001_do_0_kernel_5_maxtok_1000
+dim_512_lay_7_lr_0.001_do_0_kernel_5_maxtok_2000
+dim_512_lay_7_lr_0.001_do_0.25_kernel_3_maxtok_50
+dim_512_lay_7_lr_0.001_do_0.25_kernel_3_maxtok_2000
+dim_512_lay_8_lr_10_do_0.25_kernel_3_maxtok_2000
+dim_512_lay_8_lr_10_do_0_kernel_4_maxtok_100
+dim_512_lay_8_lr_1_do_0.5_kernel_1_maxtok_500
+dim_512_lay_8_lr_1_do_0.25_kernel_1_maxtok_25
+dim_512_lay_8_lr_0.01_do_0_kernel_5_maxtok_1000
+dim_512_lay_8_lr_0.001_do_0.5_kernel_5_maxtok_100
+dim_512_lay_8_lr_0.001_do_0.5_kernel_4_maxtok_100
+dim_512_lay_9_lr_10_do_0_kernel_2_maxtok_50
+dim_512_lay_9_lr_1_do_0.5_kernel_5_maxtok_1000
+dim_512_lay_9_lr_1_do_0.5_kernel_3_maxtok_100
+dim_512_lay_9_lr_1_do_0.25_kernel_2_maxtok_2000
+dim_512_lay_9_lr_0.1_do_0_kernel_3_maxtok_50
+dim_512_lay_9_lr_0.01_do_0.25_kernel_5_maxtok_500
+dim_512_lay_9_lr_0.001_do_0.25_kernel_4_maxtok_100
+dim_512_lay_9_lr_0.001_do_0.25_kernel_3_maxtok_50
+dim_512_lay_9_lr_0.001_do_0.25_kernel_1_maxtok_1000
+dim_512_lay_10_lr_10_do_0.5_kernel_1_maxtok_500
+dim_512_lay_10_lr_0.01_do_0.25_kernel_2_maxtok_50

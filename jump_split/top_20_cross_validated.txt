@@ -1,0 +1,29 @@
+| 1. Model: dim_128_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 69.236, variance: 66.721464, var n-1 dof: 83.40183, std: 8.16832075766, std n-1 dof: 9.13246023807. Number of runs considered: 5
+
+| 2. Model: dim_128_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 67.64, variance: 63.62068, var n-1 dof: 79.52585, std: 7.97625726767, std n-1 dof: 8.91772672826. Number of runs considered: 5
+
+| 3. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 67.086, variance: 91.463064, var n-1 dof: 114.32883, std: 9.56363236433, std n-1 dof: 10.6924660392. Number of runs considered: 5
+
+| 4. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 67.03, variance: 87.86616, var n-1 dof: 109.8327, std: 9.37369510919, std n-1 dof: 10.4801097322. Number of runs considered: 5
+
+| 5. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_4_maxtok_25, avg accuracy across seeds: 66.53999999999999, variance: 107.81084, var n-1 dof: 134.76355, std: 10.3831998921, std n-1 dof: 11.6087703914. Number of runs considered: 5
+
+| 6. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_5_maxtok_1000, avg accuracy across seeds: 65.752, variance: 22.324856, var n-1 dof: 27.90607, std: 4.72491862364, std n-1 dof: 5.2826196153. Number of runs considered: 5
+
+| 7. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 65.5, variance: 37.65728, var n-1 dof: 47.0716, std: 6.13655277823, std n-1 dof: 6.86087457982. Number of runs considered: 5
+
+| 8. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_3_maxtok_500, avg accuracy across seeds: 64.808, variance: 80.855376, var n-1 dof: 101.06922, std: 8.99196174369, std n-1 dof: 10.053318855. Number of runs considered: 5
+
+| 9. Model: dim_256_lay_8_lr_0.1_do_0.5_kernel_5_maxtok_500, avg accuracy across seeds: 64.806, variance: 42.655064, var n-1 dof: 53.31883, std: 6.53108444288, std n-1 dof: 7.30197439053. Number of runs considered: 5
+
+| 10. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 64.706, variance: 141.775064, var n-1 dof: 177.21883, std: 11.9069334423, std n-1 dof: 13.3123562903. Number of runs considered: 5
+
+
+
+| Average std across models: 9.684776513039521, min std 1.7085947442269613, max std 22.345505677876258 
+
+
+| Average std across best 10 models: 8.375655642173575, min std 4.724918623637872, max std 11.906933442326789 
+
+
+| Error in loading/finding 0 models.
