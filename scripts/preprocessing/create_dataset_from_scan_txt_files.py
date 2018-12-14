@@ -1,7 +1,13 @@
-import sys
+import argparse
 
-in_train = sys.argv[1]
-in_test = sys.argv[2]
+parser = argparse.ArgumentParser(description='Cnn models on SCAN dataset')
+parser.add_argument('--train', type=str, required=True)
+parser.add_argument('--test', type=str, required=True)
+
+args = vars(parser.parse_args())
+
+in_train = args['train']
+in_test = args['test']
 
 out_test_co = 'test.co'
 out_test_ac = 'test.ac'
