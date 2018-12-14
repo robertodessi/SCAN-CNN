@@ -1,0 +1,2 @@
+44.19124218051832
+| Translated 1978 correct sentences out of 4476. Final accuracy: 44.19%

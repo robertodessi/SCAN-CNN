@@ -1,0 +1,2 @@
+45.17426273458445
+| Translated 2022 correct sentences out of 4476. Final accuracy: 45.17%

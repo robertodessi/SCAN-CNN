@@ -1,0 +1,4 @@
+| src: jump right 
+| target: I_TURN_RIGHT I_JUMP
+| ground_truth: I_TURN_RIGHT I_JUMP
+| eval: True 

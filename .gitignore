@@ -6,22 +6,6 @@ __pycache__/
 .DS_Store
 .gitignore
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+papers/
+report_scan_comp_ling_course/
 

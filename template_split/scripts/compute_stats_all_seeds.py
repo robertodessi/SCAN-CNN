@@ -54,8 +54,8 @@ def main():
     for model_name in models.keys():
         accuracy_list = []
         for seed in models[model_name]:
-            #if len(accuracy_list) > 5:
-            #    continue
+            if len(accuracy_list) > 5:
+                continue
             accuracy_list.append(models[model_name][seed])
 
         median_values = statistics.median(accuracy_list)

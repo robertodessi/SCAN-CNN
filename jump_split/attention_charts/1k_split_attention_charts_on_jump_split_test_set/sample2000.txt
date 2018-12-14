@@ -1,0 +1,4 @@
+| src: jump twice and turn around left 
+| target: I_JUMP
+| ground_truth: I_JUMP I_JUMP I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT I_TURN_LEFT
+| eval: False 

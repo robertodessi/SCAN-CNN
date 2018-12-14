@@ -1,0 +1,2 @@
+44.369973190348524
+| Translated 1986 correct sentences out of 4476. Final accuracy: 44.37%

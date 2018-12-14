@@ -1,0 +1,72 @@
+diff --git a/generate.py b/generate.py
+index 83156f4..5ce8973 100644
+--- a/generate.py
++++ b/generate.py
+@@ -16,7 +16,7 @@ from fairseq.sequence_scorer import SequenceScorer
+ 
+ def main(args):
+     assert args.path is not None, '--path required for generation!'
+-    print(args)
++    #print(args)
+     assert not args.sampling or args.nbest == args.beam, \
+         '--sampling requires --nbest to be equal to --beam'
+ 
+@@ -42,12 +42,12 @@ def main(args):
+         args.source_lang, args.target_lang = dataset.src, dataset.dst
+ 
+     # Load ensemble
+-    print('| loading model(s) from {}'.format(', '.join(args.path)))
++    #print('| loading model(s) from {}'.format(', '.join(args.path)))
+     models, _ = utils.load_ensemble_for_inference(args.path, dataset.src_dict, dataset.dst_dict)
+ 
+-    print('| [{}] dictionary: {} types'.format(dataset.src, len(dataset.src_dict)))
+-    print('| [{}] dictionary: {} types'.format(dataset.dst, len(dataset.dst_dict)))
+-    print('| {} {} {} examples'.format(args.data, args.gen_subset, len(dataset.splits[args.gen_subset])))
++    #print('| [{}] dictionary: {} types'.format(dataset.src, len(dataset.src_dict)))
++    #print('| [{}] dictionary: {} types'.format(dataset.dst, len(dataset.dst_dict)))
++    #print('| {} {} {} examples'.format(args.data, args.gen_subset, len(dataset.splits[args.gen_subset])))
+ 
+     # Optimize ensemble for generation
+     for model in models:
+@@ -96,6 +96,9 @@ def main(args):
+                 t, maxlen_a=args.max_len_a, maxlen_b=args.max_len_b,
+                 cuda=use_cuda, timer=gen_timer, prefix_size=args.prefix_size)
+         wps_meter = TimeMeter()
++
++        correct = 0
++        total = 0
+         for sample_id, src_tokens, target_tokens, hypos in translations:
+             # Process input and ground truth
+             has_target = target_tokens is not None
+@@ -110,6 +113,7 @@ def main(args):
+                                                      args.remove_bpe,
+                                                      escape_unk=True) if has_target else ''
+ 
++            total += 1
+             if not args.quiet:
+                 print('S-{}\t{}'.format(sample_id, src_str))
+                 if has_target:
+@@ -148,15 +152,18 @@ def main(args):
+                             target_str, dataset.dst_dict, add_if_not_exist=True)
+                     scorer.add(target_tokens, hypo_tokens)
+ 
++                if hypo_str == target_str:
++                    correct += 1
+             wps_meter.update(src_tokens.size(0))
+             t.log({'wps': round(wps_meter.avg)})
+             num_sentences += 1
+ 
+-    print('| Translated {} sentences ({} tokens) in {:.1f}s ({:.2f} tokens/s)'.format(
+-        num_sentences, gen_timer.n, gen_timer.sum, 1. / gen_timer.avg))
+-    if has_target:
+-        print('| Generate {} with beam={}: {}'.format(args.gen_subset, args.beam, scorer.result_string()))
+-
++    #print('| Translated {} sentences ({} tokens) in {:.1f}s ({:.2f} tokens/s)'.format(
++    #    num_sentences, gen_timer.n, gen_timer.sum, 1. / gen_timer.avg))
++    #if has_target:
++    #    print('| Generate {} with beam={}: {}'.format(args.gen_subset, args.beam, scorer.result_string()))
++    print('| Translated {} correct sentences out of {}. Final accuracy: {:.2f}%'.format(correct, total, (correct / total) * 100) )
++    print('{:.2f}'.format( (correct / total) * 100 ) )
+ 
+ if __name__ == '__main__':
+     parser = options.get_generation_parser()

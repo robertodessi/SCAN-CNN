@@ -1,0 +1,2 @@
+10.32171581769437
+| Translated 462 correct sentences out of 4476. Final accuracy: 10.32%
