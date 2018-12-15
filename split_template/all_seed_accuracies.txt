@@ -178,6 +178,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.001_maxtok_25_lay_7_embed_dim_256_kernel_3_dropout_0/seed_6/accuracy.txt
 0.290437890974084
 | Translated 13 correct sentences out of 4476. Final accuracy: 0.29%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.001_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+8.556747095621091
+| Translated 383 correct sentences out of 4476. Final accuracy: 8.56%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.001_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
 5.004468275245755
 | Translated 224 correct sentences out of 4476. Final accuracy: 5.00%
@@ -403,6 +406,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.001_maxtok_50_lay_8_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
 1.5415549597855227
 | Translated 69 correct sentences out of 4476. Final accuracy: 1.54%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.001_maxtok_50_lay_8_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
+10.455764075067025
+| Translated 468 correct sentences out of 4476. Final accuracy: 10.46%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.001_maxtok_50_lay_8_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
 7.3503127792672025
 | Translated 329 correct sentences out of 4476. Final accuracy: 7.35%
@@ -484,6 +490,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_10_embed_dim_256_kernel_3_dropout_0/seed_5/accuracy.txt
 28.01608579088472
 | Translated 1254 correct sentences out of 4476. Final accuracy: 28.02%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_10_embed_dim_256_kernel_3_dropout_0/seed_6/accuracy.txt
+16.108132260947276
+| Translated 721 correct sentences out of 4476. Final accuracy: 16.11%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_10_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
 5.831099195710456
 | Translated 261 correct sentences out of 4476. Final accuracy: 5.83%
@@ -559,6 +568,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_10_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
 4.334226988382484
 | Translated 194 correct sentences out of 4476. Final accuracy: 4.33%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_10_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+38.18141197497766
+| Translated 1709 correct sentences out of 4476. Final accuracy: 38.18%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_10_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
 35.16532618409294
 | Translated 1574 correct sentences out of 4476. Final accuracy: 35.17%
@@ -577,12 +589,18 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_128_kernel_5_dropout_0.25/seed_3/accuracy.txt
 0.8489722966934763
 | Translated 38 correct sentences out of 4476. Final accuracy: 0.85%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_128_kernel_5_dropout_0.25/seed_4/accuracy.txt
+0.7372654155495978
+| Translated 33 correct sentences out of 4476. Final accuracy: 0.74%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_128_kernel_5_dropout_0.25/seed_5/accuracy.txt
 0.0
 | Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_128_kernel_5_dropout_0.25/seed_6/accuracy.txt
 3.0607685433422698
 | Translated 137 correct sentences out of 4476. Final accuracy: 3.06%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_128_kernel_5_dropout_0/seed_2/accuracy.txt
+3.172475424486149
+| Translated 142 correct sentences out of 4476. Final accuracy: 3.17%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_128_kernel_5_dropout_0/seed_3/accuracy.txt
 7.462019660411082
 | Translated 334 correct sentences out of 4476. Final accuracy: 7.46%
@@ -601,6 +619,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_256_kernel_3_dropout_0/seed_3/accuracy.txt
 12.823949955317248
 | Translated 574 correct sentences out of 4476. Final accuracy: 12.82%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_256_kernel_3_dropout_0/seed_4/accuracy.txt
+3.9544235924932973
+| Translated 177 correct sentences out of 4476. Final accuracy: 3.95%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_256_kernel_3_dropout_0/seed_5/accuracy.txt
 4.468275245755138
 | Translated 200 correct sentences out of 4476. Final accuracy: 4.47%
@@ -622,18 +643,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_256_kernel_5_dropout_0.25/seed_6/accuracy.txt
 0.9159964253798034
 | Translated 41 correct sentences out of 4476. Final accuracy: 0.92%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
+22.56478999106345
+| Translated 1010 correct sentences out of 4476. Final accuracy: 22.56%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
 40.28150134048257
 | Translated 1803 correct sentences out of 4476. Final accuracy: 40.28%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
 28.574620196604112
 | Translated 1279 correct sentences out of 4476. Final accuracy: 28.57%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_10/accuracy.txt
-56.12153708668453
-| Translated 2512 correct sentences out of 4476. Final accuracy: 56.12%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_11/accuracy.txt
-51.18409294012511
-| Translated 2291 correct sentences out of 4476. Final accuracy: 51.18%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_256_kernel_5_dropout_0/seed_5/accuracy.txt
+20.397676496872208
+| Translated 913 correct sentences out of 4476. Final accuracy: 20.40%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
+3.5969615728328868
+| Translated 161 correct sentences out of 4476. Final accuracy: 3.60%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_2/accuracy.txt
 32.93118856121537
 | Translated 1474 correct sentences out of 4476. Final accuracy: 32.93%
@@ -643,15 +667,12 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_4/accuracy.txt
 30.45129579982127
 | Translated 1363 correct sentences out of 4476. Final accuracy: 30.45%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_7/accuracy.txt
-14.119749776586238
-| Translated 632 correct sentences out of 4476. Final accuracy: 14.12%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_8/accuracy.txt
-46.9615728328865
-| Translated 2102 correct sentences out of 4476. Final accuracy: 46.96%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_9/accuracy.txt
-38.82931188561216
-| Translated 1738 correct sentences out of 4476. Final accuracy: 38.83%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_5/accuracy.txt
+33.71313672922252
+| Translated 1509 correct sentences out of 4476. Final accuracy: 33.71%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_6/accuracy.txt
+48.12332439678284
+| Translated 2154 correct sentences out of 4476. Final accuracy: 48.12%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_3_dropout_0/seed_2/accuracy.txt
 8.646112600536194
 | Translated 387 correct sentences out of 4476. Final accuracy: 8.65%
@@ -670,6 +691,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_2/accuracy.txt
 13.494191242180516
 | Translated 604 correct sentences out of 4476. Final accuracy: 13.49%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_3/accuracy.txt
+45.59874888293119
+| Translated 2041 correct sentences out of 4476. Final accuracy: 45.60%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_4/accuracy.txt
 0.20107238605898123
 | Translated 9 correct sentences out of 4476. Final accuracy: 0.20%
@@ -677,6 +701,9 @@
 4.267202859696157
 | Translated 191 correct sentences out of 4476. Final accuracy: 4.27%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_6/accuracy.txt
+4.468275245755138
+| Translated 200 correct sentences out of 4476. Final accuracy: 4.47%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_4_dropout_0/seed_2/accuracy.txt
 4.468275245755138
 | Translated 200 correct sentences out of 4476. Final accuracy: 4.47%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_4_dropout_0/seed_3/accuracy.txt
@@ -721,12 +748,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_5_dropout_0.5/seed_6/accuracy.txt
 1.4298480786416443
 | Translated 64 correct sentences out of 4476. Final accuracy: 1.43%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+61.99731903485255
+| Translated 2775 correct sentences out of 4476. Final accuracy: 62.00%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
+40.01340482573726
+| Translated 1791 correct sentences out of 4476. Final accuracy: 40.01%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
 14.78999106344951
 | Translated 662 correct sentences out of 4476. Final accuracy: 14.79%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
 66.733690795353
 | Translated 2987 correct sentences out of 4476. Final accuracy: 66.73%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
+40.12511170688114
+| Translated 1796 correct sentences out of 4476. Final accuracy: 40.13%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_256_kernel_3_dropout_0/seed_2/accuracy.txt
 24.798927613941018
 | Translated 1110 correct sentences out of 4476. Final accuracy: 24.80%
@@ -736,6 +772,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_256_kernel_3_dropout_0/seed_4/accuracy.txt
 22.944593386952636
 | Translated 1027 correct sentences out of 4476. Final accuracy: 22.94%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_256_kernel_3_dropout_0/seed_5/accuracy.txt
+6.702412868632708
+| Translated 300 correct sentences out of 4476. Final accuracy: 6.70%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_256_kernel_3_dropout_0/seed_6/accuracy.txt
 10.723860589812332
 | Translated 480 correct sentences out of 4476. Final accuracy: 10.72%
@@ -748,6 +787,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_4/accuracy.txt
 6.6577301161751565
 | Translated 298 correct sentences out of 4476. Final accuracy: 6.66%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_5/accuracy.txt
+19.14655942806077
+| Translated 857 correct sentences out of 4476. Final accuracy: 19.15%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_6/accuracy.txt
 17.58266309204647
 | Translated 787 correct sentences out of 4476. Final accuracy: 17.58%
@@ -781,15 +823,27 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_4_dropout_0/seed_6/accuracy.txt
 31.523681858802505
 | Translated 1411 correct sentences out of 4476. Final accuracy: 31.52%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_2/accuracy.txt
+33.42269883824844
+| Translated 1496 correct sentences out of 4476. Final accuracy: 33.42%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_3/accuracy.txt
 46.9615728328865
 | Translated 2102 correct sentences out of 4476. Final accuracy: 46.96%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_4/accuracy.txt
+18.87846291331546
+| Translated 845 correct sentences out of 4476. Final accuracy: 18.88%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_5/accuracy.txt
 36.952636282395
 | Translated 1654 correct sentences out of 4476. Final accuracy: 36.95%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
+32.30563002680965
+| Translated 1446 correct sentences out of 4476. Final accuracy: 32.31%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
 54.8704200178731
 | Translated 2456 correct sentences out of 4476. Final accuracy: 54.87%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
+13.136729222520108
+| Translated 588 correct sentences out of 4476. Final accuracy: 13.14%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
 43.744414655942805
 | Translated 1958 correct sentences out of 4476. Final accuracy: 43.74%
@@ -847,12 +901,18 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_3_dropout_0/seed_2/accuracy.txt
 37.60053619302949
 | Translated 1683 correct sentences out of 4476. Final accuracy: 37.60%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_3_dropout_0/seed_3/accuracy.txt
+0.8489722966934763
+| Translated 38 correct sentences out of 4476. Final accuracy: 0.85%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_3_dropout_0/seed_4/accuracy.txt
 3.5746201966041107
 | Translated 160 correct sentences out of 4476. Final accuracy: 3.57%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_3_dropout_0/seed_5/accuracy.txt
 16.420911528150135
 | Translated 735 correct sentences out of 4476. Final accuracy: 16.42%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_3_dropout_0/seed_6/accuracy.txt
+24.352100089365507
+| Translated 1090 correct sentences out of 4476. Final accuracy: 24.35%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_4_dropout_0/seed_2/accuracy.txt
 7.931188561215372
 | Translated 355 correct sentences out of 4476. Final accuracy: 7.93%
@@ -868,12 +928,24 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_4_dropout_0/seed_6/accuracy.txt
 16.39857015192136
 | Translated 734 correct sentences out of 4476. Final accuracy: 16.40%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_2/accuracy.txt
+11.997319034852547
+| Translated 537 correct sentences out of 4476. Final accuracy: 12.00%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_3/accuracy.txt
 41.64432529043789
 | Translated 1864 correct sentences out of 4476. Final accuracy: 41.64%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_4/accuracy.txt
 50.55853440571939
 | Translated 2263 correct sentences out of 4476. Final accuracy: 50.56%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_5/accuracy.txt
+57.03753351206434
+| Translated 2553 correct sentences out of 4476. Final accuracy: 57.04%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
+53.976764968722065
+| Translated 2416 correct sentences out of 4476. Final accuracy: 53.98%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+28.060768543342267
+| Translated 1256 correct sentences out of 4476. Final accuracy: 28.06%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
 24.441465594280608
 | Translated 1094 correct sentences out of 4476. Final accuracy: 24.44%
@@ -883,6 +955,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
 69.4816800714924
 | Translated 3110 correct sentences out of 4476. Final accuracy: 69.48%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
+40.147453083109916
+| Translated 1797 correct sentences out of 4476. Final accuracy: 40.15%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_128_kernel_3_dropout_0/seed_2/accuracy.txt
 0.17873100983020554
 | Translated 8 correct sentences out of 4476. Final accuracy: 0.18%
@@ -901,6 +976,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_128_kernel_5_dropout_0/seed_2/accuracy.txt
 1.9213583556747096
 | Translated 86 correct sentences out of 4476. Final accuracy: 1.92%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_128_kernel_5_dropout_0/seed_3/accuracy.txt
+8.914209115281501
+| Translated 399 correct sentences out of 4476. Final accuracy: 8.91%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_128_kernel_5_dropout_0/seed_4/accuracy.txt
 34.62913315460233
 | Translated 1550 correct sentences out of 4476. Final accuracy: 34.63%
@@ -940,42 +1018,63 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_6/accuracy.txt
 8.824843610366399
 | Translated 395 correct sentences out of 4476. Final accuracy: 8.82%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0/seed_10/accuracy.txt
-0.0
-| Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0/seed_11/accuracy.txt
-41.689008042895445
-| Translated 1866 correct sentences out of 4476. Final accuracy: 41.69%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0/seed_7/accuracy.txt
-15.974084003574621
-| Translated 715 correct sentences out of 4476. Final accuracy: 15.97%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0/seed_8/accuracy.txt
-0.3127792672028597
-| Translated 14 correct sentences out of 4476. Final accuracy: 0.31%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0/seed_9/accuracy.txt
-32.9982126899017
-| Translated 1477 correct sentences out of 4476. Final accuracy: 33.00%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
+29.959785522788202
+| Translated 1341 correct sentences out of 4476. Final accuracy: 29.96%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
+10.567470956210903
+| Translated 473 correct sentences out of 4476. Final accuracy: 10.57%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
+42.0911528150134
+| Translated 1884 correct sentences out of 4476. Final accuracy: 42.09%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0/seed_5/accuracy.txt
+14.454870420017873
+| Translated 647 correct sentences out of 4476. Final accuracy: 14.45%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
+5.987488829311886
+| Translated 268 correct sentences out of 4476. Final accuracy: 5.99%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_3_dropout_0.25/seed_2/accuracy.txt
 28.84271671134942
 | Translated 1291 correct sentences out of 4476. Final accuracy: 28.84%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_3_dropout_0.25/seed_3/accuracy.txt
 25.647899910634496
 | Translated 1148 correct sentences out of 4476. Final accuracy: 25.65%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_3_dropout_0.25/seed_4/accuracy.txt
+2.993744414655943
+| Translated 134 correct sentences out of 4476. Final accuracy: 2.99%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_3_dropout_0.25/seed_5/accuracy.txt
 3.775692582663092
 | Translated 169 correct sentences out of 4476. Final accuracy: 3.78%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_3_dropout_0.25/seed_6/accuracy.txt
 0.0
 | Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_3_dropout_0/seed_2/accuracy.txt
+39.38784629133155
+| Translated 1763 correct sentences out of 4476. Final accuracy: 39.39%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_3_dropout_0/seed_3/accuracy.txt
+26.005361930294907
+| Translated 1164 correct sentences out of 4476. Final accuracy: 26.01%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_3_dropout_0/seed_4/accuracy.txt
 3.038427167113494
 | Translated 136 correct sentences out of 4476. Final accuracy: 3.04%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_3_dropout_0/seed_5/accuracy.txt
 13.404825737265416
 | Translated 600 correct sentences out of 4476. Final accuracy: 13.40%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_3_dropout_0/seed_6/accuracy.txt
+17.448614834673815
+| Translated 781 correct sentences out of 4476. Final accuracy: 17.45%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_4_dropout_0/seed_2/accuracy.txt
+14.678284182305628
+| Translated 657 correct sentences out of 4476. Final accuracy: 14.68%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_4_dropout_0/seed_3/accuracy.txt
 30.205540661304735
 | Translated 1352 correct sentences out of 4476. Final accuracy: 30.21%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_4_dropout_0/seed_4/accuracy.txt
+20.822162645218945
+| Translated 932 correct sentences out of 4476. Final accuracy: 20.82%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_4_dropout_0/seed_5/accuracy.txt
+17.336907953529938
+| Translated 776 correct sentences out of 4476. Final accuracy: 17.34%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_4_dropout_0/seed_6/accuracy.txt
 5.250223413762288
 | Translated 235 correct sentences out of 4476. Final accuracy: 5.25%
@@ -1033,12 +1132,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_10_embed_dim_512_kernel_4_dropout_0/seed_4/accuracy.txt
 5.9428060768543345
 | Translated 266 correct sentences out of 4476. Final accuracy: 5.94%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_10_embed_dim_512_kernel_4_dropout_0/seed_5/accuracy.txt
+21.7828418230563
+| Translated 975 correct sentences out of 4476. Final accuracy: 21.78%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_10_embed_dim_512_kernel_4_dropout_0/seed_6/accuracy.txt
 12.533512064343164
 | Translated 561 correct sentences out of 4476. Final accuracy: 12.53%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_10_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+31.680071492403933
+| Translated 1418 correct sentences out of 4476. Final accuracy: 31.68%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_10_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
 19.41465594280608
 | Translated 869 correct sentences out of 4476. Final accuracy: 19.41%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_10_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
+14.588918677390527
+| Translated 653 correct sentences out of 4476. Final accuracy: 14.59%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_10_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
 3.909740840035746
 | Translated 175 correct sentences out of 4476. Final accuracy: 3.91%
@@ -1084,6 +1192,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_4/accuracy.txt
 18.275245755138517
 | Translated 818 correct sentences out of 4476. Final accuracy: 18.28%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_5/accuracy.txt
+3.5522788203753355
+| Translated 159 correct sentences out of 4476. Final accuracy: 3.55%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_6/accuracy.txt
 4.781054512957998
 | Translated 214 correct sentences out of 4476. Final accuracy: 4.78%
@@ -1147,6 +1258,12 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
 23.54781054512958
 | Translated 1054 correct sentences out of 4476. Final accuracy: 23.55%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_6_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+19.19124218051832
+| Translated 859 correct sentences out of 4476. Final accuracy: 19.19%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_6_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
+29.40125111706881
+| Translated 1316 correct sentences out of 4476. Final accuracy: 29.40%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_6_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
 2.613941018766756
 | Translated 117 correct sentences out of 4476. Final accuracy: 2.61%
@@ -1204,9 +1321,18 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_7_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
 15.549597855227882
 | Translated 696 correct sentences out of 4476. Final accuracy: 15.55%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_7_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
+4.758713136729222
+| Translated 213 correct sentences out of 4476. Final accuracy: 4.76%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_7_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
+45.8668453976765
+| Translated 2053 correct sentences out of 4476. Final accuracy: 45.87%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_7_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
 8.735478105451296
 | Translated 391 correct sentences out of 4476. Final accuracy: 8.74%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_7_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
+13.047363717605004
+| Translated 584 correct sentences out of 4476. Final accuracy: 13.05%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_256_kernel_3_dropout_0/seed_2/accuracy.txt
 2.0107238605898123
 | Translated 90 correct sentences out of 4476. Final accuracy: 2.01%
@@ -1282,6 +1408,12 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_512_kernel_4_dropout_0/seed_6/accuracy.txt
 20.509383378016086
 | Translated 918 correct sentences out of 4476. Final accuracy: 20.51%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_2/accuracy.txt
+0.20107238605898123
+| Translated 9 correct sentences out of 4476. Final accuracy: 0.20%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_3/accuracy.txt
+6.9928507596067915
+| Translated 313 correct sentences out of 4476. Final accuracy: 6.99%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_4/accuracy.txt
 14.499553172475425
 | Translated 649 correct sentences out of 4476. Final accuracy: 14.50%
@@ -1291,6 +1423,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
 32.75245755138517
 | Translated 1466 correct sentences out of 4476. Final accuracy: 32.75%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+9.919571045576408
+| Translated 444 correct sentences out of 4476. Final accuracy: 9.92%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
+26.13941018766756
+| Translated 1170 correct sentences out of 4476. Final accuracy: 26.14%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
+28.909740840035745
+| Translated 1294 correct sentences out of 4476. Final accuracy: 28.91%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
+29.8704200178731
+| Translated 1337 correct sentences out of 4476. Final accuracy: 29.87%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_8_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
+24.95531724754245
+| Translated 1117 correct sentences out of 4476. Final accuracy: 24.96%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_9_embed_dim_128_kernel_5_dropout_0/seed_2/accuracy.txt
 0.0
 | Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
@@ -1345,12 +1492,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_9_embed_dim_512_kernel_3_dropout_0/seed_4/accuracy.txt
 2.3681858802502234
 | Translated 106 correct sentences out of 4476. Final accuracy: 2.37%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_9_embed_dim_512_kernel_3_dropout_0/seed_5/accuracy.txt
+3.5522788203753355
+| Translated 159 correct sentences out of 4476. Final accuracy: 3.55%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_9_embed_dim_512_kernel_3_dropout_0/seed_6/accuracy.txt
+18.074173369079535
+| Translated 809 correct sentences out of 4476. Final accuracy: 18.07%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_9_embed_dim_512_kernel_4_dropout_0/seed_2/accuracy.txt
 16.0857908847185
 | Translated 720 correct sentences out of 4476. Final accuracy: 16.09%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_9_embed_dim_512_kernel_4_dropout_0/seed_3/accuracy.txt
 16.13047363717605
 | Translated 722 correct sentences out of 4476. Final accuracy: 16.13%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_9_embed_dim_512_kernel_4_dropout_0/seed_4/accuracy.txt
+11.617515638963361
+| Translated 520 correct sentences out of 4476. Final accuracy: 11.62%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_200_lay_9_embed_dim_512_kernel_4_dropout_0/seed_5/accuracy.txt
 7.819481680071492
 | Translated 350 correct sentences out of 4476. Final accuracy: 7.82%
@@ -1402,6 +1558,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_3_dropout_0.25/seed_6/accuracy.txt
 0.0
 | Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_3_dropout_0/seed_2/accuracy.txt
+2.8150134048257374
+| Translated 126 correct sentences out of 4476. Final accuracy: 2.82%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_3_dropout_0/seed_3/accuracy.txt
 12.823949955317248
 | Translated 574 correct sentences out of 4476. Final accuracy: 12.82%
@@ -1411,6 +1570,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_3_dropout_0/seed_5/accuracy.txt
 54.2225201072386
 | Translated 2427 correct sentences out of 4476. Final accuracy: 54.22%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_3_dropout_0/seed_6/accuracy.txt
+28.351206434316357
+| Translated 1269 correct sentences out of 4476. Final accuracy: 28.35%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_4_dropout_0/seed_2/accuracy.txt
 6.434316353887399
 | Translated 288 correct sentences out of 4476. Final accuracy: 6.43%
@@ -1423,6 +1585,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_4_dropout_0/seed_5/accuracy.txt
 17.850759606791776
 | Translated 799 correct sentences out of 4476. Final accuracy: 17.85%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_4_dropout_0/seed_6/accuracy.txt
+26.13941018766756
+| Translated 1170 correct sentences out of 4476. Final accuracy: 26.14%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
+16.13047363717605
+| Translated 722 correct sentences out of 4476. Final accuracy: 16.13%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
+48.36907953529938
+| Translated 2165 correct sentences out of 4476. Final accuracy: 48.37%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
 25.692582663092047
 | Translated 1150 correct sentences out of 4476. Final accuracy: 25.69%
@@ -1432,24 +1603,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
 35.32171581769437
 | Translated 1581 correct sentences out of 4476. Final accuracy: 35.32%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0.25/seed_10/accuracy.txt
-31.63538873994638
-| Translated 1416 correct sentences out of 4476. Final accuracy: 31.64%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0.25/seed_11/accuracy.txt
-0.11170688114387846
-| Translated 5 correct sentences out of 4476. Final accuracy: 0.11%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0.25/seed_2/accuracy.txt
+44.839142091152816
+| Translated 2007 correct sentences out of 4476. Final accuracy: 44.84%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0.25/seed_3/accuracy.txt
+4.133154602323503
+| Translated 185 correct sentences out of 4476. Final accuracy: 4.13%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0.25/seed_4/accuracy.txt
 21.134941912421805
 | Translated 946 correct sentences out of 4476. Final accuracy: 21.13%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0.25/seed_7/accuracy.txt
-0.0
-| Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0.25/seed_8/accuracy.txt
-3.6193029490616624
-| Translated 162 correct sentences out of 4476. Final accuracy: 3.62%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0.25/seed_9/accuracy.txt
-32.68543342269884
-| Translated 1463 correct sentences out of 4476. Final accuracy: 32.69%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0.25/seed_5/accuracy.txt
+35.88025022341376
+| Translated 1606 correct sentences out of 4476. Final accuracy: 35.88%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0.25/seed_6/accuracy.txt
+61.260053619302944
+| Translated 2742 correct sentences out of 4476. Final accuracy: 61.26%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_dropout_0/seed_2/accuracy.txt
 50.15638963360143
 | Translated 2245 correct sentences out of 4476. Final accuracy: 50.16%
@@ -1483,6 +1651,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_4_dropout_0/seed_2/accuracy.txt
 7.7077747989276135
 | Translated 345 correct sentences out of 4476. Final accuracy: 7.71%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_4_dropout_0/seed_3/accuracy.txt
+16.867739052725646
+| Translated 755 correct sentences out of 4476. Final accuracy: 16.87%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_4_dropout_0/seed_4/accuracy.txt
 9.584450402144771
 | Translated 429 correct sentences out of 4476. Final accuracy: 9.58%
@@ -1507,6 +1678,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
 4.20017873100983
 | Translated 188 correct sentences out of 4476. Final accuracy: 4.20%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+66.19749776586238
+| Translated 2963 correct sentences out of 4476. Final accuracy: 66.20%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
+37.13136729222521
+| Translated 1662 correct sentences out of 4476. Final accuracy: 37.13%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
+31.83646112600536
+| Translated 1425 correct sentences out of 4476. Final accuracy: 31.84%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
 36.103663985701516
 | Translated 1616 correct sentences out of 4476. Final accuracy: 36.10%
@@ -1585,9 +1765,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_256_kernel_3_dropout_0/seed_5/accuracy.txt
 9.361036639857016
 | Translated 419 correct sentences out of 4476. Final accuracy: 9.36%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_256_kernel_3_dropout_0/seed_6/accuracy.txt
+17.22520107238606
+| Translated 771 correct sentences out of 4476. Final accuracy: 17.23%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_256_kernel_4_dropout_0/seed_2/accuracy.txt
 0.7819481680071492
 | Translated 35 correct sentences out of 4476. Final accuracy: 0.78%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_256_kernel_4_dropout_0/seed_3/accuracy.txt
+9.606791778373548
+| Translated 430 correct sentences out of 4476. Final accuracy: 9.61%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_256_kernel_4_dropout_0/seed_4/accuracy.txt
 26.273458445040216
 | Translated 1176 correct sentences out of 4476. Final accuracy: 26.27%
@@ -1612,6 +1798,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_256_kernel_5_dropout_0.5/seed_6/accuracy.txt
 2.1447721179624666
 | Translated 96 correct sentences out of 4476. Final accuracy: 2.14%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
+41.97944593386953
+| Translated 1879 correct sentences out of 4476. Final accuracy: 41.98%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
 7.506702412868632
 | Translated 336 correct sentences out of 4476. Final accuracy: 7.51%
@@ -1624,12 +1813,6 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
 25.67024128686327
 | Translated 1149 correct sentences out of 4476. Final accuracy: 25.67%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_10/accuracy.txt
-31.948168007149242
-| Translated 1430 correct sentences out of 4476. Final accuracy: 31.95%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_11/accuracy.txt
-20.151921358355672
-| Translated 902 correct sentences out of 4476. Final accuracy: 20.15%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_2/accuracy.txt
 23.19034852546917
 | Translated 1038 correct sentences out of 4476. Final accuracy: 23.19%
@@ -1645,15 +1828,6 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_6/accuracy.txt
 42.292225201072384
 | Translated 1893 correct sentences out of 4476. Final accuracy: 42.29%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_7/accuracy.txt
-37.35478105451296
-| Translated 1672 correct sentences out of 4476. Final accuracy: 37.35%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_8/accuracy.txt
-59.98659517426274
-| Translated 2685 correct sentences out of 4476. Final accuracy: 59.99%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_9/accuracy.txt
-28.060768543342267
-| Translated 1256 correct sentences out of 4476. Final accuracy: 28.06%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.5/seed_2/accuracy.txt
 3.6193029490616624
 | Translated 162 correct sentences out of 4476. Final accuracy: 3.62%
@@ -1663,6 +1837,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.5/seed_4/accuracy.txt
 38.449508489722966
 | Translated 1721 correct sentences out of 4476. Final accuracy: 38.45%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.5/seed_5/accuracy.txt
+2.7479892761394105
+| Translated 123 correct sentences out of 4476. Final accuracy: 2.75%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.5/seed_6/accuracy.txt
 16.01876675603217
 | Translated 717 correct sentences out of 4476. Final accuracy: 16.02%
@@ -1681,33 +1858,63 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0/seed_6/accuracy.txt
 21.492403932082215
 | Translated 962 correct sentences out of 4476. Final accuracy: 21.49%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_10/accuracy.txt
-45.464700625558535
-| Translated 2035 correct sentences out of 4476. Final accuracy: 45.46%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_11/accuracy.txt
-13.941018766756033
-| Translated 624 correct sentences out of 4476. Final accuracy: 13.94%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_7/accuracy.txt
-29.982126899016983
-| Translated 1342 correct sentences out of 4476. Final accuracy: 29.98%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_8/accuracy.txt
-30.54066130473637
-| Translated 1367 correct sentences out of 4476. Final accuracy: 30.54%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_9/accuracy.txt
-53.15013404825737
-| Translated 2379 correct sentences out of 4476. Final accuracy: 53.15%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_2/accuracy.txt
+17.314566577301164
+| Translated 775 correct sentences out of 4476. Final accuracy: 17.31%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_3/accuracy.txt
+73.63717605004469
+| Translated 3296 correct sentences out of 4476. Final accuracy: 73.64%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_4/accuracy.txt
+0.37980339588918677
+| Translated 17 correct sentences out of 4476. Final accuracy: 0.38%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_5/accuracy.txt
+1.318141197497766
+| Translated 59 correct sentences out of 4476. Final accuracy: 1.32%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_6/accuracy.txt
+4.110813226094727
+| Translated 184 correct sentences out of 4476. Final accuracy: 4.11%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0/seed_2/accuracy.txt
 17.26988382484361
 | Translated 773 correct sentences out of 4476. Final accuracy: 17.27%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0/seed_3/accuracy.txt
+31.523681858802505
+| Translated 1411 correct sentences out of 4476. Final accuracy: 31.52%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0/seed_4/accuracy.txt
 7.551385165326184
 | Translated 338 correct sentences out of 4476. Final accuracy: 7.55%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0/seed_5/accuracy.txt
 2.680965147453083
 | Translated 120 correct sentences out of 4476. Final accuracy: 2.68%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_dropout_0/seed_6/accuracy.txt
+19.571045576407506
+| Translated 876 correct sentences out of 4476. Final accuracy: 19.57%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_2/accuracy.txt
+81.68007149240393
+| Translated 3656 correct sentences out of 4476. Final accuracy: 81.68%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_3/accuracy.txt
+29.1331546023235
+| Translated 1304 correct sentences out of 4476. Final accuracy: 29.13%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_4/accuracy.txt
+61.61751563896336
+| Translated 2758 correct sentences out of 4476. Final accuracy: 61.62%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_5/accuracy.txt
+35.09830205540661
+| Translated 1571 correct sentences out of 4476. Final accuracy: 35.10%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
+58.71313672922251
+| Translated 2628 correct sentences out of 4476. Final accuracy: 58.71%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+36.79624664879357
+| Translated 1647 correct sentences out of 4476. Final accuracy: 36.80%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
+46.38069705093834
+| Translated 2076 correct sentences out of 4476. Final accuracy: 46.38%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
 44.369973190348524
 | Translated 1986 correct sentences out of 4476. Final accuracy: 44.37%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
+54.78105451295799
+| Translated 2452 correct sentences out of 4476. Final accuracy: 54.78%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
 46.15728328865058
 | Translated 2066 correct sentences out of 4476. Final accuracy: 46.16%
@@ -1732,6 +1939,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_3_dropout_0.25/seed_3/accuracy.txt
 1.5638963360142983
 | Translated 70 correct sentences out of 4476. Final accuracy: 1.56%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_3_dropout_0.25/seed_4/accuracy.txt
+13.002680965147453
+| Translated 582 correct sentences out of 4476. Final accuracy: 13.00%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_3_dropout_0.25/seed_5/accuracy.txt
 52.390527256479004
 | Translated 2345 correct sentences out of 4476. Final accuracy: 52.39%
@@ -1741,9 +1951,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_3_dropout_0/seed_2/accuracy.txt
 37.15370866845398
 | Translated 1663 correct sentences out of 4476. Final accuracy: 37.15%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_3_dropout_0/seed_3/accuracy.txt
+3.194816800714924
+| Translated 143 correct sentences out of 4476. Final accuracy: 3.19%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_3_dropout_0/seed_4/accuracy.txt
 24.32975871313673
 | Translated 1089 correct sentences out of 4476. Final accuracy: 24.33%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_3_dropout_0/seed_5/accuracy.txt
+30.96514745308311
+| Translated 1386 correct sentences out of 4476. Final accuracy: 30.97%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_3_dropout_0/seed_6/accuracy.txt
 0.5585344057193923
 | Translated 25 correct sentences out of 4476. Final accuracy: 0.56%
@@ -1759,6 +1975,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_4_dropout_0/seed_5/accuracy.txt
 22.184986595174262
 | Translated 993 correct sentences out of 4476. Final accuracy: 22.18%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_4_dropout_0/seed_6/accuracy.txt
+31.143878462913317
+| Translated 1394 correct sentences out of 4476. Final accuracy: 31.14%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_5_dropout_0.25/seed_2/accuracy.txt
 4.736371760500447
 | Translated 212 correct sentences out of 4476. Final accuracy: 4.74%
@@ -1774,27 +1993,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_5_dropout_0.25/seed_6/accuracy.txt
 7.841823056300267
 | Translated 351 correct sentences out of 4476. Final accuracy: 7.84%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_10/accuracy.txt
-48.94995531724754
-| Translated 2191 correct sentences out of 4476. Final accuracy: 48.95%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_11/accuracy.txt
-73.36907953529938
-| Translated 3284 correct sentences out of 4476. Final accuracy: 73.37%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_2/accuracy.txt
+50.9159964253798
+| Translated 2279 correct sentences out of 4476. Final accuracy: 50.92%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_3/accuracy.txt
 29.691689008042893
 | Translated 1329 correct sentences out of 4476. Final accuracy: 29.69%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_4/accuracy.txt
+0.5138516532618409
+| Translated 23 correct sentences out of 4476. Final accuracy: 0.51%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_5/accuracy.txt
+42.11349419124218
+| Translated 1885 correct sentences out of 4476. Final accuracy: 42.11%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_6/accuracy.txt
 24.798927613941018
 | Translated 1110 correct sentences out of 4476. Final accuracy: 24.80%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_7/accuracy.txt
-6.076854334226988
-| Translated 272 correct sentences out of 4476. Final accuracy: 6.08%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_8/accuracy.txt
-71.55942806076855
-| Translated 3203 correct sentences out of 4476. Final accuracy: 71.56%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_9/accuracy.txt
-30.6076854334227
-| Translated 1370 correct sentences out of 4476. Final accuracy: 30.61%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0.5/seed_2/accuracy.txt
 0.0
 | Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
@@ -1816,12 +2029,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0/seed_3/accuracy.txt
 21.291331546023233
 | Translated 953 correct sentences out of 4476. Final accuracy: 21.29%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0/seed_4/accuracy.txt
+12.131367292225201
+| Translated 543 correct sentences out of 4476. Final accuracy: 12.13%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0/seed_5/accuracy.txt
+39.54423592493298
+| Translated 1770 correct sentences out of 4476. Final accuracy: 39.54%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_dropout_0/seed_6/accuracy.txt
 14.231456657730115
 | Translated 637 correct sentences out of 4476. Final accuracy: 14.23%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_4_dropout_0/seed_2/accuracy.txt
 29.378909740840037
 | Translated 1315 correct sentences out of 4476. Final accuracy: 29.38%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_4_dropout_0/seed_3/accuracy.txt
+38.67292225201072
+| Translated 1731 correct sentences out of 4476. Final accuracy: 38.67%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_4_dropout_0/seed_4/accuracy.txt
 12.064343163538874
 | Translated 540 correct sentences out of 4476. Final accuracy: 12.06%
@@ -1831,21 +2053,18 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_4_dropout_0/seed_6/accuracy.txt
 17.381590705987488
 | Translated 778 correct sentences out of 4476. Final accuracy: 17.38%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_10/accuracy.txt
-11.528150134048257
-| Translated 516 correct sentences out of 4476. Final accuracy: 11.53%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_11/accuracy.txt
-81.59070598748883
-| Translated 3652 correct sentences out of 4476. Final accuracy: 81.59%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_7/accuracy.txt
-39.343163538873995
-| Translated 1761 correct sentences out of 4476. Final accuracy: 39.34%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_8/accuracy.txt
-23.458445040214475
-| Translated 1050 correct sentences out of 4476. Final accuracy: 23.46%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_9/accuracy.txt
-62.13136729222521
-| Translated 2781 correct sentences out of 4476. Final accuracy: 62.13%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_2/accuracy.txt
+32.66309204647006
+| Translated 1462 correct sentences out of 4476. Final accuracy: 32.66%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_3/accuracy.txt
+20.777479892761395
+| Translated 930 correct sentences out of 4476. Final accuracy: 20.78%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_4/accuracy.txt
+17.649687220732797
+| Translated 790 correct sentences out of 4476. Final accuracy: 17.65%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
+29.445933869526364
+| Translated 1318 correct sentences out of 4476. Final accuracy: 29.45%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0.5/seed_2/accuracy.txt
 25.804289544235925
 | Translated 1155 correct sentences out of 4476. Final accuracy: 25.80%
@@ -1867,6 +2086,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
 25.424486148346737
 | Translated 1138 correct sentences out of 4476. Final accuracy: 25.42%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
+42.850759606791776
+| Translated 1918 correct sentences out of 4476. Final accuracy: 42.85%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
 40.437890974084
 | Translated 1810 correct sentences out of 4476. Final accuracy: 40.44%
@@ -1879,6 +2101,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_256_kernel_4_dropout_0/seed_3/accuracy.txt
 17.89544235924933
 | Translated 801 correct sentences out of 4476. Final accuracy: 17.90%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_256_kernel_4_dropout_0/seed_4/accuracy.txt
+11.394101876675604
+| Translated 510 correct sentences out of 4476. Final accuracy: 11.39%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_256_kernel_4_dropout_0/seed_5/accuracy.txt
 3.2171581769436997
 | Translated 144 correct sentences out of 4476. Final accuracy: 3.22%
@@ -1888,6 +2113,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
 22.430741733690795
 | Translated 1004 correct sentences out of 4476. Final accuracy: 22.43%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
+16.823056300268096
+| Translated 753 correct sentences out of 4476. Final accuracy: 16.82%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
 9.361036639857016
 | Translated 419 correct sentences out of 4476. Final accuracy: 9.36%
@@ -1897,6 +2125,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
 19.526362823949956
 | Translated 874 correct sentences out of 4476. Final accuracy: 19.53%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_3_dropout_0.25/seed_2/accuracy.txt
+45.79982126899017
+| Translated 2050 correct sentences out of 4476. Final accuracy: 45.80%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_3_dropout_0.25/seed_3/accuracy.txt
+20.48704200178731
+| Translated 917 correct sentences out of 4476. Final accuracy: 20.49%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_3_dropout_0.25/seed_4/accuracy.txt
+53.35120643431635
+| Translated 2388 correct sentences out of 4476. Final accuracy: 53.35%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_3_dropout_0.25/seed_5/accuracy.txt
 32.77479892761394
 | Translated 1467 correct sentences out of 4476. Final accuracy: 32.77%
@@ -1906,9 +2143,18 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_3_dropout_0/seed_2/accuracy.txt
 40.28150134048257
 | Translated 1803 correct sentences out of 4476. Final accuracy: 40.28%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_3_dropout_0/seed_3/accuracy.txt
+7.484361036639857
+| Translated 335 correct sentences out of 4476. Final accuracy: 7.48%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_3_dropout_0/seed_4/accuracy.txt
+12.846291331546023
+| Translated 575 correct sentences out of 4476. Final accuracy: 12.85%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_3_dropout_0/seed_5/accuracy.txt
 36.639857015192135
 | Translated 1640 correct sentences out of 4476. Final accuracy: 36.64%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_3_dropout_0/seed_6/accuracy.txt
+9.204647006255586
+| Translated 412 correct sentences out of 4476. Final accuracy: 9.20%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_4_dropout_0.25/seed_2/accuracy.txt
 16.108132260947276
 | Translated 721 correct sentences out of 4476. Final accuracy: 16.11%
@@ -1918,9 +2164,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_4_dropout_0.25/seed_4/accuracy.txt
 1.1840929401251117
 | Translated 53 correct sentences out of 4476. Final accuracy: 1.18%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_4_dropout_0.25/seed_5/accuracy.txt
+21.470062555853442
+| Translated 961 correct sentences out of 4476. Final accuracy: 21.47%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_4_dropout_0.25/seed_6/accuracy.txt
 0.11170688114387846
 | Translated 5 correct sentences out of 4476. Final accuracy: 0.11%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_4_dropout_0/seed_2/accuracy.txt
+21.067917783735478
+| Translated 943 correct sentences out of 4476. Final accuracy: 21.07%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_4_dropout_0/seed_3/accuracy.txt
 49.2627345844504
 | Translated 2205 correct sentences out of 4476. Final accuracy: 49.26%
@@ -1942,9 +2194,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_4/accuracy.txt
 47.22966934763181
 | Translated 2114 correct sentences out of 4476. Final accuracy: 47.23%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_5/accuracy.txt
+48.793565683646115
+| Translated 2184 correct sentences out of 4476. Final accuracy: 48.79%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
+60.23235031277927
+| Translated 2696 correct sentences out of 4476. Final accuracy: 60.23%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+42.06881143878463
+| Translated 1883 correct sentences out of 4476. Final accuracy: 42.07%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
 35.43342269883824
 | Translated 1586 correct sentences out of 4476. Final accuracy: 35.43%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
+40.12511170688114
+| Translated 1796 correct sentences out of 4476. Final accuracy: 40.13%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
 49.776586237712245
 | Translated 2228 correct sentences out of 4476. Final accuracy: 49.78%
@@ -1969,6 +2233,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_3_dropout_0.25/seed_2/accuracy.txt
 1.966041108132261
 | Translated 88 correct sentences out of 4476. Final accuracy: 1.97%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_3_dropout_0.25/seed_3/accuracy.txt
+3.753351206434316
+| Translated 168 correct sentences out of 4476. Final accuracy: 3.75%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_3_dropout_0.25/seed_4/accuracy.txt
+10.16532618409294
+| Translated 455 correct sentences out of 4476. Final accuracy: 10.17%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_3_dropout_0.25/seed_5/accuracy.txt
+5.33958891867739
+| Translated 239 correct sentences out of 4476. Final accuracy: 5.34%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_3_dropout_0.25/seed_6/accuracy.txt
 3.708668453976765
 | Translated 166 correct sentences out of 4476. Final accuracy: 3.71%
@@ -2011,15 +2284,36 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_4/accuracy.txt
 35.88025022341376
 | Translated 1606 correct sentences out of 4476. Final accuracy: 35.88%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_5/accuracy.txt
+1.1840929401251117
+| Translated 53 correct sentences out of 4476. Final accuracy: 1.18%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_6/accuracy.txt
 4.66934763181412
 | Translated 209 correct sentences out of 4476. Final accuracy: 4.67%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
+29.557640750670238
+| Translated 1323 correct sentences out of 4476. Final accuracy: 29.56%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
+11.46112600536193
+| Translated 513 correct sentences out of 4476. Final accuracy: 11.46%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
+50.9159964253798
+| Translated 2279 correct sentences out of 4476. Final accuracy: 50.92%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_5_dropout_0/seed_5/accuracy.txt
+10.411081322609473
+| Translated 466 correct sentences out of 4476. Final accuracy: 10.41%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
+31.99285075960679
+| Translated 1432 correct sentences out of 4476. Final accuracy: 31.99%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_3_dropout_0/seed_2/accuracy.txt
 45.17426273458445
 | Translated 2022 correct sentences out of 4476. Final accuracy: 45.17%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_3_dropout_0/seed_3/accuracy.txt
 53.8650580875782
 | Translated 2411 correct sentences out of 4476. Final accuracy: 53.87%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_3_dropout_0/seed_4/accuracy.txt
+17.046470062555855
+| Translated 763 correct sentences out of 4476. Final accuracy: 17.05%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_3_dropout_0/seed_5/accuracy.txt
 24.597855227882036
 | Translated 1101 correct sentences out of 4476. Final accuracy: 24.60%
@@ -2056,6 +2350,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
 34.71849865951743
 | Translated 1554 correct sentences out of 4476. Final accuracy: 34.72%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+50.98302055406613
+| Translated 2282 correct sentences out of 4476. Final accuracy: 50.98%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
+60.70151921358355
+| Translated 2717 correct sentences out of 4476. Final accuracy: 60.70%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
+38.29311885612154
+| Translated 1714 correct sentences out of 4476. Final accuracy: 38.29%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
+36.282394995531725
+| Translated 1624 correct sentences out of 4476. Final accuracy: 36.28%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
+35.388739946380696
+| Translated 1584 correct sentences out of 4476. Final accuracy: 35.39%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_500_lay_10_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
 17.49329758713137
 | Translated 783 correct sentences out of 4476. Final accuracy: 17.49%
@@ -2095,6 +2404,12 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_500_lay_6_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
 0.22341376228775692
 | Translated 10 correct sentences out of 4476. Final accuracy: 0.22%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_500_lay_6_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
+10.902591599642538
+| Translated 488 correct sentences out of 4476. Final accuracy: 10.90%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_500_lay_6_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
+12.28775692582663
+| Translated 550 correct sentences out of 4476. Final accuracy: 12.29%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_500_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_2/accuracy.txt
 0.08936550491510277
 | Translated 4 correct sentences out of 4476. Final accuracy: 0.09%
@@ -2161,6 +2476,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_500_lay_9_embed_dim_512_kernel_3_dropout_0/seed_3/accuracy.txt
 6.90348525469169
 | Translated 309 correct sentences out of 4476. Final accuracy: 6.90%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_500_lay_9_embed_dim_512_kernel_3_dropout_0/seed_4/accuracy.txt
+0.6478999106344951
+| Translated 29 correct sentences out of 4476. Final accuracy: 0.65%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_500_lay_9_embed_dim_512_kernel_3_dropout_0/seed_5/accuracy.txt
 1.094727435210009
 | Translated 49 correct sentences out of 4476. Final accuracy: 1.09%
@@ -2242,9 +2560,18 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_10_embed_dim_256_kernel_4_dropout_0/seed_6/accuracy.txt
 24.977658623771223
 | Translated 1118 correct sentences out of 4476. Final accuracy: 24.98%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_10_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
+3.395889186773905
+| Translated 152 correct sentences out of 4476. Final accuracy: 3.40%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_10_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
+33.37801608579088
+| Translated 1494 correct sentences out of 4476. Final accuracy: 33.38%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_10_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
 13.762287756925826
 | Translated 616 correct sentences out of 4476. Final accuracy: 13.76%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_10_embed_dim_256_kernel_5_dropout_0/seed_5/accuracy.txt
+11.840929401251117
+| Translated 530 correct sentences out of 4476. Final accuracy: 11.84%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_10_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
 9.361036639857016
 | Translated 419 correct sentences out of 4476. Final accuracy: 9.36%
@@ -2338,27 +2665,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_128_kernel_5_dropout_0/seed_6/accuracy.txt
 3.9544235924932973
 | Translated 177 correct sentences out of 4476. Final accuracy: 3.95%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0.25/seed_10/accuracy.txt
-3.6639857015192137
-| Translated 164 correct sentences out of 4476. Final accuracy: 3.66%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0.25/seed_11/accuracy.txt
-49.62019660411081
-| Translated 2221 correct sentences out of 4476. Final accuracy: 49.62%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0.25/seed_2/accuracy.txt
 62.533512064343164
 | Translated 2799 correct sentences out of 4476. Final accuracy: 62.53%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0.25/seed_3/accuracy.txt
+36.03663985701519
+| Translated 1613 correct sentences out of 4476. Final accuracy: 36.04%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0.25/seed_4/accuracy.txt
+0.4691689008042895
+| Translated 21 correct sentences out of 4476. Final accuracy: 0.47%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0.25/seed_5/accuracy.txt
+32.707774798927616
+| Translated 1464 correct sentences out of 4476. Final accuracy: 32.71%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0.25/seed_6/accuracy.txt
 1.8096514745308312
 | Translated 81 correct sentences out of 4476. Final accuracy: 1.81%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0.25/seed_7/accuracy.txt
-9.428060768543341
-| Translated 422 correct sentences out of 4476. Final accuracy: 9.43%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0.25/seed_8/accuracy.txt
-16.510277033065236
-| Translated 739 correct sentences out of 4476. Final accuracy: 16.51%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0.25/seed_9/accuracy.txt
-3.284182305630027
-| Translated 147 correct sentences out of 4476. Final accuracy: 3.28%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0/seed_2/accuracy.txt
 15.14745308310992
 | Translated 678 correct sentences out of 4476. Final accuracy: 15.15%
@@ -2371,6 +2692,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0/seed_5/accuracy.txt
 8.757819481680071
 | Translated 392 correct sentences out of 4476. Final accuracy: 8.76%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_3_dropout_0/seed_6/accuracy.txt
+1.4298480786416443
+| Translated 64 correct sentences out of 4476. Final accuracy: 1.43%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_4_dropout_0/seed_2/accuracy.txt
 0.9606791778373548
 | Translated 43 correct sentences out of 4476. Final accuracy: 0.96%
@@ -2404,6 +2728,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
 12.019660411081324
 | Translated 538 correct sentences out of 4476. Final accuracy: 12.02%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
+7.663092046470063
+| Translated 343 correct sentences out of 4476. Final accuracy: 7.66%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
 15.460232350312781
 | Translated 692 correct sentences out of 4476. Final accuracy: 15.46%
@@ -2413,6 +2740,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
 8.668453976764969
 | Translated 388 correct sentences out of 4476. Final accuracy: 8.67%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_2/accuracy.txt
+64.11974977658623
+| Translated 2870 correct sentences out of 4476. Final accuracy: 64.12%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_3/accuracy.txt
+39.343163538873995
+| Translated 1761 correct sentences out of 4476. Final accuracy: 39.34%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_4/accuracy.txt
+51.117068811438784
+| Translated 2288 correct sentences out of 4476. Final accuracy: 51.12%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_5/accuracy.txt
+67.31456657730116
+| Translated 3013 correct sentences out of 4476. Final accuracy: 67.31%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_6/accuracy.txt
+61.61751563896336
+| Translated 2758 correct sentences out of 4476. Final accuracy: 61.62%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_3_dropout_0/seed_2/accuracy.txt
 13.226094727435209
 | Translated 592 correct sentences out of 4476. Final accuracy: 13.23%
@@ -2440,6 +2782,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_5/accuracy.txt
 4.289544235924933
 | Translated 192 correct sentences out of 4476. Final accuracy: 4.29%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_4_dropout_0.25/seed_6/accuracy.txt
+10.00893655049151
+| Translated 448 correct sentences out of 4476. Final accuracy: 10.01%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_4_dropout_0.5/seed_2/accuracy.txt
 0.7149240393208222
 | Translated 32 correct sentences out of 4476. Final accuracy: 0.71%
@@ -2467,15 +2812,51 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_4_dropout_0/seed_5/accuracy.txt
 2.390527256478999
 | Translated 107 correct sentences out of 4476. Final accuracy: 2.39%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_4_dropout_0/seed_6/accuracy.txt
+6.322609472743521
+| Translated 283 correct sentences out of 4476. Final accuracy: 6.32%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_2/accuracy.txt
+45.01787310098302
+| Translated 2015 correct sentences out of 4476. Final accuracy: 45.02%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_3/accuracy.txt
+13.315460232350313
+| Translated 596 correct sentences out of 4476. Final accuracy: 13.32%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_4/accuracy.txt
+46.73815907059875
+| Translated 2092 correct sentences out of 4476. Final accuracy: 46.74%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_5/accuracy.txt
+41.934763181411974
+| Translated 1877 correct sentences out of 4476. Final accuracy: 41.93%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
+64.32082216264521
+| Translated 2879 correct sentences out of 4476. Final accuracy: 64.32%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+34.60679177837355
+| Translated 1549 correct sentences out of 4476. Final accuracy: 34.61%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
 27.05540661304736
 | Translated 1211 correct sentences out of 4476. Final accuracy: 27.06%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
+14.767649687220732
+| Translated 661 correct sentences out of 4476. Final accuracy: 14.77%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
 55.74173369079535
 | Translated 2495 correct sentences out of 4476. Final accuracy: 55.74%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
 30.473637176050044
 | Translated 1364 correct sentences out of 4476. Final accuracy: 30.47%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_256_kernel_3_dropout_0/seed_2/accuracy.txt
+23.79356568364611
+| Translated 1065 correct sentences out of 4476. Final accuracy: 23.79%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_256_kernel_3_dropout_0/seed_3/accuracy.txt
+0.2680965147453083
+| Translated 12 correct sentences out of 4476. Final accuracy: 0.27%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_256_kernel_3_dropout_0/seed_4/accuracy.txt
+14.857015192135837
+| Translated 665 correct sentences out of 4476. Final accuracy: 14.86%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_256_kernel_3_dropout_0/seed_5/accuracy.txt
+8.310991957104557
+| Translated 372 correct sentences out of 4476. Final accuracy: 8.31%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_256_kernel_3_dropout_0/seed_6/accuracy.txt
 3.909740840035746
 | Translated 175 correct sentences out of 4476. Final accuracy: 3.91%
@@ -2515,6 +2896,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_3/accuracy.txt
 59.29401251117069
 | Translated 2654 correct sentences out of 4476. Final accuracy: 59.29%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_4/accuracy.txt
+2.4128686327077746
+| Translated 108 correct sentences out of 4476. Final accuracy: 2.41%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_5/accuracy.txt
 14.633601429848078
 | Translated 655 correct sentences out of 4476. Final accuracy: 14.63%
@@ -2566,6 +2950,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_4_dropout_0/seed_6/accuracy.txt
 35.27703306523682
 | Translated 1579 correct sentences out of 4476. Final accuracy: 35.28%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_2/accuracy.txt
+44.839142091152816
+| Translated 2007 correct sentences out of 4476. Final accuracy: 44.84%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_3/accuracy.txt
+67.04647006255585
+| Translated 3001 correct sentences out of 4476. Final accuracy: 67.05%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_4/accuracy.txt
+50.93833780160858
+| Translated 2280 correct sentences out of 4476. Final accuracy: 50.94%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_5/accuracy.txt
+5.563002680965147
+| Translated 249 correct sentences out of 4476. Final accuracy: 5.56%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
+31.099195710455763
+| Translated 1392 correct sentences out of 4476. Final accuracy: 31.10%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0.5/seed_2/accuracy.txt
 12.176050044682754
 | Translated 545 correct sentences out of 4476. Final accuracy: 12.18%
@@ -2581,30 +2980,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0.5/seed_6/accuracy.txt
 0.37980339588918677
 | Translated 17 correct sentences out of 4476. Final accuracy: 0.38%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0/seed_10/accuracy.txt
-6.747095621090258
-| Translated 302 correct sentences out of 4476. Final accuracy: 6.75%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0/seed_11/accuracy.txt
-40.92940125111707
-| Translated 1832 correct sentences out of 4476. Final accuracy: 40.93%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
 21.604110813226093
 | Translated 967 correct sentences out of 4476. Final accuracy: 21.60%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
 21.67113494191242
 | Translated 970 correct sentences out of 4476. Final accuracy: 21.67%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
+47.92225201072386
+| Translated 2145 correct sentences out of 4476. Final accuracy: 47.92%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
 21.648793565683647
 | Translated 969 correct sentences out of 4476. Final accuracy: 21.65%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0/seed_7/accuracy.txt
-43.029490616621985
-| Translated 1926 correct sentences out of 4476. Final accuracy: 43.03%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0/seed_8/accuracy.txt
-14.387846291331547
-| Translated 644 correct sentences out of 4476. Final accuracy: 14.39%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0/seed_9/accuracy.txt
-56.36729222520107
-| Translated 2523 correct sentences out of 4476. Final accuracy: 56.37%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
+38.985701519213585
+| Translated 1745 correct sentences out of 4476. Final accuracy: 38.99%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_256_kernel_3_dropout_0/seed_2/accuracy.txt
 6.6577301161751565
 | Translated 298 correct sentences out of 4476. Final accuracy: 6.66%
@@ -2659,6 +3049,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_3_dropout_0/seed_4/accuracy.txt
 14.05272564789991
 | Translated 629 correct sentences out of 4476. Final accuracy: 14.05%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_3_dropout_0/seed_5/accuracy.txt
+36.84092940125112
+| Translated 1649 correct sentences out of 4476. Final accuracy: 36.84%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_3_dropout_0/seed_6/accuracy.txt
 26.40750670241287
 | Translated 1182 correct sentences out of 4476. Final accuracy: 26.41%
@@ -2668,6 +3061,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_4_dropout_0.25/seed_3/accuracy.txt
 17.78373547810545
 | Translated 796 correct sentences out of 4476. Final accuracy: 17.78%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_4_dropout_0.25/seed_4/accuracy.txt
+3.3288650580875783
+| Translated 149 correct sentences out of 4476. Final accuracy: 3.33%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_4_dropout_0.25/seed_5/accuracy.txt
 7.238605898123325
 | Translated 324 correct sentences out of 4476. Final accuracy: 7.24%
@@ -2680,6 +3076,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_4_dropout_0/seed_3/accuracy.txt
 38.27077747989276
 | Translated 1713 correct sentences out of 4476. Final accuracy: 38.27%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_4_dropout_0/seed_4/accuracy.txt
+20.665773011617517
+| Translated 925 correct sentences out of 4476. Final accuracy: 20.67%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_4_dropout_0/seed_5/accuracy.txt
 47.96693476318141
 | Translated 2147 correct sentences out of 4476. Final accuracy: 47.97%
@@ -2710,6 +3109,12 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
 52.79267202859697
 | Translated 2363 correct sentences out of 4476. Final accuracy: 52.79%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
+51.318141197497766
+| Translated 2297 correct sentences out of 4476. Final accuracy: 51.32%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
+55.20554066130474
+| Translated 2471 correct sentences out of 4476. Final accuracy: 55.21%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_128_kernel_3_dropout_0/seed_2/accuracy.txt
 2.7926720285969613
 | Translated 125 correct sentences out of 4476. Final accuracy: 2.79%
@@ -2794,9 +3199,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_4/accuracy.txt
 16.599642537980337
 | Translated 743 correct sentences out of 4476. Final accuracy: 16.60%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_5/accuracy.txt
+8.333333333333332
+| Translated 373 correct sentences out of 4476. Final accuracy: 8.33%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_6/accuracy.txt
 11.3047363717605
 | Translated 506 correct sentences out of 4476. Final accuracy: 11.30%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
+23.771224307417338
+| Translated 1064 correct sentences out of 4476. Final accuracy: 23.77%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
 5.294906166219839
 | Translated 237 correct sentences out of 4476. Final accuracy: 5.29%
@@ -2809,9 +3220,21 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
 21.0455764075067
 | Translated 942 correct sentences out of 4476. Final accuracy: 21.05%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_3_dropout_0/seed_2/accuracy.txt
+33.847184986595174
+| Translated 1515 correct sentences out of 4476. Final accuracy: 33.85%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_3_dropout_0/seed_3/accuracy.txt
+48.77122430741734
+| Translated 2183 correct sentences out of 4476. Final accuracy: 48.77%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_3_dropout_0/seed_4/accuracy.txt
 15.974084003574621
 | Translated 715 correct sentences out of 4476. Final accuracy: 15.97%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_3_dropout_0/seed_5/accuracy.txt
+6.1215370866845396
+| Translated 274 correct sentences out of 4476. Final accuracy: 6.12%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_3_dropout_0/seed_6/accuracy.txt
+31.322609472743522
+| Translated 1402 correct sentences out of 4476. Final accuracy: 31.32%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_4_dropout_0/seed_2/accuracy.txt
 13.270777479892763
 | Translated 594 correct sentences out of 4476. Final accuracy: 13.27%
@@ -2848,9 +3271,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
 48.32439678284182
 | Translated 2163 correct sentences out of 4476. Final accuracy: 48.32%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_5_dropout_0/seed_4/accuracy.txt
+42.292225201072384
+| Translated 1893 correct sentences out of 4476. Final accuracy: 42.29%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_5_dropout_0/seed_5/accuracy.txt
 53.909740840035745
 | Translated 2413 correct sentences out of 4476. Final accuracy: 53.91%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_5_dropout_0/seed_6/accuracy.txt
+25.134048257372655
+| Translated 1125 correct sentences out of 4476. Final accuracy: 25.13%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_10_embed_dim_128_kernel_4_dropout_0/seed_2/accuracy.txt
 0.871313672922252
 | Translated 39 correct sentences out of 4476. Final accuracy: 0.87%
@@ -2884,6 +3313,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_10_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
 0.08936550491510277
 | Translated 4 correct sentences out of 4476. Final accuracy: 0.09%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_10_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
+18.074173369079535
+| Translated 809 correct sentences out of 4476. Final accuracy: 18.07%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_10_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
 16.95710455764075
 | Translated 759 correct sentences out of 4476. Final accuracy: 16.96%
@@ -2980,6 +3412,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_5/accuracy.txt
 18.96782841823056
 | Translated 849 correct sentences out of 4476. Final accuracy: 18.97%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_6_embed_dim_512_kernel_3_dropout_0.25/seed_6/accuracy.txt
+15.661304736371761
+| Translated 701 correct sentences out of 4476. Final accuracy: 15.66%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_2/accuracy.txt
 0.5585344057193923
 | Translated 25 correct sentences out of 4476. Final accuracy: 0.56%
@@ -2995,6 +3430,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_6_embed_dim_512_kernel_5_dropout_0.25/seed_6/accuracy.txt
 20.844504021447722
 | Translated 933 correct sentences out of 4476. Final accuracy: 20.84%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_6_embed_dim_512_kernel_5_dropout_0/seed_2/accuracy.txt
+19.66041108132261
+| Translated 880 correct sentences out of 4476. Final accuracy: 19.66%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_6_embed_dim_512_kernel_5_dropout_0/seed_3/accuracy.txt
 0.24575513851653263
 | Translated 11 correct sentences out of 4476. Final accuracy: 0.25%
@@ -3037,6 +3475,12 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_7_embed_dim_256_kernel_5_dropout_0.25/seed_6/accuracy.txt
 0.6255585344057194
 | Translated 28 correct sentences out of 4476. Final accuracy: 0.63%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_2/accuracy.txt
+0.8489722966934763
+| Translated 38 correct sentences out of 4476. Final accuracy: 0.85%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_3/accuracy.txt
+6.434316353887399
+| Translated 288 correct sentences out of 4476. Final accuracy: 6.43%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_7_embed_dim_512_kernel_3_dropout_0.25/seed_4/accuracy.txt
 7.2609472743521
 | Translated 325 correct sentences out of 4476. Final accuracy: 7.26%
@@ -3109,6 +3553,12 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_9_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
 20.1295799821269
 | Translated 901 correct sentences out of 4476. Final accuracy: 20.13%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_9_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
+1.7649687220732797
+| Translated 79 correct sentences out of 4476. Final accuracy: 1.76%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_9_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
+15.259159964253799
+| Translated 683 correct sentences out of 4476. Final accuracy: 15.26%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_1000_lay_9_embed_dim_256_kernel_5_dropout_0/seed_5/accuracy.txt
 25.647899910634496
 | Translated 1148 correct sentences out of 4476. Final accuracy: 25.65%
@@ -3370,6 +3820,18 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_7_embed_dim_128_kernel_4_dropout_0/seed_6/accuracy.txt
 6.1215370866845396
 | Translated 274 correct sentences out of 4476. Final accuracy: 6.12%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_8_embed_dim_128_kernel_5_dropout_0/seed_2/accuracy.txt
+0.044682752457551385
+| Translated 2 correct sentences out of 4476. Final accuracy: 0.04%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_8_embed_dim_128_kernel_5_dropout_0/seed_3/accuracy.txt
+17.649687220732797
+| Translated 790 correct sentences out of 4476. Final accuracy: 17.65%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_8_embed_dim_128_kernel_5_dropout_0/seed_4/accuracy.txt
+63.11438784629133
+| Translated 2825 correct sentences out of 4476. Final accuracy: 63.11%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_8_embed_dim_128_kernel_5_dropout_0/seed_5/accuracy.txt
+8.623771224307418
+| Translated 386 correct sentences out of 4476. Final accuracy: 8.62%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_8_embed_dim_128_kernel_5_dropout_0/seed_6/accuracy.txt
 27.61394101876676
 | Translated 1236 correct sentences out of 4476. Final accuracy: 27.61%
@@ -3418,6 +3880,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_9_embed_dim_128_kernel_5_dropout_0/seed_6/accuracy.txt
 11.036639857015192
 | Translated 494 correct sentences out of 4476. Final accuracy: 11.04%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_9_embed_dim_256_kernel_4_dropout_0/seed_2/accuracy.txt
+2.546916890080429
+| Translated 114 correct sentences out of 4476. Final accuracy: 2.55%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_9_embed_dim_256_kernel_4_dropout_0/seed_3/accuracy.txt
 0.2680965147453083
 | Translated 12 correct sentences out of 4476. Final accuracy: 0.27%
@@ -3433,9 +3898,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_9_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
 17.024128686327078
 | Translated 762 correct sentences out of 4476. Final accuracy: 17.02%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_9_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
+0.5138516532618409
+| Translated 23 correct sentences out of 4476. Final accuracy: 0.51%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_9_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
 0.0
 | Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_9_embed_dim_256_kernel_5_dropout_0/seed_5/accuracy.txt
+0.06702412868632708
+| Translated 3 correct sentences out of 4476. Final accuracy: 0.07%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_200_lay_9_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
 4.982126899016979
 | Translated 223 correct sentences out of 4476. Final accuracy: 4.98%
@@ -3511,12 +3982,24 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_10_embed_dim_256_kernel_4_dropout_0/seed_5/accuracy.txt
 2.234137622877569
 | Translated 100 correct sentences out of 4476. Final accuracy: 2.23%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_10_embed_dim_256_kernel_4_dropout_0/seed_6/accuracy.txt
+1.876675603217158
+| Translated 84 correct sentences out of 4476. Final accuracy: 1.88%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_10_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
+1.8543342269883825
+| Translated 83 correct sentences out of 4476. Final accuracy: 1.85%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_10_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
 26.764968722073277
 | Translated 1198 correct sentences out of 4476. Final accuracy: 26.76%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_10_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
 17.49329758713137
 | Translated 783 correct sentences out of 4476. Final accuracy: 17.49%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_10_embed_dim_256_kernel_5_dropout_0/seed_5/accuracy.txt
+17.917783735478103
+| Translated 802 correct sentences out of 4476. Final accuracy: 17.92%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_10_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
+28.619302949061666
+| Translated 1281 correct sentences out of 4476. Final accuracy: 28.62%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_10_embed_dim_512_kernel_5_dropout_0.25/seed_2/accuracy.txt
 10.94727435210009
 | Translated 490 correct sentences out of 4476. Final accuracy: 10.95%
@@ -3550,6 +4033,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_6_embed_dim_128_kernel_5_dropout_0/seed_2/accuracy.txt
 5.071492403932082
 | Translated 227 correct sentences out of 4476. Final accuracy: 5.07%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_6_embed_dim_128_kernel_5_dropout_0/seed_3/accuracy.txt
+2.993744414655943
+| Translated 134 correct sentences out of 4476. Final accuracy: 2.99%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_6_embed_dim_128_kernel_5_dropout_0/seed_4/accuracy.txt
 2.6586237712243075
 | Translated 119 correct sentences out of 4476. Final accuracy: 2.66%
@@ -3577,6 +4063,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_6_embed_dim_256_kernel_5_dropout_0.25/seed_2/accuracy.txt
 12.444146559428061
 | Translated 557 correct sentences out of 4476. Final accuracy: 12.44%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_6_embed_dim_256_kernel_5_dropout_0.25/seed_3/accuracy.txt
+0.0
+| Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_6_embed_dim_256_kernel_5_dropout_0.25/seed_4/accuracy.txt
 5.831099195710456
 | Translated 261 correct sentences out of 4476. Final accuracy: 5.83%
@@ -3751,6 +4240,9 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_8_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
 18.63270777479893
 | Translated 834 correct sentences out of 4476. Final accuracy: 18.63%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_8_embed_dim_512_kernel_4_dropout_0.25/seed_2/accuracy.txt
+2.546916890080429
+| Translated 114 correct sentences out of 4476. Final accuracy: 2.55%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_8_embed_dim_512_kernel_4_dropout_0.25/seed_3/accuracy.txt
 12.399463806970509
 | Translated 555 correct sentences out of 4476. Final accuracy: 12.40%
@@ -3778,6 +4270,15 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_8_embed_dim_512_kernel_4_dropout_0/seed_6/accuracy.txt
 31.724754244861487
 | Translated 1420 correct sentences out of 4476. Final accuracy: 31.72%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_128_kernel_3_dropout_0/seed_2/accuracy.txt
+0.871313672922252
+| Translated 39 correct sentences out of 4476. Final accuracy: 0.87%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_128_kernel_3_dropout_0/seed_3/accuracy.txt
+11.282394995531725
+| Translated 505 correct sentences out of 4476. Final accuracy: 11.28%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_128_kernel_3_dropout_0/seed_4/accuracy.txt
+43.25290437890974
+| Translated 1936 correct sentences out of 4476. Final accuracy: 43.25%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_128_kernel_3_dropout_0/seed_5/accuracy.txt
 0.0
 | Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
@@ -3805,6 +4306,12 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_3_dropout_0/seed_3/accuracy.txt
 37.48882931188561
 | Translated 1678 correct sentences out of 4476. Final accuracy: 37.49%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_3_dropout_0/seed_4/accuracy.txt
+20.37533512064343
+| Translated 912 correct sentences out of 4476. Final accuracy: 20.38%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_3_dropout_0/seed_5/accuracy.txt
+1.161751563896336
+| Translated 52 correct sentences out of 4476. Final accuracy: 1.16%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_3_dropout_0/seed_6/accuracy.txt
 29.57998212689902
 | Translated 1324 correct sentences out of 4476. Final accuracy: 29.58%
@@ -3844,24 +4351,30 @@
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_3/accuracy.txt
 1.0723860589812333
 | Translated 48 correct sentences out of 4476. Final accuracy: 1.07%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_4/accuracy.txt
+0.0
+| Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_5/accuracy.txt
 0.0
 | Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0/seed_10/accuracy.txt
-0.06702412868632708
-| Translated 3 correct sentences out of 4476. Final accuracy: 0.07%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0/seed_11/accuracy.txt
-8.489722966934764
-| Translated 380 correct sentences out of 4476. Final accuracy: 8.49%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0/seed_7/accuracy.txt
-25.647899910634496
-| Translated 1148 correct sentences out of 4476. Final accuracy: 25.65%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0/seed_8/accuracy.txt
-0.17873100983020554
-| Translated 8 correct sentences out of 4476. Final accuracy: 0.18%
-/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0/seed_9/accuracy.txt
-29.31188561215371
-| Translated 1312 correct sentences out of 4476. Final accuracy: 29.31%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0.25/seed_6/accuracy.txt
+0.022341376228775692
+| Translated 1 correct sentences out of 4476. Final accuracy: 0.02%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0/seed_2/accuracy.txt
+24.865951742627345
+| Translated 1113 correct sentences out of 4476. Final accuracy: 24.87%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0/seed_3/accuracy.txt
+0.0
+| Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0/seed_4/accuracy.txt
+0.0
+| Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0/seed_5/accuracy.txt
+12.220732797140304
+| Translated 547 correct sentences out of 4476. Final accuracy: 12.22%
+/private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_dropout_0/seed_6/accuracy.txt
+0.3574620196604111
+| Translated 16 correct sentences out of 4476. Final accuracy: 0.36%
 /private/home/mbaroni/fairseq/new_run/template_around_right/model_files/lr_0.1_maxtok_500_lay_9_embed_dim_512_kernel_3_dropout_0/seed_2/accuracy.txt
 1.6085790884718498
 | Translated 72 correct sentences out of 4476. Final accuracy: 1.61%
