@@ -1,22 +1,26 @@
 import argparse
+import os
 
 parser = argparse.ArgumentParser(description='Cnn models on SCAN dataset')
 parser.add_argument('--train', type=str, required=True)
 parser.add_argument('--test', type=str, required=True)
+parser.add_argument('--output', type=str, required=True)
 
 args = vars(parser.parse_args())
+
+output_folder = args['output']
 
 in_train = args['train']
 in_test = args['test']
 
-out_test_co = 'test.co'
-out_test_ac = 'test.ac'
+out_test_co = os.path.join(output_folder, 'test.co')
+out_test_ac = os.path.join(output_folder, 'test.ac'
 
-out_train_co = 'train.co'
-out_train_ac = 'train.ac'
+out_train_co = os.path.join(output_folder, 'train.co')
+out_train_ac = os.path.join(output_folder, 'train.ac')
 
-out_valid_co = 'valid.co'
-out_valid_ac = 'valid.ac'
+out_valid_co = os.path.join(output_folder, 'valid.co')
+out_valid_ac = os.path.join(output_folder, 'valid.ac')
 
 test_co = open(out_test_co, 'w')
 test_ac = open(out_test_ac, 'w')
