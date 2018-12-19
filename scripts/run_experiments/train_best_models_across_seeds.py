@@ -65,10 +65,10 @@ def main():
                     ' --output ' + save_dir + '/accuracy.txt' + \
                     ' --beam 1'
 
-            with open(args['output-train-path'], 'a') as g:
+            with open(args['output_train_path'], 'a') as g:
                 g.write(train_command)
                 g.write('\n')
-            with open(args['output-generate-path'], 'a') as k:
+            with open(args['output_generate_path'], 'a') as k:
                 k.write(generate_command)
                 k.write('\n')
 
