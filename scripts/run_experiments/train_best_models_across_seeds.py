@@ -8,8 +8,8 @@ def main():
     parser.add_argument('--data-bin', type=str, required=True)
     parser.add_argument('--save-dir', type=str, required=True)
     parser.add_argument('--accuracies', type=str, required=True)
-    parser.add_argument('--train-folder', type=str, default='./train.txt')
-    parser.add_argument('--generate-folder', type=str, default='./generate.txt')
+    parser.add_argument('--output-train-path', type=str, default='./train.txt')
+    parser.add_argument('--output-generate-path', type=str, default='./generate.txt')
 
     args = vars(parser.parse_args())
 
@@ -65,14 +65,10 @@ def main():
                     ' --output ' + save_dir + '/accuracy.txt' + \
                     ' --beam 1'
 
-            if args['train_folder'] != './train.txt':
-                train_path = os.path.join(args['train_folder'], 'train.txt')
-            with open(train_path, 'a') as g:
+            with open(args['output-train-path'], 'a') as g:
                 g.write(train_command)
                 g.write('\n')
-            if args['generate_folder'] != './generate.txt':
-                generate_path = os.path.join(args['generate_folder'], 'generate.txt')
-            with open(generate_path, 'a') as k:
+            with open(args['output-generate-path'], 'a') as k:
                 k.write(generate_command)
                 k.write('\n')
 
