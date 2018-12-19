@@ -1,5 +1,5 @@
 import argparse
-import sys
+import os
 
 def main():
 
@@ -8,11 +8,10 @@ def main():
     parser.add_argument('--data-bin', type=str, required=True)
     parser.add_argument('--save-dir', type=str, required=True)
     parser.add_argument('--accuracies', type=str, required=True)
+    parser.add_argument('--train-folder', type=str, default='./train.txt')
+    parser.add_argument('--generate-folder', type=str, default='./generate.txt')
 
     args = vars(parser.parse_args())
-
-    if args['save_dir'][-1] != '/':
-        args['save_dir'] += '/'
 
     l = []
     with open(args['accuracies']) as f:
@@ -37,9 +36,9 @@ def main():
                 "_kernel_" + kernel + "_dropout_" + dropout
 
 
-        for i in range(5):
+        for i in range(1, 6):
             seed = i+1
-            save_dir = args['save_dir'] + out_prefix + '/seed_' + str(seed)
+            save_dir = os.path.join(args['save_dir'], out_prefix) + '/seed_' + str(seed)
             train_command = 'python ./train.py ' + args['data_bin'] + \
                     ' --clip-norm 0.1' + \
                     ' --max-tokens ' +  maxtok + \
@@ -48,9 +47,9 @@ def main():
                     ' --no-epoch-checkpoints' + \
                     ' --lr ' + lr + \
                     ' --encoder-embed-dim ' + embed_dim + \
-                    ' --encoder-layers ' + '[('+embed_dim+', '+kernel+')] * '+layers + \
+                    ' --encoder-layers ' + '\"[('+embed_dim+', '+kernel+')] * '+layers + '\"' + \
                     ' --decoder-embed-dim ' + embed_dim + \
-                    ' --decoder-layers ' + '[('+embed_dim+', '+kernel+')] * '+layers + \
+                    ' --decoder-layers ' + '\"[('+embed_dim+', '+kernel+')] * '+layers + '\"' + \
                     ' --decoder-out-embed-dim ' + embed_dim + \
                     ' --optimizer nag' + \
                     ' --arch fconv' + \
@@ -66,11 +65,14 @@ def main():
                     ' --output ' + save_dir + '/accuracy.txt' + \
                     ' --beam 1'
 
-
-            with open('./train.txt', 'a') as g:
+            if args['train_folder'] != './train.txt':
+                train_path = os.path.join(args['train_folder'], 'train.txt')
+            with open(train_path, 'a') as g:
                 g.write(train_command)
                 g.write('\n')
-            with open('./generate.txt', 'a') as k:
+            if args['generate_folder'] != './generate.txt':
+                generate_path = os.path.join(args['generate_folder'], 'generate.txt')
+            with open(generate_path, 'a') as k:
                 k.write(generate_command)
                 k.write('\n')
 

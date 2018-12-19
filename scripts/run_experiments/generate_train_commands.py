@@ -6,6 +6,9 @@ def main():
     parser = argparse.ArgumentParser(description='Best cnn models on SCAN dataset')
     parser.add_argument('--data-bin', type=str, required=True)
     parser.add_argument('--save-dir', type=str, required=True)
+    parser.add_argument
+    
+    # \""[("$embed_dim", "$kernel_width")] * "$layers\"
 
     args = vars(parser.parse_args())
 
