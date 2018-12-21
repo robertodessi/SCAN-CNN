@@ -2,9 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+notes.txt
+
 
 *.swp
 *.swo
+
 
 .DS_Store
 .gitignore
