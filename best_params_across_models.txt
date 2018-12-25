@@ -1,0 +1,47 @@
+JUMP   dim_128_lr_0.1_do_0.25_kernel_5_maxtok_500 === free param lay 
+
+| 1. Model: dim_128_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 69.236, variance: 66.721464, var n-1 dof: 83.40183, std: 8.16832075766, std n-1 dof: 9.13246023807. Number of runs considered: 5
+| 2. Model: dim_128_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 67.64, variance: 63.62068, var n-1 dof: 79.52585, std: 7.97625726767, std n-1 dof: 8.91772672826. Number of runs considered: 5
+| 3. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 67.086, variance: 91.463064, var n-1 dof: 114.32883, std: 9.56363236433, std n-1 dof: 10.6924660392. Number of runs considered: 5
+| 4. Model: dim_256_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 67.03, variance: 87.86616, var n-1 dof: 109.8327, std: 9.37369510919, std n-1 dof: 10.4801097322. Number of runs considered: 5
+| 5. Model: dim_512_lay_3_lr_0.01_do_0.5_kernel_4_maxtok_25, avg accuracy across seeds: 66.53999999999999, variance: 107.81084, var n-1 dof: 134.76355, std: 10.3831998921, std n-1 dof: 11.6087703914. Number of runs considered: 5
+| 6. Model: dim_256_lay_8_lr_0.1_do_0.25_kernel_5_maxtok_1000, avg accuracy across seeds: 65.752, variance: 22.324856, var n-1 dof: 27.90607, std: 4.72491862364, std n-1 dof: 5.2826196153. Number of runs considered: 5
+| 7. Model: dim_128_lay_7_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 65.5, variance: 37.65728, var n-1 dof: 47.0716, std: 6.13655277823, std n-1 dof: 6.86087457982. Number of runs considered: 5
+| 8. Model: dim_128_lay_10_lr_0.1_do_0.25_kernel_3_maxtok_500, avg accuracy across seeds: 64.808, variance: 80.855376, var n-1 dof: 101.06922, std: 8.99196174369, std n-1 dof: 10.053318855. Number of runs considered: 5
+| 9. Model: dim_256_lay_8_lr_0.1_do_0.5_kernel_5_maxtok_500, avg accuracy across seeds: 64.806, variance: 42.655064, var n-1 dof: 53.31883, std: 6.53108444288, std n-1 dof: 7.30197439053. Number of runs considered: 5
+| 10. Model: dim_512_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 64.706, variance: 141.775064, var n-1 dof: 177.21883, std: 11.9069334423, std n-1 dof: 13.3123562903. Number of runs considered: 5
+
+===================
+
+RANDOM   lr_0.01_maxtok_25_dim_512_kernel{4|5}_dropout_0 === free params lay
+
+| 1. Model: lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_4_dropout_0, avg accuracy across seeds: 99.97, min accuracy across seeds: 99.93, max_accuracy across seeds: 100.0, variance: 0.0, std: 0.03, reference seed: 5. Number of runs considered: 5
+| 2. Model: lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_4_dropout_0, avg accuracy across seeds: 99.96, min accuracy across seeds: 99.9, max_accuracy across seeds: 99.98, variance: 0.0, std: 0.03, reference seed: 2. Number of runs considered: 5
+| 3. Model: lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_5_dropout_0, avg accuracy across seeds: 99.95, min accuracy across seeds: 99.9, max_accuracy across seeds: 99.98, variance: 0.0, std: 0.03, reference seed: 5. Number of runs considered: 5
+| 4. Model: lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_3_dropout_0, avg accuracy across seeds: 99.95, min accuracy across seeds: 99.93, max_accuracy across seeds: 99.98, variance: 0.0, std: 0.02, reference seed: 5. Number of runs considered: 5
+| 5. Model: lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_4_dropout_0, avg accuracy across seeds: 99.94, min accuracy across seeds: 99.9, max_accuracy across seeds: 99.98, variance: 0.0, std: 0.03, reference seed: 3. Number of runs considered: 5
+| 6. Model: lr_0.01_maxtok_25_lay_10_embed_dim_256_kernel_3_dropout_0, avg accuracy across seeds: 99.94, min accuracy across seeds: 99.9, max_accuracy across seeds: 99.98, variance: 0.0, std: 0.03, reference seed: 2. Number of runs considered: 5
+| 7. Model: lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_dropout_0, avg accuracy across seeds: 99.94, min accuracy across seeds: 99.88, max_accuracy across seeds: 100.0, variance: 0.0, std: 0.05, reference seed: 2. Number of runs considered: 5
+| 8. Model: lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_4_dropout_0, avg accuracy across seeds: 99.94, min accuracy across seeds: 99.9, max_accuracy across seeds: 99.95, variance: 0.0, std: 0.02, reference seed: 3. Number of runs considered: 5
+| 9. Model: lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_5_dropout_0, avg accuracy across seeds: 99.93, min accuracy across seeds: 99.81, max_accuracy across seeds: 100.0, variance: 0.0, std: 0.07, reference seed: 5. Number of runs considered: 5
+| 10. Model: lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_5_dropout_0, avg accuracy across seeds: 99.93, min accuracy across seeds: 99.88, max_accuracy across seeds: 99.98, variance: 0.0, std: 0.03, reference seed: 2. Number of runs considered: 5
+
+====================
+
+TEMPLATE   lr_0.01_maxtok_{25|50|100}_lay_6_dim_512_kernel_5_do_{0.25|0}
+
+| 1. Model: lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_3_dropout_0.25, avg accuracy across seeds: 56.7, min accuracy across seeds: 39.34, max_accuracy across seeds: 67.31, variance: 104.87, std: 10.24, reference seed: 6. Number of runs considered: 5
+| 2. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0.25, avg accuracy across seeds: 53.25, min accuracy across seeds: 29.13, max_accuracy across seeds: 81.68, variance: 363.87, std: 19.08, reference seed: 6. Number of runs considered: 5
+| 3. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_3_dropout_0.25, avg accuracy across seeds: 45.79, min accuracy across seeds: 23.19, max_accuracy across seeds: 64.77, variance: 181.99, std: 13.49, reference seed: 4. Number of runs considered: 5
+| 4. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_dropout_0, avg accuracy across seeds: 45.7, min accuracy across seeds: 36.8, max_accuracy across seeds: 54.78, variance: 32.82, std: 5.73, reference seed: 6. Number of runs considered: 5
+| 5. Model: lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_5_dropout_0, avg accuracy across seeds: 44.73, min accuracy across seeds: 14.79, max_accuracy across seeds: 66.73, variance: 344.42, std: 18.56, reference seed: 6. Number of runs considered: 5
+| 6. Model: lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_5_dropout_0.25, avg accuracy across seeds: 44.47, min accuracy across seeds: 4.94, max_accuracy across seeds: 73.3, variance: 614.62, std: 24.79, reference seed: 6. Number of runs considered: 5
+| 7. Model: lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_5_dropout_0, avg accuracy across seeds: 44.33, min accuracy across seeds: 35.39, max_accuracy across seeds: 60.7, variance: 98.68, std: 9.93, reference seed: 4. Number of runs considered: 5
+| 8. Model: lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_dropout_0.25, avg accuracy across seeds: 43.04, min accuracy across seeds: 12.0, max_accuracy across seeds: 57.04, variance: 267.54, std: 16.36, reference seed: 4. Number of runs considered: 5
+| 9. Model: lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_dropout_0.25, avg accuracy across seeds: 42.27, min accuracy across seeds: 13.32, max_accuracy across seeds: 64.32, variance: 270.39, std: 16.44, reference seed: 2. Number of runs considered: 5
+| 10. Model: lr_0.01_maxtok_100_lay_9_embed_dim_512_kernel_5_dropout_0, avg accuracy across seeds: 42.04, min accuracy across seeds: 15.75, max_accuracy across seeds: 64.23, variance: 243.72, std: 15.61, reference seed: 2. Number of runs considered: 5
+
+
+
+
+
