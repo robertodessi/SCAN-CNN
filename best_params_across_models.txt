@@ -1,3 +1,31 @@
+BEST MODELS:
+
+| JUMP  lr_0.1_maxtok_500_lay_6_dim_128_kernel_5_do_0.25 - avg: 69.24% 
+
+- < 300th on random
+- 172th on template: avg accuracy across seeds: 8.67, min accuracy across seeds: 0.6, max_accuracy across seeds: 27.01
+
+---
+| RANDOM  lr_0.01_maxtok_25_lay_7_dim_512_kernel_4_dropout_0 - avg: 99.97%  
+
+- < 300th on jump
+- 40th on template avg accuracy across seeds: 27.94, min accuracy across seeds: 12.06, max_accuracy across seeds: 42.23
+
+
+---
+| TEMPLATE 
+1: lr_0.01_maxtok_50_lay_6_dim_512_kernel_3_do_0.25 - avg: 56.7
+- 78th on jump: avg accuracy across seeds: 55.07, variance: 341.63, var n-1 dof: 427.04, std: 18.48, std n-1 dof: 20.6650543188. Number of runs considered: 5
+- 184th on random
+
+2: lr_0.01_maxtok_25_lay_6_dim_512_kernel_5_do_0.25 - avg: 53.25
+- 32th on jump: avg accuracy across seeds: 60.67, variance: 69.48, var n-1 dof: 86.85, std: 8.33, std n-1 dof: 9.32. Number of runs considered: 5
+- 13th on random: avg accuracy across seeds: 99.92, min accuracy across seeds: 99.83, max_accuracy across seeds: 100.0, variance: 0.0, std: 0.07, reference seed: 4. Number of runs considered: 5
+
+
+
+/************************************************/
+
 JUMP   dim_128_lr_0.1_do_0.25_kernel_5_maxtok_500 === free param lay 
 
 | 1. Model: dim_128_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_500, avg accuracy across seeds: 69.236, variance: 66.721464, var n-1 dof: 83.40183, std: 8.16832075766, std n-1 dof: 9.13246023807. Number of runs considered: 5
