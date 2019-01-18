@@ -1,0 +1,65 @@
+| 1. Model: lr_0.1_maxtok_500_lay_10_embed_dim_512_kernel_5_do_0.25, jump_rank: 10, random_rank: 295, template_rank: 243
+
+| 2. Model: lr_0.01_maxtok_50_lay_10_embed_dim_256_kernel_3_do_0.25, jump_rank: 22, random_rank: 252, template_rank: 296
+
+| 3. Model: lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_5_do_0.25, jump_rank: 25, random_rank: 172, template_rank: 6
+
+| 4. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25, jump_rank: 32, random_rank: 13, template_rank: 2
+
+| 5. Model: lr_0.1_maxtok_500_lay_9_embed_dim_256_kernel_5_do_0.25, jump_rank: 35, random_rank: 278, template_rank: 207
+
+| 6. Model: lr_0.01_maxtok_50_lay_10_embed_dim_512_kernel_3_do_0.25, jump_rank: 38, random_rank: 223, template_rank: 51
+
+| 7. Model: lr_0.1_maxtok_500_lay_9_embed_dim_512_kernel_5_do_0.25, jump_rank: 41, random_rank: 287, template_rank: 272
+
+| 8. Model: lr_0.01_maxtok_50_lay_9_embed_dim_256_kernel_3_do_0.25, jump_rank: 46, random_rank: 253, template_rank: 189
+
+| 9. Model: lr_0.01_maxtok_100_lay_8_embed_dim_512_kernel_5_do_0.25, jump_rank: 64, random_rank: 167, template_rank: 8
+
+| 10. Model: lr_0.01_maxtok_50_lay_8_embed_dim_512_kernel_3_do_0.25, jump_rank: 65, random_rank: 213, template_rank: 91
+
+| 11. Model: lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_5_do_0.25, jump_rank: 73, random_rank: 37, template_rank: 9
+
+| 12. Model: lr_0.01_maxtok_50_lay_6_embed_dim_512_kernel_3_do_0.25, jump_rank: 78, random_rank: 184, template_rank: 1
+
+| 13. Model: lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_do_0.5, jump_rank: 99, random_rank: 246, template_rank: 155
+
+| 14. Model: lr_0.01_maxtok_25_lay_9_embed_dim_512_kernel_5_do_0.25, jump_rank: 100, random_rank: 54, template_rank: 48
+
+| 15. Model: lr_0.01_maxtok_50_lay_9_embed_dim_512_kernel_5_do_0.25, jump_rank: 103, random_rank: 53, template_rank: 14
+
+| 16. Model: lr_0.01_maxtok_100_lay_6_embed_dim_256_kernel_5_do_0.25, jump_rank: 109, random_rank: 218, template_rank: 72
+
+| 17. Model: lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_5_do_0.25, jump_rank: 117, random_rank: 22, template_rank: 24
+
+| 18. Model: lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_3_do_0.25, jump_rank: 121, random_rank: 157, template_rank: 34
+
+| 19. Model: lr_0.01_maxtok_100_lay_6_embed_dim_512_kernel_4_do_0.25, jump_rank: 124, random_rank: 219, template_rank: 119
+
+| 20. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_4_do_0.25, jump_rank: 140, random_rank: 67, template_rank: 82
+
+| 21. Model: lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_3_do_0.25, jump_rank: 168, random_rank: 161, template_rank: 28
+
+| 22. Model: lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_5_do_0.25, jump_rank: 170, random_rank: 30, template_rank: 50
+
+| 23. Model: lr_0.01_maxtok_25_lay_8_embed_dim_512_kernel_4_do_0.25, jump_rank: 174, random_rank: 56, template_rank: 147
+
+| 24. Model: lr_0.01_maxtok_50_lay_7_embed_dim_512_kernel_4_do_0.25, jump_rank: 177, random_rank: 111, template_rank: 182
+
+| 25. Model: lr_0.01_maxtok_100_lay_10_embed_dim_512_kernel_5_do_0.25, jump_rank: 192, random_rank: 225, template_rank: 168
+
+| 26. Model: lr_0.01_maxtok_100_lay_7_embed_dim_512_kernel_5_do_0.25, jump_rank: 202, random_rank: 176, template_rank: 27
+
+| 27. Model: lr_0.01_maxtok_50_lay_6_embed_dim_256_kernel_5_do_0.25, jump_rank: 203, random_rank: 127, template_rank: 78
+
+| 28. Model: lr_0.01_maxtok_25_lay_7_embed_dim_256_kernel_3_do_0.25, jump_rank: 205, random_rank: 185, template_rank: 77
+
+| 29. Model: lr_0.01_maxtok_25_lay_6_embed_dim_256_kernel_3_do_0.25, jump_rank: 247, random_rank: 189, template_rank: 49
+
+| 30. Model: lr_0.01_maxtok_25_lay_10_embed_dim_512_kernel_5_do_0.25, jump_rank: 251, random_rank: 47, template_rank: 257
+
+| 31. Model: lr_0.01_maxtok_25_lay_7_embed_dim_512_kernel_3_do_0.25, jump_rank: 252, random_rank: 143, template_rank: 38
+
+| 32. Model: lr_0.1_maxtok_500_lay_10_embed_dim_128_kernel_3_do_0, jump_rank: 261, random_rank: 283, template_rank: 186
+
+| Best model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25, best_rank 32, idx = 4
