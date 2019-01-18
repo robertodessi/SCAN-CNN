@@ -3,8 +3,7 @@ FINAL MODELS SELECTED:
 BEST_JUMP: lr_0.1_maxtok_500_lay_6_dim_128_kernel_5_do_0.25 (69.24%)
 BEST_RANDOM: lr_0.01_maxtok_25_lay_7_dim_512_kernel_4_dropout_0 (99.97%)
 BEST_TEMPLATE: lr_0.01_maxtok_50_lay_6_dim_512_kernel_3_do_0.25 (56.7%)
-BEST_OVERALL: 
-
+BEST_OVERALL: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25, jump_rank: 32, random_rank: 13, template_rank: 2
 
 /************************************************/
 
