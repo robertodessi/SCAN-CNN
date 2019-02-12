@@ -1,0 +1,270 @@
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_1/accuracy.txt
+3.49078640020763
+| Translated 269 correct sentences out of 7706. Final accuracy: 3.49%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_2/accuracy.txt
+2.7381261354788475
+| Translated 211 correct sentences out of 7706. Final accuracy: 2.74%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_3/accuracy.txt
+4.243446664936413
+| Translated 327 correct sentences out of 7706. Final accuracy: 4.24%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_4/accuracy.txt
+5.606021282117831
+| Translated 432 correct sentences out of 7706. Final accuracy: 5.61%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_5/accuracy.txt
+4.52893848948871
+| Translated 349 correct sentences out of 7706. Final accuracy: 4.53%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_1/accuracy.txt
+11.354788476511809
+| Translated 875 correct sentences out of 7706. Final accuracy: 11.35%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_2/accuracy.txt
+10.861666234103296
+| Translated 837 correct sentences out of 7706. Final accuracy: 10.86%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_3/accuracy.txt
+20.464573059953285
+| Translated 1577 correct sentences out of 7706. Final accuracy: 20.46%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_4/accuracy.txt
+24.79885803270179
+| Translated 1911 correct sentences out of 7706. Final accuracy: 24.80%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_5/accuracy.txt
+13.301323643913834
+| Translated 1025 correct sentences out of 7706. Final accuracy: 13.30%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_1/accuracy.txt
+9.395276407993771
+| Translated 724 correct sentences out of 7706. Final accuracy: 9.40%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_2/accuracy.txt
+8.24033220866857
+| Translated 635 correct sentences out of 7706. Final accuracy: 8.24%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_3/accuracy.txt
+13.210485336101737
+| Translated 1018 correct sentences out of 7706. Final accuracy: 13.21%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_4/accuracy.txt
+12.756293797041266
+| Translated 983 correct sentences out of 7706. Final accuracy: 12.76%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_5/accuracy.txt
+10.459382299506878
+| Translated 806 correct sentences out of 7706. Final accuracy: 10.46%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_1/accuracy.txt
+70.50350376330132
+| Translated 5433 correct sentences out of 7706. Final accuracy: 70.50%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_2/accuracy.txt
+64.00207630417856
+| Translated 4932 correct sentences out of 7706. Final accuracy: 64.00%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_3/accuracy.txt
+54.93122242408512
+| Translated 4233 correct sentences out of 7706. Final accuracy: 54.93%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_4/accuracy.txt
+70.23098883986503
+| Translated 5412 correct sentences out of 7706. Final accuracy: 70.23%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_5/accuracy.txt
+68.98520633272774
+| Translated 5316 correct sentences out of 7706. Final accuracy: 68.99%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_1/accuracy.txt
+43.13521930962886
+| Translated 3324 correct sentences out of 7706. Final accuracy: 43.14%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_2/accuracy.txt
+39.320010381520895
+| Translated 3030 correct sentences out of 7706. Final accuracy: 39.32%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_3/accuracy.txt
+69.40046716844017
+| Translated 5348 correct sentences out of 7706. Final accuracy: 69.40%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_4/accuracy.txt
+84.29794964962367
+| Translated 6496 correct sentences out of 7706. Final accuracy: 84.30%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_5/accuracy.txt
+45.62678432390345
+| Translated 3516 correct sentences out of 7706. Final accuracy: 45.63%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_1/accuracy.txt
+63.573838567350116
+| Translated 4899 correct sentences out of 7706. Final accuracy: 63.57%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_2/accuracy.txt
+36.77653776278225
+| Translated 2834 correct sentences out of 7706. Final accuracy: 36.78%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_3/accuracy.txt
+65.77991175707241
+| Translated 5069 correct sentences out of 7706. Final accuracy: 65.78%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_4/accuracy.txt
+60.40747469504283
+| Translated 4655 correct sentences out of 7706. Final accuracy: 60.41%
+attention_exp/jump/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_5/accuracy.txt
+54.69763820399689
+| Translated 4215 correct sentences out of 7706. Final accuracy: 54.70%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_1/accuracy.txt
+99.47393591582974
+| Translated 4160 correct sentences out of 4182. Final accuracy: 99.47%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_2/accuracy.txt
+99.73696795791487
+| Translated 4171 correct sentences out of 4182. Final accuracy: 99.74%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_3/accuracy.txt
+99.11525585844095
+| Translated 4145 correct sentences out of 4182. Final accuracy: 99.12%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_4/accuracy.txt
+99.40219990435199
+| Translated 4157 correct sentences out of 4182. Final accuracy: 99.40%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_5/accuracy.txt
+98.70875179340028
+| Translated 4128 correct sentences out of 4182. Final accuracy: 98.71%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_1/accuracy.txt
+99.95217599234816
+| Translated 4180 correct sentences out of 4182. Final accuracy: 99.95%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_2/accuracy.txt
+99.83261597321855
+| Translated 4175 correct sentences out of 4182. Final accuracy: 99.83%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_3/accuracy.txt
+99.90435198469632
+| Translated 4178 correct sentences out of 4182. Final accuracy: 99.90%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_4/accuracy.txt
+99.92826398852223
+| Translated 4179 correct sentences out of 4182. Final accuracy: 99.93%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_5/accuracy.txt
+99.90435198469632
+| Translated 4178 correct sentences out of 4182. Final accuracy: 99.90%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_1/accuracy.txt
+99.92826398852223
+| Translated 4179 correct sentences out of 4182. Final accuracy: 99.93%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_2/accuracy.txt
+99.92826398852223
+| Translated 4179 correct sentences out of 4182. Final accuracy: 99.93%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_3/accuracy.txt
+99.85652797704448
+| Translated 4176 correct sentences out of 4182. Final accuracy: 99.86%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_4/accuracy.txt
+99.88043998087039
+| Translated 4177 correct sentences out of 4182. Final accuracy: 99.88%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_5/accuracy.txt
+99.90435198469632
+| Translated 4178 correct sentences out of 4182. Final accuracy: 99.90%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_1/accuracy.txt
+95.88713534194166
+| Translated 4010 correct sentences out of 4182. Final accuracy: 95.89%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_2/accuracy.txt
+96.58058345289335
+| Translated 4039 correct sentences out of 4182. Final accuracy: 96.58%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_3/accuracy.txt
+95.98278335724534
+| Translated 4014 correct sentences out of 4182. Final accuracy: 95.98%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_4/accuracy.txt
+96.34146341463415
+| Translated 4029 correct sentences out of 4182. Final accuracy: 96.34%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_5/accuracy.txt
+96.03060736489718
+| Translated 4016 correct sentences out of 4182. Final accuracy: 96.03%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_1/accuracy.txt
+99.66523194643712
+| Translated 4168 correct sentences out of 4182. Final accuracy: 99.67%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_2/accuracy.txt
+99.56958393113344
+| Translated 4164 correct sentences out of 4182. Final accuracy: 99.57%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_3/accuracy.txt
+99.78479196556671
+| Translated 4173 correct sentences out of 4182. Final accuracy: 99.78%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_4/accuracy.txt
+99.21090387374461
+| Translated 4149 correct sentences out of 4182. Final accuracy: 99.21%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_5/accuracy.txt
+99.64131994261119
+| Translated 4167 correct sentences out of 4182. Final accuracy: 99.64%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_1/accuracy.txt
+98.46963175514108
+| Translated 4118 correct sentences out of 4182. Final accuracy: 98.47%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_2/accuracy.txt
+98.9478718316595
+| Translated 4138 correct sentences out of 4182. Final accuracy: 98.95%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_3/accuracy.txt
+98.9478718316595
+| Translated 4138 correct sentences out of 4182. Final accuracy: 98.95%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_4/accuracy.txt
+99.33046389287422
+| Translated 4154 correct sentences out of 4182. Final accuracy: 99.33%
+attention_exp/random/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_5/accuracy.txt
+99.0674318507891
+| Translated 4143 correct sentences out of 4182. Final accuracy: 99.07%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_1/accuracy.txt
+0.0
+| Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_2/accuracy.txt
+0.0
+| Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_3/accuracy.txt
+0.06702412868632708
+| Translated 3 correct sentences out of 4476. Final accuracy: 0.07%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_4/accuracy.txt
+0.2680965147453083
+| Translated 12 correct sentences out of 4476. Final accuracy: 0.27%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon/seed_5/accuracy.txt
+0.3574620196604111
+| Translated 16 correct sentences out of 4476. Final accuracy: 0.36%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_1/accuracy.txt
+21.11260053619303
+| Translated 945 correct sentences out of 4476. Final accuracy: 21.11%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_2/accuracy.txt
+68.02949061662198
+| Translated 3045 correct sentences out of 4476. Final accuracy: 68.03%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_3/accuracy.txt
+31.054512957998213
+| Translated 1390 correct sentences out of 4476. Final accuracy: 31.05%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_4/accuracy.txt
+3.038427167113494
+| Translated 136 correct sentences out of 4476. Final accuracy: 3.04%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth/seed_5/accuracy.txt
+0.0
+| Translated 0 correct sentences out of 4476. Final accuracy: 0.00%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_1/accuracy.txt
+9.18230563002681
+| Translated 411 correct sentences out of 4476. Final accuracy: 9.18%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_2/accuracy.txt
+14.075067024128687
+| Translated 630 correct sentences out of 4476. Final accuracy: 14.08%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_3/accuracy.txt
+43.744414655942805
+| Translated 1958 correct sentences out of 4476. Final accuracy: 43.74%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_4/accuracy.txt
+17.135835567470956
+| Translated 767 correct sentences out of 4476. Final accuracy: 17.14%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw/seed_5/accuracy.txt
+38.27077747989276
+| Translated 1713 correct sentences out of 4476. Final accuracy: 38.27%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_1/accuracy.txt
+2.2117962466487935
+| Translated 99 correct sentences out of 4476. Final accuracy: 2.21%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_2/accuracy.txt
+2.0554066130473636
+| Translated 92 correct sentences out of 4476. Final accuracy: 2.06%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_3/accuracy.txt
+1.6309204647006255
+| Translated 73 correct sentences out of 4476. Final accuracy: 1.63%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_4/accuracy.txt
+6.90348525469169
+| Translated 309 correct sentences out of 4476. Final accuracy: 6.90%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon/seed_5/accuracy.txt
+2.9714030384271672
+| Translated 133 correct sentences out of 4476. Final accuracy: 2.97%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_1/accuracy.txt
+53.82037533512064
+| Translated 2409 correct sentences out of 4476. Final accuracy: 53.82%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_2/accuracy.txt
+56.45665773011618
+| Translated 2527 correct sentences out of 4476. Final accuracy: 56.46%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_3/accuracy.txt
+47.87756925826631
+| Translated 2143 correct sentences out of 4476. Final accuracy: 47.88%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_4/accuracy.txt
+69.16890080428955
+| Translated 3096 correct sentences out of 4476. Final accuracy: 69.17%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth/seed_5/accuracy.txt
+70.08489722966935
+| Translated 3137 correct sentences out of 4476. Final accuracy: 70.08%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_1/accuracy.txt
+12.890974084003576
+| Translated 577 correct sentences out of 4476. Final accuracy: 12.89%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_2/accuracy.txt
+37.06434316353888
+| Translated 1659 correct sentences out of 4476. Final accuracy: 37.06%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_3/accuracy.txt
+43.81143878462913
+| Translated 1961 correct sentences out of 4476. Final accuracy: 43.81%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_4/accuracy.txt
+15.728328865058089
+| Translated 704 correct sentences out of 4476. Final accuracy: 15.73%
+attention_exp/template/lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw/seed_5/accuracy.txt
+38.51653261840929
+| Translated 1724 correct sentences out of 4476. Final accuracy: 38.52%
