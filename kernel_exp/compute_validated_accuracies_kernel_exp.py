@@ -19,16 +19,6 @@ def main():
               'random' : {},
             }
 
-    def extract_params(model):
-        params = model.strip().split('_')
-        return {'lr' : params[1],
-                'maxtok' : params[3],
-                'lay' : params[5],
-                'embed_dim' : params[8],
-                'kernel' : params[10],
-                'dropout' : params[12],
-                }
-
     for idx in range(0, len(file_lines), 3):
         split = file_lines[idx].strip().split('/')[1]
         model_name = file_lines[idx].strip().split('/')[2]
