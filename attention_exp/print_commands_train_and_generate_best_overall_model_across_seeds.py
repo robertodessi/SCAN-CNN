@@ -8,8 +8,8 @@ def main():
     parser.add_argument('--template', type=str, required=True, help='path to bin_data for template split')
     parser.add_argument('--random', type=str, required=True, help='path to bin_data for random split')
     parser.add_argument('--save-dir', type=str, required=True, help='path to folder where to store trained models')
-    parser.add_argument('--output-folder', type=str, default='commands/', help='folder where to output .txt file with train and generate commands'ss
-
+    parser.add_argument('--output-folder', type=str, default='commands/', help='folder where to output .txt file with train and generate commands')
+    
     args = vars(parser.parse_args())
 
     if args['output_folder'] == 'commands/':
