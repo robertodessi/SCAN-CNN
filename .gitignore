@@ -6,9 +6,16 @@ notes.txt
 
 workdir
 
+*.bbl
+*.blg
+*.log
+*.out
+*.aux
+
 *.swp
 *.swo
 
+compile.*
 
 .DS_Store
 .gitignore
