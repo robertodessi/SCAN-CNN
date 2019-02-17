@@ -163,6 +163,8 @@ ax2.yaxis.set_ticks(y_list)
 ax3.xaxis.set_ticks(x_list)
 ax3.yaxis.set_ticks(y_list)
 
+ax2.yaxis.set_ticks_position('left')
+ax3.yaxis.set_ticks_position('left')
 
 ax1.legend()
 ax2.legend()
