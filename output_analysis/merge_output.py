@@ -39,7 +39,6 @@ for i, elem in enumerate(zip(l1, l2)):
         assert real_true2 == true2, '4'
 
         outp.write(final1)
-        outp.write('n')
         outp.write(final2)
 
 outp.close()
