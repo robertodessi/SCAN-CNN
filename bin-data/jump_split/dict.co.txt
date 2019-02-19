@@ -1,0 +1,13 @@
+right 79761
+left 79646
+twice 59571
+thrice 59384
+opposite 53352
+around 53146
+run 46593
+look 46506
+walk 46176
+and 44723
+after 44613
+turn 39947
+jump 10114
