@@ -14,7 +14,7 @@ in_train = args['train']
 in_test = args['test']
 
 out_test_co = os.path.join(output_folder, 'test.co')
-out_test_ac = os.path.join(output_folder, 'test.ac'
+out_test_ac = os.path.join(output_folder, 'test.ac')
 
 out_train_co = os.path.join(output_folder, 'train.co')
 out_train_ac = os.path.join(output_folder, 'train.ac')
