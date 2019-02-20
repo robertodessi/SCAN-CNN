@@ -1,5 +1,27 @@
 \section{SCAN dataset and models configuration}
 \label{sec:setup}
 
-The SCAN dataset \dots
+The SCAN dataset which was introduced in \cite{Lake:Baroni:2017} tests generalization capabilities of a learning model.
+It is designed as a translation task where a sequence of spatial navigation commands have to be translated into corresponding 
+spatial navigation actions. [\dots] 
 
+Convolutional models have proved to be efficient and powerful solutions [\dots] \cite{kalchbrenner:etal:2016, gehring:etal:2017}.
+Self-attention networks have also gained attention recently as they were able to outperform convolutional models on different
+machine translation benchmarks \cite{chen:etal:2018,vaswani:etal:2017}.
+Our work is focused on assessing whether a powerful and efficient neural network based on convolutional connections
+is capable of learning to compose and generalize to unseen meanings when carefully trained to smaller semantic blocks.
+We decided to make the focus of our work the qualitative and quantitative study of a convolutional architecture, as
+it is be easier to inspect its inner components compared to self attention based networks.
+We leave for future work similar comparative study that employs self-attentive models.
+Moreover, we consider the use of convolutional filters as an interesting dimension to inspect, especially when considering 
+its ability to possibly assess the small and self contained semantics of words within the larger context of the sentence [\dots make a proper example with SCAN].
+The desidered systematic compositionality that we seek to find in modern neural networks could indeed be described as the
+human ability to extract, process and combine small unit that are semantically meaningful, in order to create a larger and again meaningful semantic block.
+The hypothesis of the use of convolutions as an important parameter for the ability of the network
+to correctly process semantic compositionality is investigated in our second experiment presented in section \ref{subsec:exp2}.
+
+The model used in our experiments is the convolutional sequence to sequence neural network introduced in \cite{gehring:etal:2017}.
+This model uses convolutional filters and Gated Linear Units \cite{dauphin:etal:2016} along with a Multi-step attention mechanism.
+The attention module computes different steps (or computations) before calculating its final attention scores at any given timestep, similarily 
+to the multi-hop mechanism proposed in \cite{sukhbaatar:etal:2105}.
+[\dots]
