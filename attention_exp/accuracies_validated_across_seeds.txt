@@ -26,6 +26,19 @@
 
 | TEMPLATE split 
 
+| 1. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth, avg accuracy across seeds: 63.93, min accuracy across seeds: 46.92, max_accuracy across seeds: 84.47, variance: 187.3, std: 13.69, reference seed: 3. Number of runs considered: 5
+| 2. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw, avg accuracy across seeds: 42.62, min accuracy across seeds: 27.12, max_accuracy across seeds: 63.85, variance: 198.47, std: 14.09, reference seed: 6. Number of runs considered: 5
+| 3. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ftw, avg accuracy across seeds: 18.7, min accuracy across seeds: 6.14, max_accuracy across seeds: 34.99, variance: 92.35, std: 9.61, reference seed: 6. Number of runs considered: 5
+| 4. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth, avg accuracy across seeds: 9.63, min accuracy across seeds: 0.0, max_accuracy across seeds: 24.08, variance: 113.1, std: 10.63, reference seed: 3. Number of runs considered: 5
+| 5. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lon, avg accuracy across seeds: 7.31, min accuracy across seeds: 3.82, max_accuracy across seeds: 13.58, variance: 11.01, std: 3.32, reference seed: 4. Number of runs considered: 5
+| 6. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fon, avg accuracy across seeds: 0.02, min accuracy across seeds: 0.0, max_accuracy across seeds: 0.09, variance: 0.0, std: 0.04, reference seed: 2. Number of runs considered: 5
+
+| Max std top10 models: 14.09, min 0.04, avg 8.56
+
+=======================
+
+| OLD TEMPLATE split 
+
 | 1. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_lth, avg accuracy across seeds: 59.48, min accuracy across seeds: 47.88, max_accuracy across seeds: 70.08, variance: 76.39, std: 8.74, reference seed: 3. Number of runs considered: 5
 | 2. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_ltw, avg accuracy across seeds: 29.6, min accuracy across seeds: 12.89, max_accuracy across seeds: 43.81, variance: 161.75, std: 12.72, reference seed: 3. Number of runs considered: 5
 | 3. Model: lr_0.01_maxtok_25_lay_6_embed_dim_512_kernel_5_do_0.25_attention_fth, avg accuracy across seeds: 24.65, min accuracy across seeds: 0.0, max_accuracy across seeds: 68.03, variance: 601.99, std: 24.54, reference seed: 2. Number of runs considered: 5
