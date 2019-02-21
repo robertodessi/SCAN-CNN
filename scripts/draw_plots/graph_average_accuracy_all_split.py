@@ -25,12 +25,16 @@ template_avg = [np.mean(template_acc)] * 10
 
 t = np.arange(1., 11., 1.)
 
-plt.errorbar(t, jump_acc, jump_std, label='jump_split', linestyle='None', marker='.', color='g')
+plt.errorbar(t, jump_acc, jump_std, label='jump_split', linestyle='None', marker='.', color='g', uplims=True, lolims=True)
 plt.errorbar(t, random_acc, random_std, label='random_split', linestyle='None', marker='x', color='r')
-plt.errorbar(t, template_acc, template_std, label='template_split', linestyle='None', marker='v', color='b')
+plt.errorbar(t, template_acc, template_std, label='template_split', linestyle='None', marker='o', color='b', uplims=True, lolims=True)
 plt.plot(t, random_avg, linestyle='--', color='r')
 plt.plot(t, jump_avg, linestyle='-.', color='g')
 plt.plot(t, template_avg, linestyle=':', color='b')
+
+y_list = np.arange(20, 101, 5)
+
+plt.yticks(y_list)
 
 plt.xlabel('ranking')
 plt.ylabel('accuracy')
