@@ -1,5 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib
+
+#matplotlib.use('pgf')
+#print(plt.get_backend())
 
 jump_acc = [69.24, 67.64, 67.09, 67.03, 66.54, 65.75, 65.5, 64.8, 64.8, 64.7]
 jump_models = ['dim_128_lay_6_lr_0.1_do_0.25_kernel_5_maxtok_500', 'dim_128_lay_9_lr_0.1_do_0.25_kernel_5_maxtok_500', 'dim_128_lay_10_lr_0.1_do_0.25_kernel_5_maxtok_500',
@@ -25,21 +29,40 @@ template_avg = [np.mean(template_acc)] * 10
 
 t = np.arange(1., 11., 1.)
 
-plt.errorbar(t, jump_acc, jump_std, label='jump_split', linestyle='None', marker='.', color='g', uplims=True, lolims=True)
-plt.errorbar(t, random_acc, random_std, label='random_split', linestyle='None', marker='x', color='r')
-plt.errorbar(t, template_acc, template_std, label='template_split', linestyle='None', marker='o', color='b', uplims=True, lolims=True)
+plt.rc('text', usetex=True)
+plt.rc('font', family='serif')
+
+f = plt.figure(frameon=False)
+f.set_size_inches(8,6)
+
+#plt.figure(figsize=(1920, 1080))# , dpi=100)
+
+plt.errorbar(t, jump_acc, jump_std, label=r'\textbf{jump split}', linestyle='None', marker='.', color='g', uplims=True, lolims=True)
+plt.errorbar(t, random_acc, random_std, label=r'\textbf{random split}', linestyle='None', marker='x', color='r')
+plt.errorbar(t, template_acc, template_std, label=r'\textbf{template split}', linestyle='None', marker='o', color='b', uplims=True, lolims=True)
 plt.plot(t, random_avg, linestyle='--', color='r')
 plt.plot(t, jump_avg, linestyle='-.', color='g')
 plt.plot(t, template_avg, linestyle=':', color='b')
 
+
+x_list = np.arange(1, 11, 1)
 y_list = np.arange(20, 101, 5)
 
+plt.xticks(x_list)
 plt.yticks(y_list)
 
-plt.xlabel('ranking')
-plt.ylabel('accuracy')
-plt.title("Split accuracies")
-plt.text(7, 20, 'Dashed lines report split means')
+plt.xlabel(r'\textbf{Ranking}')
+plt.ylabel(r'\textbf{Accuracy}')
+plt.title(r"\textbf{Split accuracies}")
+#plt.text(7, 20, r'\textbf{Dashed lines report split means}')
 plt.legend()
-plt.show()
+#plt.show()
+
+#my_dpi=960
+#plt.figure(figsize=(1920, 1080), dpi=my_dpi)
+
+#f.set_figheight(6)
+#f.set_figwidth(8)
+f.savefig('accuracies_all_splits.png', format='png', bbox_inches='tight', dpi=200)
+#f.savefig('bla.pdf', bbox_inches='tight')
 
