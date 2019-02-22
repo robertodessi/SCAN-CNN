@@ -7,7 +7,7 @@ jump_std = [elem[1] for elem in jump]
 jump = [elem[0] for elem in jump]
 jump_full = [jump[0]] * len(t)
 
-template = [(53.25, 19.08, 'ful'), (0.14, 0.15, 'fon'), (24.48, 13.84, 'ftw'), (24.65, 24.54, 'fth'), (59.48, 8.74, 'lth'), (29.6, 12.72, 'ltw'), (3.15, 1.92, 'lon')]
+template = [(53.25, 19.08, 'ful'), (0.02, 0.04, 'fon'), (18.70, 9.61, 'ftw'), (9.63, 10.63, 'fth'), (63.93, 13.69, 'lth'), (42.62, 14.09, 'ltw'), (7.31, 3.32, 'lon')]
 template_std = [elem[1] for elem in template]
 template = [elem[0] for elem in template]
 template_full = [template[0]] * len(t)
