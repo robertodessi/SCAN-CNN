@@ -23,21 +23,24 @@ false_true=np.asarray(false_true_list)
 true_false=np.asarray(true_false_list)
 true_true=np.asarray(true_true_list)
 
-#ind=np.arange(lengths.size)
+ind=np.arange(lengths.size)
 
 # plt.bar(ind,false_false)
 # plt.bar(ind,false_true,bottom=false_false)
 # plt.bar(ind,true_false,bottom=false_false+false_true)
 # plt.bar(ind,true_true,bottom=false_false+false_true+true_false)
 
-plt.bar(lengths,true_false,)
-plt.bar(lengths,false_true,bottom=true_false)
-plt.bar(lengths,true_true,bottom=true_false+false_true)
-plt.bar(lengths,false_false,bottom=true_false+false_true+true_true)
+plt.bar(ind,true_false,)
+plt.bar(ind,false_true,bottom=true_false)
+plt.bar(ind,true_true,bottom=true_false+false_true)
+plt.bar(ind,false_false,bottom=true_false+false_true+true_true)
 
+plt.xticks(ind,lengths)
 
-plt.legend(['true false', 'false true', 'true true', 'false false'], loc='upper right')
-        
+plt.legend(['only dec 1', 'only dec 5', 'both', 'neither'], bbox_to_anchor=(1.01,1),borderaxespad=0)
+
+plt.subplots_adjust(right=0.8)
+
 plt.savefig(sys.argv[2])
 plt.close()
 
