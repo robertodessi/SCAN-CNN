@@ -6,21 +6,49 @@ debates on the natural language processing abilities of such models
 \cite[e.g.,][]{Kirov:Cotterell:2018,Linzen:etal:2018,McCoy:etal:2018,Pater:2018}. \citet{Lake:Baroni:2017}
 and \citet{Loula:etal:2018} have proposed the SCAN challenge to
 directly assess the ability of sequence-to-sequence networks to
-perform systematic, compositional generalization of linguistic rules.
+perform systematic, compositional generalization of linguistic
+rules. Their results, and those of \citet{Bastings:etal:2018}, have
+shown that modern recurrent networks (gated RNNs, such as LSTMs and GRUs) generalize well
+to new sequences that resemble those encountered in training,
+but achieve very low performance when generalization must be
+supported by a systematic compositional rule, such as ``to X twice
+means to X and then to X again''.\footnote{\citet{Bastings:etal:2018}
+  report higher performance for accurately tuned recurrent models on
+  some of the less challenging SCAN tasks, but still very low accuracy on the \emph{jump} split we discuss below.}
 
-%\cite{Bastings:etal:2018}.
+Non-recurrent models, such as convolutional neural networks
+\cite[CNNs,][]{kalchbrenner:etal:2016, gehring:etal:2016,
+  gehring:etal:2017} and self-attentive models
+\cite{vaswani:etal:2017, chen:etal:2018} have recently reached
+comparable or better performance than recurrent networks on machine
+translation and other sequence-to-sequence benchmarks. Their
+linguistic properties are however  still generally poorly
+understood. \textbf{Tang et al.~2018} have shown that RNNs and
+self-attentive models are better tan CNNs at capturing long-distance
+agreement, while self-attentive networks in particular excel at
+word sense disambiguation. In an extensive and systematic comparison,
+\textbf{Bai et al.~2018} showed CNNs to be better across the board
+than RNNs, although in general the differences are not huge.
 
+\mb{I must add refs to Bai and Tang!}
 
-Convolutional models have recently proved to be efficient and powerful solutions in machine translation 
-\cite{kalchbrenner:etal:2016, gehring:etal:2016, gehring:etal:2017}.
-The lack of recurrent connections makes their training faster and more parallelizable 
-Self-attention networks have also gained attention recently as they were able to outperform convolutional models on different
-machine translation benchmarks \cite{vaswani:etal:2017, chen:etal:2018} while showing a comparable training cost.
-Our work is focused on assessing whether a powerful and efficient neural network based on convolutional connections
-is capable of learning to compose and generalize to unseen meanings when carefully trained on smaller semantic units.
-We decided to make the focus of our work the qualitative and quantitative study of a convolutional architecture, as
-it is be easier to inspect its inner components compared to self attention based networks.
-We leave for future work similar comparative study that employs self-attentive models.
+In this paper, we evaluate an out-of-the-box CNN model on the most
+challenging SCAN tasks, and we uncover the surprising fact that
+\emph{CNNs are dramatically better than RNNs at compositional
+  generalization}. As they are more cumbersome to
+train and adapt, we leave testing of self-attentive networks to future
+work.
+
+% Convolutional models have recently proved to be efficient and powerful solutions in machine translation 
+% \cite{kalchbrenner:etal:2016, gehring:etal:2016, gehring:etal:2017}.
+% The lack of recurrent connections makes their training faster and more parallelizable 
+% Self-attention networks have also gained attention recently as they were able to outperform convolutional models on different
+% machine translation benchmarks \cite{vaswani:etal:2017, chen:etal:2018} while showing a comparable training cost.
+% Our work is focused on assessing whether a powerful and efficient neural network based on convolutional connections
+% is capable of learning to compose and generalize to unseen meanings when carefully trained on smaller semantic units.
+% We decided to make the focus of our work the qualitative and quantitative study of a convolutional architecture, as
+% it is be easier to inspect its inner components compared to self attention based networks.
+% We leave for future work similar comparative study that employs self-attentive models.
 
 
 
