@@ -32,11 +32,15 @@ and \emph{around-right} splits. This suggests that, in principle, CNNs
 hold more promise as deep networks able to acquire systematic
 generalization. Still, in neither challenge we observe the perfect
 performance we should expect if networks had extracted and where
-applying the correct symbolic rule. Moreover, as Fig.~\ref{fig:exp1}
-shows, there is a big difference in stability between \emph{random}
-and the other splits. This figure reports mean cross-seed accuracy and
-the corresponding standard deviation for the top 10 configurations for
-each split. The \emph{random} results are very stable across seeds and
+applying the correct symbolic rule. Indeed, qualitative analysis of
+the errors do not suggest rule-based learning. It is not the case, for
+example, \mb{add some qualitative error analysis.}
+
+Moreover, as Fig.~\ref{fig:exp1} shows, there is a big difference in
+stability between \emph{random} and the other splits. This figure
+reports mean cross-seed accuracy and the corresponding standard
+deviation for the top 10 configurations for each split. The
+\emph{random} results are very stable across seeds and
 hyperparameters. \emph{Jump} accuracy is relatively stable across
 hyperparameters, but has large variance across seeds. For the most
 challenging \emph{around-right} split, we observe instability both
@@ -82,50 +86,124 @@ the \emph{around-right} split (mean 53.25\% accuracy, off by
 \begin{figure}[h]
     \includegraphics[width=.5\textwidth,keepaspectratio]{figures/accuracies_all_splits.png}
     \centering
-    \caption{Accuracies for top-10 models on every split (arrows
+    \caption{Accuracies (\%) of top-10 models on every split (arrows
       denote standard deviations). Dashed lines report split
-      means. \mb{means across what?}}
+      means. \mb{means across what?} Also, it would be better if
+      legend order was random/jump/around-right}
     \label{fig:exp1}
 \end{figure}
 
 
 % 219.08612pt
 % 3.0314
-\subsection{Assessing the impact of kernel width}
+\subsection{Impact of kernel width}
 \label{subsec:exp2}
 
+One important difference between recurrent and a convolutional
+architectures is that the former read an item at the time, and it is
+left to the learned dynamics of the recurrent matrix to determine
+context width, whereas the kernel width of a CNN imposes a strong
+prior on the window of elements to be processed together. We
+conjecture that relatively wide encoder and decoder widths, by
+naturally pushing the network to keep wider contexts into account,
+might favour the acquisition of template-based generalizations, and
+hence better compositionality. To investigate this hypothesis
+empirically, we tested the best-overall model varying both encoder and
+decoder widths between 1 and 5.\footnote{At least on the encoder side,
+  larger widths seem excessive, as the longest commands are
+  9-word-long.}
 
-We consider the use of convolutional filters as an interesting dimension to inspect, especially when considering 
-its ability to possibly assess the small and self contained semantics of single words within the larger context of a sentence \rd{\dots make a proper example with SCAN]}.
-The desired systematic compositionality that we seek to find in modern neural networks could indeed be described as the
-human ability to extract, process and combine small unit that are semantically meaningful, in order to create a larger and again meaningful semantic block.
-The hypothesis of the use of convolutions as an important parameter for the ability of the network
-to correctly process semantic compositionality is investigated in our second experiment presented in section \ref{subsec:exp2}.
+% We consider the use of convolutional filters as an interesting dimension to inspect, especially when considering 
+% its ability to possibly assess the small and self contained semantics of single words within the larger context of a sentence \rd{\dots make a proper example with SCAN]}.
+% The desired systematic compositionality that we seek to find in modern neural networks could indeed be described as the
+% human ability to extract, process and combine small unit that are semantically meaningful, in order to create a larger and again meaningful semantic block.
+% The hypothesis of the use of convolutions as an important parameter for the ability of the network
+% to correctly process semantic compositionality is investigated in our second experiment presented in section \ref{subsec:exp2}.
 
 
-\iffalse
+%\iffalse
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=.5\textwidth,keepaspectratio]{figures/kernel_exp.png}
-    \caption{Accuracy for kernel experiment}
+    \caption{Mean accuracies (\%) across 5 seeds for each split, in function of decoder (x axis) and encoder (colors) kernel widths. Arrows denote standard deviations.\mb{More natural order would be random/jump/around-right. Also crop actual file and enlarge figure.}}
     \label{fig:kernel_exp}
 \end{figure}
 
-\fi
+%\fi
 
-\input{kernel_analysis}
+In the \emph{random} split, as expected, both wider encoder and
+decoder windows lead to better performance. The \emph{jump} results
+follow the same train, although in a less clear-cut way. Still, the
+narrowest encoder-decoder combination shows the worst performance, and
+the widest kernel combination the top one. For the
+\emph{around-right} split, it's also better to use the widest encoder,
+but top performance is achieved with the \emph{narrowest} decoder
+(width$=$1). Indeed, with the narrow decoder we obtain
+\emph{around-right} accuracies that are even above the absolute-best
+\emph{jump}-split performance. Since the novel output templates in the
+\emph{around-right} split are by construction long (they involve
+executing an ``around'' command that involves repeating an action 4
+times), we would have rather expected models keeping track of a larger
+decoding window to fare better particularly in this case.
 
-\subsection{Experiment 3: ablation study on attention}
+To gain some insight on the attested behaviour, we looked at
+performance in function of ground-truth output length in the two
+splits. Keeping encoder width fixed at 5, Fig.~\ref{fig:kernel_width}
+reports the proportions of cases that were correctly handled only with
+decoder width 1, 5, both or neither, considering models trained on
+\emph{jump} and \emph{around-right}. We plot statistics for the cases
+at intersection of the two split test sets, but the same pattern is
+confirmed when looking outside this intersection. We observe more
+cases where both widths work in the \emph{around-right} split, showing
+that overall it is less damaging to use the wider kernel with
+\emph{around-right} than the narrower one with \emph{jump} (see also
+Fig.~\ref{fig:kernel_exp}). In general, though, we find that the
+wide-decoder \emph{jump} model behaves quite similarly to the
+narrow-decoder \emph{around-right} model, getting most of its gains
+from shorter sequences. One interesting difference is that, for
+\emph{around-right}, we observe an inversion in performance for the
+longer sequences, where the wider decoder outperforms the narrower
+one, in accordance with our intuition that more context should help
+longer execution tasks. Looking qualitatively at the errors, we note
+that, for both splits, the narrower decoder tends to skip trajectory
+sub-chunks (e.g., executing ``jump around right'' with 3 instead of 4
+right turns followed by jumps), whereas the wider kernel is more
+likely to substitute actions (e.g., turning left instead of right)
+than undershooting the length. This impressionistic observation is
+supported by the fact that, for both splits, the narrow-kernel errors
+have considerably larger variance with respect to ground-truth
+length. While these analyses confirm the fact that a wider decoder
+kernel helps with length management, we still have no insight on why
+the shorter kernel should be better on the around-right split. Future
+work should pursue a better understanding of how kernel widths affect
+linguistic processing in CNNs.
+
+\begin{figure*}[h]
+    \centering
+    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/jump_subset_out.png}
+    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/template_subset_out.png}
+    \caption{Proportion of items that were correctly executed by
+      models with 5- and 1-decoder widths, in function of ground-truth
+      output length. \mb{I will add titles to the figures, and trim
+        them to make them fit on a single column.}}
+    \label{fig:kernel_width}
+\end{figure*}
+
+\subsection{Impact of multi-layer attention}
 \label{subsec:exp3}
 
-Due to the importance of the attention mechanism for our convolutional architecture we decided to conduct study with the best-overall model
-and the attention only on specific layers. Results are presented in \ref{fig:exp3}...
+Finally, as attention is the only component linking encoder and
+decoder in CNNs and other non-recurrent architectures, we looked more
+in-depth at whether the multi-layer attention mechanism of the FAIRSEQ
+CNN implementation we are using is important, or attention from a
+single/fewer decoder layers could suffice. Results are presented in
+\ref{fig:exp3}.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=.5\textwidth,keepaspectratio]{figures/attention_exp.png}
-    \caption{Accuracy for attention experiment}
+    \caption{Accuracy for attention experiment. \mb{I'd remove full as it is already shown by the horizontal bar. For the x legend, maybe: bottom 1, bottom 2, bottom 3, top 3, top 2, top 1?}
     \label{fig:exp3}
 \end{figure}
 
