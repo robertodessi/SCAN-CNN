@@ -28,16 +28,16 @@
 \begin{table}[tb]
   \begin{footnotesize}
     \begin{center}
-        \scalebox{0.96}{
+%        \scalebox{0.96}{
           % \begin{tabular}{l | p{2cm} | p{2cm} | p{2cm}}
           \begin{tabular}{l | r | r | r}
              & \textbf{random} & \textbf{jump} & \textbf{around-right} \\ \hline
              LSTM & 99.8 & 1.2 & 2.5$\pm$2.7 \\
              GRU & \textbf{100.0}$\pm$0.0 & 12.5$\pm$6.6 & --  \\
              \hline
-             CNN & 100.0$\pm$0.0 & \textbf{69.2}$\pm$8.2 & \textbf{56.7}$\pm$10.2 \\
+              CNN & \textbf{100.0}$\pm$0.0 & \textbf{69.2}$\pm$8.2 & \textbf{56.7}$\pm$10.2 \\
         \end{tabular} 
-    }
+%    }
     \end{center}
   \end{footnotesize}
   \caption{Test accuracy (\%) on SCAN splits (means across 5 seeds,
