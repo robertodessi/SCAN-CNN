@@ -1,10 +1,10 @@
 \section{Introduction}
 \label{sec:intro}
 
-The advent of powerful deep neural network has rekindled classic
-debates on the natural language processing abilities of such models
-\cite[e.g.,][]{Kirov:Cotterell:2018,Linzen:etal:2018,McCoy:etal:2018,Pater:2018}. \citet{Lake:Baroni:2017}
-and \citet{Loula:etal:2018} have proposed the SCAN challenge to
+Recent successes of deep neural network has rekindled classic
+debates on their natural language processing abilities
+\cite[e.g.,][]{Kirov:Cotterell:2018,McCoy:etal:2018,Pater:2018}. \citet{Lake:Baroni:2017}
+and \citet{Loula:etal:2018} proposed the SCAN challenge to
 directly assess the ability of sequence-to-sequence networks to
 perform systematic, compositional generalization of linguistic
 rules. Their results, and those of \citet{Bastings:etal:2018}, have
@@ -12,30 +12,28 @@ shown that modern recurrent networks (gated RNNs, such as LSTMs and GRUs) genera
 to new sequences that resemble those encountered in training,
 but achieve very low performance when generalization must be
 supported by a systematic compositional rule, such as ``to X twice
-means to X and then to X again''.\footnote{\citet{Bastings:etal:2018}
-  report higher performance for accurately tuned recurrent models on
-  some of the less challenging SCAN tasks, but still very low accuracy on the \emph{jump} split we discuss below.}
+you X and then X again''.\footnote{\citet{Bastings:etal:2018}
+  report higher performance for accurately tuned RNNs on
+  some of the less challenging SCAN tasks.}
 
 Non-recurrent models, such as convolutional neural networks
 \cite[CNNs,][]{kalchbrenner:etal:2016, gehring:etal:2016,
   gehring:etal:2017} and self-attentive models
 \cite{vaswani:etal:2017, chen:etal:2018} have recently reached
-comparable or better performance than recurrent networks on machine
-translation and other sequence-to-sequence benchmarks. Their
-linguistic properties are however  still generally poorly
-understood. \newcite{Tang:etal:2018} have shown that RNNs and
-self-attentive models are better tan CNNs at capturing long-distance
-agreement, while self-attentive networks in particular excel at
-word sense disambiguation. In an extensive and systematic comparison,
-\newcite{Bai:etal:2018} showed CNNs to be better across the board
-than RNNs, although in general the differences are not huge.
+comparable or better performance than RNNs on machine translation and
+other benchmarks. Their linguistic properties are however still
+generally poorly understood. \newcite{Tang:etal:2018} have shown that
+RNNs and self-attentive models are better than CNNs at capturing
+long-distance agreement, while self-attentive networks excel at word
+sense disambiguation. In an extensive comparison,
+\newcite{Bai:etal:2018} showed CNNs to generally outperform RNNs,
+although the differences were typically not huge.
 
-In this paper, we evaluate an out-of-the-box CNN model on the most
+In this paper, we evaluate an out-of-the-box CNN on the most
 challenging SCAN tasks, and we uncover the surprising fact that
 \emph{CNNs are dramatically better than RNNs at compositional
-  generalization}. As they are more cumbersome to
-train and adapt, we leave testing of self-attentive networks to future
-work.
+  generalization}. As they are more cumbersome to train, we leave
+testing of self-attentive networks to future work.
 
 % Convolutional models have recently proved to be efficient and powerful solutions in machine translation 
 % \cite{kalchbrenner:etal:2016, gehring:etal:2016, gehring:etal:2017}.
