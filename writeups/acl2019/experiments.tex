@@ -28,14 +28,14 @@
     \footnotesize
     \centering
         \begin{tabular}{l |l| l | l}
-            \hline & \textbf{Random} & \textbf{Jump} & \textbf{Around Right} \\ \hline
+             & \textbf{Random} & \textbf{Jump} & \textbf{Around Right} \\ \hline
              LSTMs \cite{Lake:Baroni:2017} & 99.8\% & 1.2\% & -- \\
-             RNNs \cite{Loula:etal:2018} & -- & -- &  2.46\% $\pm$ 2.68\% \\
+             LSTMs \cite{Loula:etal:2018} & -- & -- &  2.46\% $\pm$ 2.68\% \\
              GRUs \cite{Bastings:etal:2018} & \textbf{100.0\%} $\pm$ 0.0\% & 12.5\% $\pm$ 6.6\% & --  \\
              \hline
              CNNs & 99.97\% $\pm$ 0.03\% & \textbf{69.24\%} $\pm$ 8.17\%  & \textbf{56.7\%} $\pm$ 10.24\% \\
         \end{tabular}
-    \caption{\footnotesize \label{table:main results} \rd{I will fix both tables so that at least one of them fit on one column.} Test performance for the three splits used in our experiment 1. For \newcite{Lake:Baroni:2017} 
+    \caption{\label{table:main results} \rd{I will fix both tables so that at least one of them fit on one column.} Test performance for the three splits used in our experiment 1. For \newcite{Lake:Baroni:2017} 
     we report results from their best model on every split
     which had higher performance then their best overall model.}
 \end{table*}
@@ -125,8 +125,6 @@ model \textit{B} a low-rank value of 45. Model B would then be selected as best 
 
 \input{error_discussion}
 
-% 219.08612pt
-% 3.0314
 \subsection{Impact of kernel width}
 \label{subsec:exp2}
 
@@ -208,16 +206,16 @@ the shorter kernel should be better on the around-right split. Future
 work should pursue a better understanding of how kernel widths affect
 linguistic processing in CNNs.
 
-\begin{figure*}[tb]
+\begin{figure}[tb]
     \centering
-    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/jump_subset_out.png}
-    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/template_subset_out.png}
+%    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/jump_subset_out.png}
+%    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/template_subset_out.png}
+    \includegraphics[width=.5\textwidth,keepaspectratio]{figures/split_subset_out.png}
     \caption{Proportion of items that were correctly executed by
       models with 5- and 1-decoder widths, in function of ground-truth
-      output length. \mb{I will add titles to the figures, and trim
-        them to make them fit on a single column.}}
+      output length.}
     \label{fig:kernel_width}
-\end{figure*}
+\end{figure}
 
 \subsection{Impact of multi-layer attention}
 \label{subsec:exp3}
@@ -229,7 +227,7 @@ CNN implementation we are using is important, or attention from a
 single/fewer decoder layers could suffice. Results are presented in
 \ref{fig:exp3}.
 
-\begin{figure}[h]
+\begin{figure}[tb]
     \centering
     \includegraphics[width=.5\textwidth,keepaspectratio]{figures/attention_exp.png}
     \caption{Accuracy for attention experiment. Dashed lines reports accuracy with attention on every layer}
