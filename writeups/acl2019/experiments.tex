@@ -47,7 +47,7 @@
 \label{table:main_results} 
 \end{table}
 
-Table \ref{table:main_results} summarizes our main results. Like the
+Our main results are in Table \ref{table:main_results}. Like the
 RNNs studied by \newcite{Lake:Baroni:2017}, our CNN has no problem in
 the \emph{random} split. However, its results are much higher than
 those of the best RNNs in the challenging \emph{jump} and
@@ -58,23 +58,20 @@ the right composition rules. Perhaps, CNNs do not achieve 100\%
 accuracy because they only learned a subset of the necessary
 rules. For example, they might correctly interpret the new
 expression \emph{jump twice} because they induced a \emph{X twice}
-rule at training time, but they might fail at \emph{jump
-  thrice} because they failed to learn the corresponding \emph{X
+rule at training time, but fail at \emph{jump
+  thrice} because they missed the corresponding \emph{X
   thrice} rule. Since SCAN semantic composition rules are associated
 with single words in input commands, we can check this hypothesis by
-looking at error distribution across input words. It turns out that,
-in neither the \emph{jump} nor the \emph{around-split}, errors are
-strongly associated to specific input commands. Figure
-\ref{fig:error_distributions} shows proportion of errors in commands
-containing a word (over total occurrences of the word) made by the
-best models in each split. Besides observing that \emph{opposite} is
-consistently easier, we observe a relatively stable proportion of
-errors across command words (the hardest word, \emph{left} in the
-\emph{around-right} split, is wrongly executed in 54\% of the cases in
-which it occurs). Direct inspection of the errors reveals no traces of
-systematicity. Indeed, we often find minimal pairs in which changing
+looking at error distribution across input words. It turns out instead that,
+% in neither the \emph{jump} nor the \emph{around-split},
+errors are not associated to specific input commands.  Figure
+\ref{fig:error_distributions} shows error proportions across input
+words (over total occurrences of the words) for the best models in
+each split. We observe a relatively stable proportion of errors across
+command words. Direct inspection reveals no traces of
+systematicity, either. Indeed, we often find minimal pairs in which changing
 one action verb with another (distributionally equivalent in SCAN)
-turns a correctly executed command into one where the CNN fails. For
+turns a correctly executed command into a failed one. For
 example, in the \emph{jump} split, the CNN correctly executes
 ``\emph{jump left after walk},'' but fails ``\emph{jump left after
   run}'' (jumping is forgotten). Analogously, in the
@@ -86,49 +83,44 @@ soon).
     \centering
     \includegraphics[width=.4\textwidth,keepaspectratio]{figures/jump_error_dist.png}
     \includegraphics[width=.4\textwidth,keepaspectratio]{figures/template_error_dist.png}
-    \caption{Proportion of commands with a certain word (over word
-      total) that were wrongly executed by the respective best CNNs in
-      the \emph{jump} (t) and \emph{template} (b) splits.}
+    \caption{Proportion of commands with a certain command word (over word
+      total) wrongly executed by best CNNs of
+       \emph{jump} and \emph{around-right} splits.}
     \label{fig:error_distributions}
 \end{figure}
 
 \paragraph{Robustness} Fig.~\ref{fig:exp1} shows a big difference in
-stability between \emph{random} and the other splits. This figure
-reports mean cross-seed accuracy and the corresponding standard
-deviation for the top 10 configurations for each split. The
-\emph{random} results are very stable across seeds and
-hyperparameters. \emph{Jump} accuracy is relatively stable across
-hyperparameters, but has large variance across seeds. For the most
-challenging \emph{around-right} split, we observe instability both
-across seeds and hyperparameters (although even the lowest end of the
-reported accuracies is always well below the best RNN performance in
-the corresponding experiments).
+stability between \emph{random} and the other splits across top
+hyperparameter configurations. The \emph{random} results are very
+stable. \emph{Jump} accuracy is relatively stable across
+hyperparameters, but has large variance across initialization
+seeds. For the most challenging \emph{around-right} split, we observe
+instability both across seeds and hyperparameters (although even the
+lowest end of the reported accuracies is well above best RNN
+performance in the corresponding experiments). Another question is
+whether the best configurations are shared, or each split requires an
+ad-hoc hyperparameter setting. We find that there are configurations
+that achieve good performance across the splits. In particular, the
+\emph{best overall configuration}, found by minimizing ranks across
+splits, has 0.01 learning rate, 25-tokens batch size, 0.25
+dropout, 6 layers, 512 layer dimensionality, and kernels of width
+5. Such model was 13th best (of about 2.5K explored) on the
+\emph{random} split (with mean cross-seed accuracy of 99.92\%, off
+by 0.05\% from top configuration), 32th on the \emph{jump} split
+(60.67\% mean accuracy, off by 8.62\%), and 2nd in the
+\emph{around-right} split (mean 53.25\% accuracy, off by 3.45\%).
+% \rd{from here} We found the best overall model by first selecting only
+% the models that ranked 300th or higher in all three splits. Then for
+% every model we selected the lowest rank (low-rank) among the three
+% split and we picked as best overall the model with the highest
+% low-rank. As an example, if only two models were among the top 300 on
+% all three splits and model \textit{A} was ranked 1st, 2nd and 50th on
+% random, jump and around-right respectively, and model \textit{B}
+% ranked 45th, 10th and 10th then model \textit{A} would have a low-rank
+% value of 50 and model \textit{B} a low-rank value of 45. Model B would
+% then be selected as best overall model.
 
-Another question is whether the best configurations are coherent
-across splits, or each split requires an ad-hoc hyperparameter setting
-that does not generalize to the other tests. We find that overall this
-is not the case, and it is possible to find configurations that
-achieve good performance across the 3 splits. In particular, the
-\emph{best overall configuration}, that we take as the starting point
-for further experiments below, has a learning rate of 0.01, 25 tokens
-batch size, 0.25 dropout, 6 layers in both the encoder and the
-decoder, 512 embedding dimensionality, and convolutional kernel width
-5. Such model was ranked 13th best (of about 2.5K explored) on the
-\emph{random} split (with a mean cross-seed accuracy of 99.92\% off by
-0.05\% from the top configuration for the split), 32th on the
-\emph{jump} split (60.67\% mean accuracy, off by 8.62\%), and 2nd in
-the \emph{around-right} split (mean 53.25\% accuracy, off by
-3.45\%). 
-\rd{from here} We found the best overall model by first selecting only the models
-that ranked 300th or higher in all three splits. Then for every model
-we selected the lowest rank (low-rank) among the three split and we picked 
-as best overall the model with the highest low-rank. As an example, if only
-two models were among the top 300 on all three splits and model \textit{A} was
-ranked 1st, 2nd and 50th on random, jump and around-right respectively, and model \textit{B}
-ranked 45th, 10th and 10th then model \textit{A} would have a low-rank value of 50 and
-model \textit{B} a low-rank value of 45. Model B would then be selected as best overall model.
-
-\mb{Should we say how the best overall was found?} \rd{to here. Does it make sense?}
+% \mb{Should we say how the best overall was found?} \rd{to here. Does it make sense?}
 % Experiment 2 and 3 in section \ref{subsec:exp2} and \ref{subsec:exp3} used the aforementioned model.
 
 % After a preliminary experiment we found a subset of parameters showing reasonable performance and conduceted a large hyperparameters
@@ -150,11 +142,10 @@ model \textit{B} a low-rank value of 45. Model B would then be selected as best 
 % Experiment 2 and 3 in section \ref{subsec:exp2} and \ref{subsec:exp3} used the aforementioned model.
 
 \begin{figure}[tb]
-    \includegraphics[width=.5\textwidth,keepaspectratio]{figures/accuracies_all_splits.png}
+    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/accuracies_all_splits.png}
     \centering
-    \caption{Accuracies (\%) of top-10 models on random, jump and around-right (arrows
-      denote standard deviations). Dashed lines report average accuracy
-      of the models on every split.
+    \caption{Accuracies (\%) of top-10 models on \emph{random}, \emph{jump} and \emph{around-right}. Arrows
+      denote standard deviations, dashed lines average accuracy across top-10.
       % \mb{means across what? Also, it would be better if
       %legend order was random/jump/around-right}
       }
@@ -165,18 +156,16 @@ model \textit{B} a low-rank value of 45. Model B would then be selected as best 
 \label{subsec:exp2}
 
 One important difference between recurrent and a convolutional
-architectures is that the former read an item at the time, and it is
-left to the learned dynamics of the recurrent matrix to determine
-context width, whereas the kernel width of a CNN imposes a strong
-prior on the window of elements to be processed together. We
-conjecture that relatively wide encoder and decoder widths, by
-naturally pushing the network to keep wider contexts into account,
-might favour the acquisition of template-based generalizations, and
-hence better compositionality. To investigate this hypothesis
-empirically, we tested the best-overall model varying both encoder and
-decoder widths between 1 and 5.\footnote{At least on the encoder side,
-  larger widths seem excessive, as the longest commands are
-  9-word-long.}
+architectures is that in the former it is left to the learned dynamics
+of the recurrent matrix to determine context size, whereas the kernel
+width of a CNN imposes a strong prior on the window of elements to be
+processed together. We conjecture that relatively wide encoder and
+decoder widths, by naturally pushing the network to keep wider
+contexts into account, might favour the acquisition of template-based
+generalizations, and hence better compositionality. To investigate
+this, we varied encoder and decoder widths of the best-overall model
+between 1 and 5.\footnote{At least on the encoder side, larger widths
+  seem excessive, as the longest commands are 9-word-long.}
 
 % We consider the use of convolutional filters as an interesting dimension to inspect, especially when considering 
 % its ability to possibly assess the small and self contained semantics of single words within the larger context of a sentence \rd{\dots make a proper example with SCAN]}.
@@ -188,70 +177,87 @@ decoder widths between 1 and 5.\footnote{At least on the encoder side,
 \begin{figure*}[tb]
     \centering
     \includegraphics[width=\textwidth,keepaspectratio]{figures/kernel_exp.png}
-    \caption{Mean accuracies (\%) across 5 seeds for each split, in function of decoder (x axis) and encoder (colors) kernel widths. Arrows denote standard deviations.
+    \caption{Mean accuracies (\%) across 5 seeds, in function of decoder (x axis) and encoder (colors) kernel widths. Arrows denote standard deviations.
     %More natural order would be random/jump/around-right.
-    \mb{Also crop actual file and enlarge figure.}
+%    \mb{Also crop actual file and enlarge figure.}
     }
     \label{fig:kernel_exp}
 \end{figure*}
 
-In the \emph{random} split, as expected, both wider encoder and
-decoder windows lead to better performance. The \emph{jump} results
-follow the same train, although in a less clear-cut way. Still, the
-narrowest encoder-decoder combination shows the worst performance, and
-the widest kernel combination the top one. For the
-\emph{around-right} split, it's also better to use the widest encoder,
-but top performance is achieved with the \emph{narrowest} decoder
-(width$=$1). Indeed, with the narrow decoder we obtain
-\emph{around-right} accuracies that are even above the absolute-best
-\emph{jump}-split performance. Since the novel output templates in the
-\emph{around-right} split are by construction long (they involve
-executing an ``around'' command that involves repeating an action 4
-times), we would have rather expected models keeping track of a larger
-decoding window to fare better particularly in this case.
+As shown in Fig.~\ref{fig:kernel_exp}, the \emph{random} split confirm
+our expectations, as both wider encoder and decoder windows improve
+performance. The \emph{jump} results follow the same trend, although
+in a less clear-cut way. Still, the narrowest encoder-decoder
+combination shows the worst performance, and the widest one the top
+one. For the \emph{around-right} split, it's also better to use the
+widest encoder, but top performance is achieved with the
+\emph{narrowest} decoder (width$=$1). Indeed, with the narrow decoder
+we obtain \emph{around-right} accuracies that are even above the
+absolute-best \emph{jump}-split performance. Since the novel output
+templates in the \emph{around-right} split are by construction long
+(they involve executing an \emph{around} command that involves
+repeating an action 4 times), we would have rather expected models
+keeping track of a larger decoding window to fare better particularly
+in this case. We tried to gain some insight on the attested behaviour
+by looking at performance distribution in function of input and output
+length, failing to detect different patterns in the wide-decoder
+\emph{jump} model vs.~the narrow-decoder \emph{around-right} model
+(analysis not reported here for space reasons). Looking qualitatively
+at the errors, we note that, for both splits, the narrower decoder
+tends to skip trajectory sub-chunks (e.g., executing ``\emph{jump around
+right}'' with 3 instead of 4 right turns followed by jumps), whereas
+the wider kernel is more likely to substitute actions (e.g., turning
+left instead of right) than undershooting the length. This
+impressionistic observation is supported by the fact that, for both
+splits, the narrow-kernel errors have considerably larger variance
+with respect to ground-truth length. These analyses, however, only confirm our
+initial conjecture that a wider decoder kernel helps with length management.
+We still have no insight on why the narrower kernel should be better on
+the \emph{around-right split}.%  Future work should pursue a better
+% understanding of how kernel widths affect linguistic processing in
+% CNNs.
+% To gain some insight on the attested behaviour, we looked at
+% performance in function of ground-truth output length in the two
+% splits. Keeping encoder width fixed at 5, Fig.~\ref{fig:kernel_width}
+% reports the proportions of cases that were correctly handled only with
+% decoder width 1, 5, both or neither, considering models trained on
+% \emph{jump} and \emph{around-right}. We plot statistics for the cases
+% at intersection of the two split test sets, but the same pattern is
+% confirmed when looking outside this intersection. We observe more
+% cases where both widths work in the \emph{around-right} split, showing
+% that overall it is less damaging to use the wider kernel with
+% \emph{around-right} than the narrower one with \emph{jump} (see also
+% Fig.~\ref{fig:kernel_exp}). In general, though, we find that the
+% wide-decoder \emph{jump} model behaves quite similarly to the
+% narrow-decoder \emph{around-right} model, getting most of its gains
+% from shorter sequences. One interesting difference is that, for
+% \emph{around-right}, we observe an inversion in performance for the
+% longer sequences, where the wider decoder outperforms the narrower
+% one, in accordance with our intuition that more context should help
+% longer execution tasks. Looking qualitatively at the errors, we note
+% that, for both splits, the narrower decoder tends to skip trajectory
+% sub-chunks (e.g., executing ``jump around right'' with 3 instead of 4
+% right turns followed by jumps), whereas the wider kernel is more
+% likely to substitute actions (e.g., turning left instead of right)
+% than undershooting the length. This impressionistic observation is
+% supported by the fact that, for both splits, the narrow-kernel errors
+% have considerably larger variance with respect to ground-truth
+% length. While these analyses confirm the fact that a wider decoder
+% kernel helps with length management, we still have no insight on why
+% the shorter kernel should be better on the around-right split. Future
+% work should pursue a better understanding of how kernel widths affect
+% linguistic processing in CNNs.
 
-To gain some insight on the attested behaviour, we looked at
-performance in function of ground-truth output length in the two
-splits. Keeping encoder width fixed at 5, Fig.~\ref{fig:kernel_width}
-reports the proportions of cases that were correctly handled only with
-decoder width 1, 5, both or neither, considering models trained on
-\emph{jump} and \emph{around-right}. We plot statistics for the cases
-at intersection of the two split test sets, but the same pattern is
-confirmed when looking outside this intersection. We observe more
-cases where both widths work in the \emph{around-right} split, showing
-that overall it is less damaging to use the wider kernel with
-\emph{around-right} than the narrower one with \emph{jump} (see also
-Fig.~\ref{fig:kernel_exp}). In general, though, we find that the
-wide-decoder \emph{jump} model behaves quite similarly to the
-narrow-decoder \emph{around-right} model, getting most of its gains
-from shorter sequences. One interesting difference is that, for
-\emph{around-right}, we observe an inversion in performance for the
-longer sequences, where the wider decoder outperforms the narrower
-one, in accordance with our intuition that more context should help
-longer execution tasks. Looking qualitatively at the errors, we note
-that, for both splits, the narrower decoder tends to skip trajectory
-sub-chunks (e.g., executing ``jump around right'' with 3 instead of 4
-right turns followed by jumps), whereas the wider kernel is more
-likely to substitute actions (e.g., turning left instead of right)
-than undershooting the length. This impressionistic observation is
-supported by the fact that, for both splits, the narrow-kernel errors
-have considerably larger variance with respect to ground-truth
-length. While these analyses confirm the fact that a wider decoder
-kernel helps with length management, we still have no insight on why
-the shorter kernel should be better on the around-right split. Future
-work should pursue a better understanding of how kernel widths affect
-linguistic processing in CNNs.
-
-\begin{figure}[tb]
-    \centering
-%    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/jump_subset_out.png}
-%    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/template_subset_out.png}
-    \includegraphics[width=.5\textwidth,keepaspectratio]{figures/split_subset_out.png}
-    \caption{Proportion of items that were correctly executed by
-      models with 5- and 1-decoder widths, in function of ground-truth
-      output length.}
-    \label{fig:kernel_width}
-\end{figure}
+% \begin{figure}[tb]
+%     \centering
+% %    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/jump_subset_out.png}
+% %    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/template_subset_out.png}
+%     \includegraphics[width=.5\textwidth,keepaspectratio]{figures/split_subset_out.png}
+%     \caption{Proportion of items that were correctly executed by
+%       models with 5- and 1-decoder widths, in function of ground-truth
+%       output length.}
+%     \label{fig:kernel_width}
+% \end{figure}
 
 \paragraph{Impact of multi-layer attention}
 \label{subsec:exp3}
