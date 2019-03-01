@@ -21,7 +21,7 @@ ind=np.arange(commands.size)
 plt.bar(ind,proportions)
 
 plt.xticks(ind,commands,rotation=90)
-plt.ylim((0,0.5))
+plt.ylim((0,0.55))
 
 plt.title(sys.argv[2])
 
