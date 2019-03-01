@@ -1,1 +1,22 @@
-Blah.
+Although the CNNs dramatically outperform the RNNs, their performance
+is still far from perfect (cf.~\label{table:main results}). The spirit
+of the SCAN tasks is that they should be easy for a system that has
+learned the right composition rules. Perhaps, CNN's performance is not
+perfect because they only learned a subset of the necessary rules. For
+example, they might be able to correctly interpret the new expression
+\emph{jump twice} because they induced a \emph{X twice} rule from
+their training set, but they might fail at \emph{jump thrice} because
+they failed to learn the corresponding \emph{X thrice} rule. Since
+SCAN semantic composition rules are associated with single words in
+input commands, we can check this hypothesis by looking at error
+distribution across input words. It turns out that, in neither the
+\emph{jump} nor the \emph{around-split}, errors are strongly
+associated to specific input commands. 
+
+
+For both splits, the easiest
+command is \emph{opposite}, b
+
+
+As (nearly) each semantic
+composition rule in the data-set is associated with an input command, we mi
