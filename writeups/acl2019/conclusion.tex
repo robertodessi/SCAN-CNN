@@ -3,16 +3,23 @@
 We showed that, compared to the RNNs previously tested in the
 literature, the out-of-the-box fairseq CNN architecture reaches
 dramatically better performance on the SCAN compositional
-generalization tasks. Still, a follow-up analysis suggests that this
-network is not really learning rule-like compositional
-generalizations, as its mistakes are evenly spread across different
-commands and non-systematic.
+generalization tasks. A follow-up analysis showed that the CNN
+is not  learning rule-like compositional generalizations, as its
+mistakes are non-systematic and they are evenly spread across different
+commands. Thus, the CNN  achieved a considerable
+degree of generalization, even on an explicitly compositional
+benchmark, without something akin to rule-based reasoning. Fully
+understanding generalization of deep seq2seq models might require a less
+clear-cut view of the divide between statistical pattern matching and
+symbolic composition. In future work, we would like to further our insights on the
+CNN aspects that are crucial for the task, furthering our preliminary
+analyses of kernel width and attention.
 
-In future work, we would like to further our insights on the CNN
-aspects that are crucial for the task, furthening our preliminary
-analyses of kernel widht and attention. We would also like to compare
-RNNs and CNNs to self-attentive networks on SCAN.
-
-\mb{Discuss, among other things, number of parameters in RNNs vs
-  CNNs.}
-
+Concerning the comparison with RNNs, the best LSTM architecture of
+Lake and Baroni has two 200-dimensional layers, and it is consequently
+more parsimonious than our best CNN (1/4 of parameters). In informal
+experiments, we found shallow CNNs incapable to handle even the
+simplest \emph{random} split. On the other hand, it is hard to train
+very deep LSTMs, and it is not clear that the latter models need the
+same depth CNNs require to be able to ``view'' long sequences. We
+leave a proper formulation of a tighter comparison to future work.
