@@ -1,9 +1,9 @@
 \section{Experiments}
 \label{sec:experiments}
 
-\mb{I find ``\emph{around-right}'' more informative as a name than
-  ``\emph{template}''. I am replacing it in the text, but it should
-  also be updated in the figures.}
+%\mb{I find ``\emph{around-right}'' more informative as a name than
+%  ``\emph{template}''. I am replacing it in the text, but it should
+%  also be updated in the figures.}
 
 % We conducted three different experiments where we evaluated the accuracy of the models in terms of how many test commands were exactly translated
 % into corresponding test actions. 
@@ -19,12 +19,29 @@
 
 \subsection{General results}
 
-\mb{Please add table with our results for the 3 splits for both the
-  best-overall and the split-best settings (and sds), as well as the
-  L\&B, Loula et al and Bastings et al results (for the latter, the
-  GRU+att 12.5 jump result should suffice.}
+%\mb{Please add table with our results for the 3 splits for both the
+%  best-overall and the split-best settings (and sds), as well as the
+%  L\&B, Loula et al and Bastings et al results (for the latter, the
+%  GRU+att 12.5 jump result should suffice.}
 
-Table \mb{X} summarizes our main results. Like the RNNs studied by
+\begin{table*}[t!]
+\centering
+        \begin{tabular}{l |l| l | l}
+            \hline & \textbf{Random} & \textbf{Jump} & \textbf{Around Right} \\ \hline
+             RNNs \cite{Lake:Baroni:2017} & 99.8\% & 1.2\% & -- \\
+             RNNs \cite{Loula:etal:2018} & -- & -- &  2.46\% $\pm$ 2.68\% \\
+             GRUs \cite{Bastings:etal:2018} & \textbf{100.0\%} $\pm$ 0.0\% & 12.5\% $\pm$ 6.6\% & --  \\
+             \hline
+             CNNs & 99.97\% $\pm$ 0.03\% & \textbf{69.24\%} $\pm$ 8.17\%  & \textbf{56.7\%} $\pm$ 10.24\% \\
+        \end{tabular}
+    \caption{\label{table:main results} \rd{I will fix both tables so that at least one of them fit on one column.} Test performance for the three splits used in our experiment 1. For \newcite{Lake:Baroni:2017} 
+    we report results from their best model on every split
+    which had higher performance then their best overall model.}
+\end{table*}
+
+
+
+Table \ref{table:main results} summarizes our main results. Like the RNNs studied by
 \newcite{Lake:Baroni:2017}, our CNN has no problem in the
 \emph{random} split. However, its results are also much higher than
 those of the best RNNs for the compositionally challenging \emph{jump}
@@ -56,13 +73,23 @@ achieve good performance across the 3 splits. In particular, the
 \emph{best overall configuration}, that we take as the starting point
 for further experiments below, has a learning rate of 0.01, 25 tokens
 batch size, 0.25 dropout, 6 layers in both the encoder and the
-decoder, 512 layer dimensionality, and convolutional kernel width
+decoder, 512 embedding dimensionality, and convolutional kernel width
 5. Such model was ranked 13th best (of about 2.5K explored) on the
 \emph{random} split (with a mean cross-seed accuracy of 99.92\% off by
 0.05\% from the top configuration for the split), 32th on the
 \emph{jump} split (60.67\% mean accuracy, off by 8.62\%), and 2nd in
 the \emph{around-right} split (mean 53.25\% accuracy, off by
-3.45\%). \mb{Should we say how the best overall was found?}
+3.45\%). 
+\rd{from here} We found the best overall model by first selecting only the models
+that ranked 300th or higher in all three splits. Then for every model
+we selected the lowest rank (low-rank) among the three split and we picked 
+as best overall the model with the highest low-rank. As an example, if only
+two models were among the top 300 on all three splits and model \textit{A} was
+ranked 1st, 2nd and 50th on random, jump and around-right respectively, and model \textit{B}
+ranked 45th, 10th and 10th then model \textit{A} would have a low-rank value of 50 and
+model \textit{B} a low-rank value of 45. Model B would then be selected as best overall model.
+
+\mb{Should we say how the best overall was found?} \rd{to here. Does it make sense?}
 % Experiment 2 and 3 in section \ref{subsec:exp2} and \ref{subsec:exp3} used the aforementioned model.
 
 % After a preliminary experiment we found a subset of parameters showing reasonable performance and conduceted a large hyperparameters
@@ -86,10 +113,12 @@ the \emph{around-right} split (mean 53.25\% accuracy, off by
 \begin{figure}[h]
     \includegraphics[width=.5\textwidth,keepaspectratio]{figures/accuracies_all_splits.png}
     \centering
-    \caption{Accuracies (\%) of top-10 models on every split (arrows
-      denote standard deviations). Dashed lines report split
-      means. \mb{means across what?} Also, it would be better if
-      legend order was random/jump/around-right}
+    \caption{Accuracies (\%) of top-10 models on random, jump and around-right (arrows
+      denote standard deviations). Dashed lines report average accuracy
+      of the models on every split.
+      % \mb{means across what? Also, it would be better if
+      %legend order was random/jump/around-right}
+      }
     \label{fig:exp1}
 \end{figure}
 
@@ -120,17 +149,15 @@ decoder widths between 1 and 5.\footnote{At least on the encoder side,
 % The hypothesis of the use of convolutions as an important parameter for the ability of the network
 % to correctly process semantic compositionality is investigated in our second experiment presented in section \ref{subsec:exp2}.
 
-
-%\iffalse
-
-\begin{figure}[h]
+\begin{figure*}[h]
     \centering
-    \includegraphics[width=.5\textwidth,keepaspectratio]{figures/kernel_exp.png}
-    \caption{Mean accuracies (\%) across 5 seeds for each split, in function of decoder (x axis) and encoder (colors) kernel widths. Arrows denote standard deviations.\mb{More natural order would be random/jump/around-right. Also crop actual file and enlarge figure.}}
+    \includegraphics[width=\textwidth,keepaspectratio]{figures/kernel_exp.png}
+    \caption{Mean accuracies (\%) across 5 seeds for each split, in function of decoder (x axis) and encoder (colors) kernel widths. Arrows denote standard deviations.
+    %More natural order would be random/jump/around-right.
+    \mb{Also crop actual file and enlarge figure.}
+    }
     \label{fig:kernel_exp}
-\end{figure}
-
-%\fi
+\end{figure*}
 
 In the \emph{random} split, as expected, both wider encoder and
 decoder windows lead to better performance. The \emph{jump} results
@@ -195,7 +222,7 @@ linguistic processing in CNNs.
 
 Finally, as attention is the only component linking encoder and
 decoder in CNNs and other non-recurrent architectures, we looked more
-in-depth at whether the multi-layer attention mechanism of the FAIRSEQ
+in-depth at whether the multi-layer attention mechanism of the fairseq 
 CNN implementation we are using is important, or attention from a
 single/fewer decoder layers could suffice. Results are presented in
 \ref{fig:exp3}.
@@ -203,7 +230,7 @@ single/fewer decoder layers could suffice. Results are presented in
 \begin{figure}[h]
     \centering
     \includegraphics[width=.5\textwidth,keepaspectratio]{figures/attention_exp.png}
-    \caption{Accuracy for attention experiment. \mb{I'd remove full as it is already shown by the horizontal bar. For the x legend, maybe: bottom 1, bottom 2, bottom 3, top 3, top 2, top 1?}}
+    \caption{Accuracy for attention experiment. Dashed lines reports accuracy with attention on every layer}
     \label{fig:exp3}
 \end{figure}
 
