@@ -1,4 +1,4 @@
-\section{Experiments}
+\section{Results}
 \label{sec:experiments}
 
 %\mb{I find ``\emph{around-right}'' more informative as a name than
@@ -17,7 +17,7 @@
 % \subsection{Experiment 1: random split and primitive generalization}
 % \label{subsec:exp1}
 
-\subsection{General results}
+%\subsection{General results}
 
 %\mb{Please add table with our results for the 3 splits for both the
 %  best-overall and the split-best settings (and sds), as well as the
@@ -125,7 +125,7 @@ model \textit{B} a low-rank value of 45. Model B would then be selected as best 
 
 \input{error_discussion}
 
-\subsection{Impact of kernel width}
+\paragraph{Impact of kernel width}
 \label{subsec:exp2}
 
 One important difference between recurrent and a convolutional
@@ -217,20 +217,4 @@ linguistic processing in CNNs.
     \label{fig:kernel_width}
 \end{figure}
 
-\subsection{Impact of multi-layer attention}
-\label{subsec:exp3}
-
-Finally, as attention is the only component linking encoder and
-decoder in CNNs and other non-recurrent architectures, we looked more
-in-depth at whether the multi-layer attention mechanism of the fairseq 
-CNN implementation we are using is important, or attention from a
-single/fewer decoder layers could suffice. Results are presented in
-\ref{fig:exp3}.
-
-\begin{figure}[tb]
-    \centering
-    \includegraphics[width=.5\textwidth,keepaspectratio]{figures/attention_exp.png}
-    \caption{Accuracy for attention experiment. Dashed lines reports accuracy with attention on every layer}
-    \label{fig:exp3}
-\end{figure}
-
+\input{attention}

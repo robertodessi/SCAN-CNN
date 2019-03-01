@@ -1,0 +1,17 @@
+\paragraph{Impact of multi-layer attention}
+\label{subsec:exp3}
+
+Finally, as attention is the only component linking encoder and
+decoder in CNNs and other non-recurrent architectures, we looked more
+in-depth at whether the multi-layer attention mechanism of the fairseq 
+CNN implementation we are using is important, or attention from a
+single/fewer decoder layers could suffice. Results are presented in
+\ref{fig:exp3}.
+
+\begin{figure}[tb]
+    \centering
+    \includegraphics[width=.5\textwidth,keepaspectratio]{figures/attention_exp.png}
+    \caption{Accuracy for attention experiment. Dashed lines reports accuracy with attention on every layer}
+    \label{fig:exp3}
+\end{figure}
+
