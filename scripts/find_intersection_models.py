@@ -35,7 +35,7 @@ with open(sys.argv[3]) as t:
 
 assert all(first[i][0] <= first[i+1][0] for i in range(len(first)-1))
 assert all(second[i][0] <= second[i+1][0] for i in range(len(second)-1))
-assert all(second[i][0] <= second[i+1][0] for i in range(len(second)-1))
+assert all(third[i][0] <= third[i+1][0] for i in range(len(third)-1))
 
 
 finals = []
