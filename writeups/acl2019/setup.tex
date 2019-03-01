@@ -5,7 +5,7 @@ SCAN studies compositionality in the context of a simple command
 execution environment framed as a supervised sequence-to-sequence
 task. The neural network receives word sequences as input, and has to
 produce the correspondence sequence of actions. Some examples are
-given in Figure \ref{table:examples}.
+given in Table \ref{table:examples}.
   \newcite{Lake:Baroni:2017} originally introduced 4
 train/test splits, of which we consider here two.\footnote{We also
   tested our CNNs on SCAN's \emph{length} split, where test commands
@@ -41,6 +41,7 @@ used in out experiment are given in Table \ref{table:examples}.
 %  of Joao's paper, illustrating the 3 splits we use.} \rd{it's table \ref{table:examples} not referenced anywhere yet}
 
 \begin{table*}[t!]
+\footnotesize
 \centering
 \begin{tabular}{| l | l | l |}
 %\begin{tabular}{| l | l | p{2cm} |}
@@ -52,7 +53,7 @@ used in out experiment are given in Table \ref{table:examples}.
 \textit{Around Right} & around right train & around right test \\
 \hline
 \end{tabular}
-\caption{\label{table:examples} \rd{TODO, I will add proper examples} Training and test examples for the three splits used in our experiments }
+\caption{\footnotesize \label{table:examples} \rd{TODO, I will add proper examples} Training and test examples for the three splits used in our experiments }
 \end{table*}
 
 
