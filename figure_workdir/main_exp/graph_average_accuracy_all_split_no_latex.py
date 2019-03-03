@@ -39,7 +39,7 @@ f = plt.figure(figsize=(5,5), frameon=False)
 #plt.figure(figsize=(1920, 1080))# , dpi=100)
 
 plt.errorbar(t, random_acc, random_std, label='random', linestyle='None', marker='x', color='r')
-plt.errorbar(t, jump_acc, jump_std, label='jump', linestyle='None', marker='.', color='g', uplims=True, lolims=True)
+plt.errorbar(t, jump_acc, jump_std, label='jump', linestyle='None', marker='s', color='g', uplims=True, lolims=True)
 plt.errorbar(t, template_acc, template_std, label='around-right', linestyle='None', marker='o', color='b', uplims=True, lolims=True)
 plt.plot(t, random_avg, linestyle='--', color='r')
 plt.plot(t, jump_avg, linestyle='-.', color='g')

@@ -28,7 +28,7 @@ plt.figure(1)
 f = plt.figure(figsize=(6,4), frameon=False)
 
 plt.errorbar(t, random, random_std, label='random', marker='x', color='r')#, uplims=True, lolims=True)
-plt.errorbar(t, jump, jump_std, label='jump', marker='.', color='g', uplims=True, lolims=True)
+plt.errorbar(t, jump, jump_std, label='jump', marker='s', color='g', uplims=True, lolims=True)
 plt.errorbar(t, template, template_std, label='around-right', marker='o', color='b', uplims=True, lolims=True)
 plt.plot(t, jump_full, linestyle='--', color='g')
 plt.plot(t, template_full, linestyle='--', color='b')
@@ -42,7 +42,7 @@ plt.yticks(y_list, fontsize=14)
 plt.legend(loc='lower center', bbox_to_anchor=(0.7, 0.0), fontsize=12)
 #plt.show()
 
-f.savefig('/Users/robertodessi/Desktop/SCAN-CNN/writeups/acl2019/figures/attention_exp.png', format='png', bbox_inches='tight')#, dpi=50)
+f.savefig('/Users/robertodessi/Desktop/SCAN-CNN/writeups/acl2019/figures/attention_exp2.png', format='png', bbox_inches='tight')#, dpi=50)
 
 
 #plt.errorbar(t1, jump_enc_1, jump_std1, label='enc_1', marker='.', color='g', uplims=True, lolims=True)
