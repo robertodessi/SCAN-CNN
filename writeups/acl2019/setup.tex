@@ -43,24 +43,43 @@ used in our experiment are given in Table \ref{table:examples}.
 \begin{table}[t!]
     \footnotesize
     \begin{center}
-        \begin{tabular}{| c | p{2cm} | p{2cm} |}
+        \begin{tabular}{| c | p{2.2cm} | p{2.2cm} |}
             \hline \textbf{Split} & \textbf{Train Command} & \textbf{Test Command} \\ \hline
-            \textbf{\textit{Random}} & \textit{"walk opposite left and run"}; \textit{"turn left twice and look twice"} & 
+            \textit{Random} & \textit{"walk opposite left and run"}; \textit{"turn left twice and look twice"} & 
                 \textit{"walk opposite right and run"}; \textit{"turn right twice and jump"}  \\
             \hline
-            \textbf{\textit{Jump}} & \textit{"turn left twice after look"}; \textit{"walk and turn opposite right"}  & 
+            \textit{Jump} & \textit{"jump"}; \textit{"turn left twice after look"}  & 
             \textit{"turn left twice after jump right"}; \textit{"jump and turn opposite right"} \\
             \hline
-            \textbf{\textit{Around Right}} & \textit{"jump around left thrice"}; \textit{"turn opposite right twice"} & \textit{"jump around right thrice"};
-            \textit{"jump around right after jump around left"} \\
+            \textit{Around Right} & \textit{"jump around left thrice"}; \textit{"turn opposite right twice"} & \textit{"walk around right thrice"};
+            \textit{"look around right after jump around left"} \\
             \hline
         \end{tabular} 
     \end{center}
     \caption{\label{table:examples} Training and test examples for the three splits used in our experiments }
-
 \end{table}
 
+\iffalse
+\begin{table}[t!]
+    \footnotesize
+    \begin{center}
+        \begin{tabular}{| c | p{2.2cm} | p{2.2cm} |}
+            \hline \textbf{Split} & \textbf{Train Command} & \textbf{Test Command} \\ \hline
+            \textbf{Random} & "walk opposite left and run"; "turn left twice and look twice" & 
+                "walk opposite right and run"; "turn right twice and jump"  \\
+            \hline
+            \textbf{Jump} & "jump"; "turn left twice after look"  & 
+            "turn left twice after jump right"; "jump and turn opposite right" \\
+            \hline
+            \textbf{Around Right} & "\underline{jump around left} thrice"; "\underline{turn opposite right} twice" & \textit{"walk around right thrice"};
+            \textit{"look around right after jump around left"} \\
+            \hline
+        \end{tabular} 
+    \end{center}
+    \caption{\label{table:examples} Training and test examples for the three splits used in our experiments }
+\end{table}
 
+\fi
 
 % The SCAN dataset which was introduced in \cite{Lake:Baroni:2017} tests generalization capabilities of a learning model.
 % It is designed as a translation task where a sequence of spatial navigation commands have to be translated into corresponding 

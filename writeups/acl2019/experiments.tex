@@ -31,12 +31,12 @@
 %        \scalebox{0.96}{
           % \begin{tabular}{l | p{2cm} | p{2cm} | p{2cm}}
           \begin{tabular}{l | r | r | r}
-             & \textbf{random} & \textbf{jump} & \textbf{around-right} \\ \hline
+             & \textbf{Random} & \textbf{Jump} & \textbf{Around-Right} \\ \hline
              LSTM & 99.8 & 1.2 & 2.5$\pm$2.7 \\
              GRU & \textbf{100.0}$\pm$0.0 & 12.5$\pm$6.6 & --  \\
              \hline
               CNN & \textbf{100.0}$\pm$0.0 & \textbf{69.2}$\pm$8.2 & \textbf{56.7}$\pm$10.2 \\
-        \end{tabular} 
+          \end{tabular} 
 %    }
     \end{center}
   \end{footnotesize}
@@ -81,8 +81,8 @@ soon).
 
 \begin{figure}[tb]
     \centering
-    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/jump_error_dist.png}
-    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/template_error_dist.png}
+    \includegraphics[width=.45\textwidth,keepaspectratio]{figures/jump_error_dist.png}
+    \includegraphics[width=.45\textwidth,keepaspectratio]{figures/template_error_dist.png}
     \caption{Proportion of commands with a certain command word (over word
       total) wrongly executed by best CNNs of
        \emph{jump} and \emph{around-right} splits.}
@@ -142,7 +142,7 @@ by 0.05\% from top configuration), 32th on the \emph{jump} split
 % Experiment 2 and 3 in section \ref{subsec:exp2} and \ref{subsec:exp3} used the aforementioned model.
 
 \begin{figure}[tb]
-    \includegraphics[width=.4\textwidth,keepaspectratio]{figures/accuracies_all_splits.png}
+    \includegraphics[width=.45\textwidth,keepaspectratio]{figures/accuracies_all_splits.png}
     \centering
     \caption{Accuracies (\%) of top-10 models on \emph{random}, \emph{jump} and \emph{around-right}. Arrows
       denote standard deviations, dashed lines average accuracy across top-10.
@@ -277,7 +277,7 @@ configuration that is as good as the full setup).
     \includegraphics[width=.5\textwidth,keepaspectratio]{figures/attention_exp.png}
     \caption{Accuracy of overall-best model when keeping attention
       only on first layer (\emph{bottom1}), first two layers
-      (\emph{bottom2}), \ldots, last two layers (\emph{top2})), top
+      (\emph{bottom2}), \ldots, last two layers (\emph{top2}), top
       layer only (\emph{top1}). Means and standard deviations across 5
       seeds. Dashed lines show full-multi-layer attention results.}
     \label{fig:exp3}
