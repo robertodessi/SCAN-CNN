@@ -1,58 +1,59 @@
 \section{SCAN}
 \label{sec:setup}
 
-SCAN studies compositionality in the context of a simple command
+SCAN studies compositionality in a simple command
 execution environment framed as a supervised sequence-to-sequence
 task. The neural network receives word sequences as input, and has to
-produce the correspondence sequence of actions. Some examples are
+produce the correspondence action sequence. Examples are
 given in Table \ref{table:examples}.
   \newcite{Lake:Baroni:2017} originally introduced 4
-train/test splits, of which we consider here two.\footnote{We also
+train/test splits, of which we consider 2.\footnote{We also
   tested our CNNs on SCAN's \emph{length} split, where test commands
   require systematically longer actions than the training
-  ones. Accuracy was always near 0\%, as the learned positional
-  embeddings of the CNN architecture we use does not allow
-  generalization beyond lengths observed in training. We leave the
+  ones. Accuracy was near 0\%, as the learned positional
+  embeddings of our CNN architecture does not 
+  generalize beyond  training lengths. We leave the
   investigation of more flexible positional encodings \cite[as in,
   e.g.,][]{vaswani:etal:2017} to future work. We also experimented
-  with the \emph{turn left} split, obtaining near-perfect
+  with SCAN's \emph{turn left} split, obtaining near-perfect
   generalization. We focus in the paper on the more challenging
   \emph{jump} case.} In the \emph{random} split, the training set
-includes 80\% of randomly selected distinct SCAN commands, and the
-remaining 20\% constitutes the test set. This requires generalization,
-as no test command is encountered in testing, but there is no
+includes 80\% of randomly selected distinct SCAN commands, with the
+remaining 20\% in the test set. This requires generalization,
+as no test command is encountered in training, but there is no
 systematic difference between the commands in the two sets.  In the
 \emph{jump} split, the \emph{jump} command is only seen in isolation
 during training, and the test set consists of all composite commands
 with \emph{jump}. A system able to extract compositional rules (such
-as ``\emph{X twice} means to X two times'') should have no problem
+as ``\emph{X twice} means to X and X'') should have no problem
 generalizing them to a new verb, as in this
 split. \newcite{Loula:etal:2018} proposed a set of new SCAN splits,
-the most challenging one being the \emph{(primitive) around right}
-split.  Here, training data contain examples of \emph{around} and
-\emph{right}, but never of the combination of the two. The test set
+the most challenging one being the \emph{around-right}
+split.  The training partition contains examples of \emph{around} and
+\emph{right}, but never in combination. The test set
 contains all possible \emph{around right} commands. Loula and
-colleagues want to test here ``second-order modification'', as models
-must learn here how to compositionally apply the \emph{around}
+colleagues want to test ``second-order modification'', as models
+must learn how to compositionally apply the \emph{around}
 function to \emph{right}, which is in turn a first-order function
-modifying simple action verbs. Examples of commands from the splits
-used in our experiment are given in Table \ref{table:examples}.
+modifying simple action verbs.%  Examples of commands from the splits
+% used in our experiment are given in Table \ref{table:examples}.
 %\mb{Please add table similar to Table 2
 %  of Joao's paper, illustrating the 3 splits we use.} \rd{it's table \ref{table:examples} not referenced anywhere yet}
 
 \begin{table}[t!]
     \footnotesize
     \begin{center}
-        \begin{tabular}{| c | p{2.2cm} | p{2.2cm} |}
+%      \begin{tabular}{| l | l | l |}
+      \begin{tabular}{| c | p{2.2cm} | p{2.2cm} |}
             \hline \textbf{Split} & \textbf{Train Command} & \textbf{Test Command} \\ \hline
-            \textit{Random} & \textit{"walk opposite left and run"}; \textit{"turn left twice and look twice"} & 
-                \textit{"walk opposite right and run"}; \textit{"turn right twice and jump"}  \\
+            \textit{random} & \textit{walk opposite left}; \textit{turn left twice and look} & 
+                \textit{walk opposite right}; \textit{look right and jump}  \\
             \hline
-            \textit{Jump} & \textit{"jump"}; \textit{"turn left twice after look"}  & 
-            \textit{"turn left twice after jump right"}; \textit{"jump and turn opposite right"} \\
+            \textit{jump} & \textit{jump}; \textit{turn left twice after look}  & 
+            \textit{turn left twice after jump right}; \textit{jump and turn opposite right} \\
             \hline
-            \textit{Around Right} & \textit{"jump around left thrice"}; \textit{"turn opposite right twice"} & \textit{"walk around right thrice"};
-            \textit{"look around right after jump around left"} \\
+            \textit{around-right} & \textit{jump around left thrice}; \textit{turn opposite right twice} & \textit{walk around right};
+            \textit{look around right and jump left} \\
             \hline
         \end{tabular} 
     \end{center}
@@ -65,13 +66,13 @@ used in our experiment are given in Table \ref{table:examples}.
     \begin{center}
         \begin{tabular}{| c | p{2.2cm} | p{2.2cm} |}
             \hline \textbf{Split} & \textbf{Train Command} & \textbf{Test Command} \\ \hline
-            \textbf{Random} & "walk opposite left and run"; "turn left twice and look twice" & 
+            \textbf{random} & "walk opposite left and run"; "turn left twice and look twice" & 
                 "walk opposite right and run"; "turn right twice and jump"  \\
             \hline
-            \textbf{Jump} & "jump"; "turn left twice after look"  & 
+            \textbf{jump} & "jump"; "turn left twice after look"  & 
             "turn left twice after jump right"; "jump and turn opposite right" \\
             \hline
-            \textbf{Around Right} & "\underline{jump around left} thrice"; "\underline{turn opposite right} twice" & \textit{"walk around right thrice"};
+            \textbf{around-right} & "\underline{jump around left} thrice"; "\underline{turn opposite right} twice" & \textit{"walk around right thrice"};
             \textit{"look around right after jump around left"} \\
             \hline
         \end{tabular} 
@@ -89,24 +90,22 @@ used in our experiment are given in Table \ref{table:examples}.
 \section{Experimental setup}
 \paragraph{Model} We use the fully convolutional encoder-decoder model
 of \newcite{gehring:etal:2017} out of the box, using version 0.6.0 of the fairseq 
-toolkit.\footnote{\url{https://github.com/pytorch/fairseq}}. The model
+toolkit.\footnote{\url{https://github.com/pytorch/fairseq}} The model
 uses convolutional filters and Gated Linear Units
-\cite{dauphin:etal:2016} along with a multi-step attention mechanism
+\cite{dauphin:etal:2016} along with an attention mechanism
 that connects the encoder and the decoder.  Attention is computed
 separately for each encoder layer, and produces weighted sums over
 encoder input embeddings and encoder outputs. See the original paper
-for further details.
-
+for details.
 \paragraph{Training} The shift in distribution between training and
 test splits makes SCAN unsuitable for validation-set tuning. Instead,
-following \newcite{Lake:Baroni:2017} and \newcite{Loula:etal:2018} we
-train our models on 100k random samples with replacement from the
-training commands. We consider models with different batch sizes (from
-25 to 100\footnote{We varied the batch size in terms of number of tokens per batch}), learning rates (0.1, 0.01, 0.001), layer dimensionalities
+following \newcite{Lake:Baroni:2017} and \newcite{Loula:etal:2018}, we
+train on 100k random samples with replacement from the
+training command set. We explore different batch sizes (from
+25 to 100), learning rates (0.1, 0.01, 0.001), layer dimensionalities
 (128, 256, 512), layer number (6 to 10) and convolutional
-kernel width (3, 4, 5). For all other hyperparameters, we accept the
-recommended/default fairseq settings. We run each configuration with 5
-different seeds and report below mean values with standard deviation.
+kernel width (3, 4, 5). For all other hyperparameters, we accept recommended/default fairseq values. Each configuration is run with 5
+ seeds, and we report means and standard deviations.
 % computes different steps (or computations) before calculating its
 % final attention scores at any given timestep, similarily to the
 % multi-hop method proposed in \cite{sukhbaatar:etal:2015}.\  In order to

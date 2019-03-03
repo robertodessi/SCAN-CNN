@@ -1,15 +1,14 @@
 \begin{abstract}
   \citet{Lake:Baroni:2017} introduced the SCAN dataset probing the
   ability of seq2seq models to capture compositional generalizations,
-  such as inferring the meaning of \emph{``jump
-    around''} from the component words, even if they are never exposed to
-  this exact phrase. Recurrent networks (RNNs) were found to
-  completely fail the most challenging generalization cases. We test here
-  an out-of-the-box convolutional network (CNN) on these tasks, and we
-  report hugely improved performance with respect to RNNs. Error analysis shows that, despite this big improvement, the CNN
-  has not induced systematic rules, suggesting that the
-  difference between compositional and non-compositional behaviour is
-  not clear-cut.
+  such as inferring the meaning of \emph{``jump around''} 0-shot from
+  the component words. Recurrent networks (RNNs) were found to
+  completely fail the most challenging generalization cases. We test
+  here a convolutional network (CNN) on these tasks, reporting hugely improved performance with respect to
+  RNNs. Despite the big improvement, the
+  CNN has however not induced systematic rules, suggesting that the difference
+  between compositional and non-compositional behaviour is not
+  clear-cut.
   % The ability to systematically compose new utterances from smaller and known units is a
   % key abilty for humans, who are able to master such property withouth being instructed to do so.
   % %Conversely, modern neural networks artchitectures are unable to perform even basic
