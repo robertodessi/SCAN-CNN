@@ -60,8 +60,8 @@ they induced a \emph{X twice} rule at training time, but fail
   thrice} rule. Since SCAN semantic composition rules are associated
 with single words in input commands, we can check this hypothesis by
 looking at error distribution across input words. It turns
-(Fig.~\ref{fig:error_distributions}) out that errors are not
-associated to specific input commands. Error proportion is relatively
+out (Fig.~\ref{fig:error_distributions}) that errors are not
+associated to specific input commands. Error proportion is instead relatively
 stable across command words. Direct inspection reveals no traces of
 systematicity: errors cut across composition rules. Indeed, we
 often find minimal pairs in which changing one action verb with
@@ -89,7 +89,7 @@ instability both across seeds and hyperparameters (although even the
 lowest end of the reported accuracies is well above best RNN
 performance in the corresponding experiments). Another question is
 whether the best configurations are shared, or each split requires an
-ad-hoc hyperparameter setting. We find that there are configurations
+\emph{ad-hoc} hyperparameter choice. We find that there are configurations
 that achieve good performance across the splits. In particular, the
 \emph{best overall configuration}, found by minimizing ranks across
 splits, has 0.01 learning rate, 25-tokens batch size, 0.25
@@ -142,15 +142,14 @@ by 0.05\% from top configuration), 32th on the \emph{jump} split
     \label{fig:exp1}
 \end{figure}
 
-\paragraph{Impact of kernel width}
+\paragraph{Kernel width}
 \label{subsec:exp2}
 
 One important difference between recurrent and a convolutional
-architectures is that in the former it is left to the learned dynamics
-of the recurrent matrix to determine context size, whereas the kernel
-width of a CNN imposes a strong prior on the window of elements to be
+architectures is that CNN kernel
+width imposes a strong prior on the window of elements to be
 processed together. We conjecture that relatively wide encoder and
-decoder widths, by naturally pushing the network to keep wider
+decoder widths, by pushing the network to keep wider
 contexts into account, might favour the acquisition of template-based
 generalizations, and hence better compositionality. To investigate
 this, we varied encoder and decoder widths of the best-overall model
@@ -174,34 +173,35 @@ between 1 and 5.\footnote{At least on the encoder side, larger widths
     \label{fig:kernel_exp}
 \end{figure*}
 
-As shown in Fig.~\ref{fig:kernel_exp}, the \emph{random} split confirm
+Fig.~\ref{fig:kernel_exp} shows that the \emph{random} split confirms
 our expectations, as both wider encoder and decoder windows improve
 performance. The \emph{jump} results follow the same trend, although
 in a less clear-cut way. Still, the narrowest encoder-decoder
-combination shows the worst performance, and the widest one the top
+combination has the worst performance, and the widest one the top
 one. For the \emph{around-right} split, it is also better to use the
 widest encoder, but top performance is achieved with the
 \emph{narrowest} decoder (width$=$1). Indeed, with the narrow decoder
 we obtain \emph{around-right} accuracies that are even above the
 absolute-best \emph{jump}-split performance. Since the novel output
 templates in the \emph{around-right} split are by construction long
-(they involve executing an \emph{around} command that involves
+(they involve executing an \emph{around} command that requires
 repeating an action 4 times), we would have rather expected models
-keeping track of a larger decoding window to fare better particularly
+keeping track of a larger decoding window to fare better, particularly
 in this case. We tried to gain some insight on the attested behaviour
 by looking at performance distribution in function of input and output
 length, failing to detect different patterns in the wide-decoder
 \emph{jump} model vs.~the narrow-decoder \emph{around-right} model
 (analysis not reported here for space reasons). Looking qualitatively
 at the errors, we note that, for both splits, the narrower decoder
-tends to skip trajectory sub-chunks (e.g., executing ``\emph{jump around
-right}'' with 3 instead of 4 right turns followed by jumps), whereas
-the wider kernel is more likely to substitute actions (e.g., turning
-left instead of right) than undershooting the length. This
+tends to skip trajectory sub-chunks (e.g., executing ``\emph{jump
+  around right}'' with 3 instead of 4 right turns followed by jumps),
+whereas the wider kernel is more likely to substitute actions (e.g.,
+turning left instead of right) than undershooting the length. This
 impressionistic observation is supported by the fact that, for both
 splits, the narrow-kernel errors have considerably larger variance
-with respect to ground-truth length. These analyses, however, only confirm our
-initial conjecture that a wider decoder kernel helps with length management.
+than the wide-kernel errors with respect to ground-truth length,
+indicating that, with narrow decoder kernel, the model is less stable in terms of output sequence length. This, however, only confirms our
+ conjecture that a wider decoder kernel helps length management.
 We still have no insight on why the narrower kernel should be better on
 the \emph{around-right split}.%  Future work should pursue a better
 % understanding of how kernel widths affect linguistic processing in
@@ -249,27 +249,27 @@ the \emph{around-right split}.%  Future work should pursue a better
 %     \label{fig:kernel_width}
 % \end{figure}
 
-\paragraph{Impact of multi-layer attention}
+\paragraph{Multi-layer attention}
 \label{subsec:exp3}
 
-The fairseq CNN features attention from all layers of the
+The fairseq CNN has attention from all layers of the
 decoder. Is the possibility to focus on different aspects of the input
-while decoding from different layers crucial to the better
-generalization skills of the CNN? Fig.~\ref{fig:exp3} reports model
-accuracy when using attention only from a subset of the 6
-layers. Whereas for the \emph{random} split differences are minimal,
-ablating attentions greatly affects the performance on the
-compositional splits (although in both cases there is a single ablated
+while decoding from different layers crucial to its better
+generalization skills? Fig.~\ref{fig:exp3} reports
+accuracies when applying attention from a subset of the 6
+layers only. The \emph{random} split differences are minimal,
+but ablating attentions greatly affects performance on the
+compositional splits (although, in both cases, there is a single ablated
 configuration that is as good as the full setup).
 
 \begin{figure}[tb]
     \centering
     \includegraphics[width=.5\textwidth,keepaspectratio]{figures/attention_exp.png}
-    \caption{Accuracy of overall-best model when keeping attention
-      only on first layer (\emph{bottom1}), first two layers
+    \caption{Accuracy (\%) of overall-best model with attention
+      only from first layer (\emph{bottom1}), first two layers
       (\emph{bottom2}), \ldots, last two layers (\emph{top2}), top
       layer only (\emph{top1}). Means and standard deviations across 5
-      seeds. Dashed lines show full-multi-layer attention results.}
+      seeds. Dashed lines show full multi-layer attention results.}
     \label{fig:exp3}
 \end{figure}
 
