@@ -76,15 +76,15 @@ example, in the \emph{jump} split, the CNN correctly executes
 ``\emph{jump left after walk},'' but fails ``\emph{jump left after
   run}'' (jumping is forgotten). Analogously, in the
 \emph{around-right} split, ``\emph{run around right}'' is correctly
-executed, but ``\emph{walk around right}'' isn't (the CNN stops too
-soon).
+executed, but ``\emph{walk around right}'' is not (the network stops too
+early).
 
 \begin{figure}[tb]
     \centering
     \includegraphics[width=.45\textwidth,keepaspectratio]{figures/jump_error_dist.png}
     \includegraphics[width=.45\textwidth,keepaspectratio]{figures/template_error_dist.png}
     \caption{Proportion of commands with a certain command word (over word
-      total) wrongly executed by best CNNs of
+      total) wrongly executed by best CNNs on
        \emph{jump} and \emph{around-right} splits.}
     \label{fig:error_distributions}
 \end{figure}
@@ -189,7 +189,7 @@ our expectations, as both wider encoder and decoder windows improve
 performance. The \emph{jump} results follow the same trend, although
 in a less clear-cut way. Still, the narrowest encoder-decoder
 combination shows the worst performance, and the widest one the top
-one. For the \emph{around-right} split, it's also better to use the
+one. For the \emph{around-right} split, it is also better to use the
 widest encoder, but top performance is achieved with the
 \emph{narrowest} decoder (width$=$1). Indeed, with the narrow decoder
 we obtain \emph{around-right} accuracies that are even above the
