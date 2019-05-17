@@ -11,12 +11,13 @@ train/test splits, of which we consider 2.\footnote{We also
   tested our CNNs on SCAN's \emph{length} split, where test commands
   require systematically longer actions than the training
   ones. Accuracy was near 0\%, as the learned positional
-  embeddings of our CNN architecture does not 
+  embeddings of our CNN architecture do not 
   generalize beyond  training lengths. We leave the
   investigation of more flexible positional encodings \cite[as in,
   e.g.,][]{vaswani:etal:2017} to future work. We also experimented
   with SCAN's \emph{turn left} split, obtaining near-perfect
-  generalization. We focus in the paper on the more challenging
+  generalization. As RNNs were already performing very well in this split,
+  we focus in the paper on the more challenging
   \emph{jump} case.} In the \emph{random} split, the training set
 includes 80\% of randomly selected distinct SCAN commands, with the
 remaining 20\% in the test set. This requires generalization,
