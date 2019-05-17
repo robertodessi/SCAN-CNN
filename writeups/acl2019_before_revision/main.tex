@@ -1,0 +1,63 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2019}
+\usepackage{times}
+\usepackage{latexsym}
+
+\usepackage{graphicx}
+\usepackage{float}
+
+\usepackage{url}
+
+%\aclfinalcopy % Uncomment this line for the final submission
+\def\aclpaperid{716} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B\textsc{ib}\TeX}
+
+\newcommand{\mb}[1]{{\bf [\textcolor{red}{mb:} }{\it\textcolor{red}{#1}}{\bf ]}}
+\newcommand{\rd}[1]{{\bf [\textcolor{green}{rd:} }{\it\textcolor{blue}{#1}}{\bf ]}}
+
+%\title{Instructions for ACL 2019 Proceedings}
+\title{CNNs found to jump around more skillfully than RNNs:\\Compositional generalization in seq2seq convolutional networks}
+
+\author{First Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  \texttt{email@domain} \\\And
+  Second Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  \texttt{email@domain} \\}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\input{abstract.tex}
+\input{introduction.tex}
+\input{setup.tex}
+\input{experiments.tex}
+\input{conclusion.tex}
+
+\newpage
+
+%\begin{figure}[]
+%    \centering
+%    \includegraphics[width=0.50\textwidth]{Figures/plot_split_accuracies/multiple_splits.png}
+%    \caption{All splits accuracies}
+%    \label{fig:accuracy_all_split}
+%\end{figure}
+
+\bibliography{marco,roberto}
+\bibliographystyle{natbib}
+
+\end{document}
