@@ -14,10 +14,6 @@ but achieve very low performance when generalization must be
 supported by a systematic compositional rule, such as ``to X twice 
 you X and X'' (e.g., to jump twice, you jump and jump again).
 
-% \footnote{\citet{Bastings:etal:2018}
-  % report higher performance for accurately tuned RNNs on
-  % some of the less challenging SCAN tasks.}
-
 Non-recurrent models, such as convolutional neural networks
 \cite[CNNs,][]{kalchbrenner:etal:2016, gehring:etal:2016,
   gehring:etal:2017} and self-attentive models
@@ -34,17 +30,5 @@ challenging SCAN tasks, and we uncover the surprising fact that
 \emph{CNNs are dramatically better than RNNs at compositional
   generalization}. As they are more cumbersome to train, we leave
 testing of self-attentive networks to future work.
-
-% Convolutional models have recently proved to be efficient and powerful solutions in machine translation 
-% \cite{kalchbrenner:etal:2016, gehring:etal:2016, gehring:etal:2017}.
-% The lack of recurrent connections makes their training faster and more parallelizable 
-% Self-attention networks have also gained attention recently as they were able to outperform convolutional models on different
-% machine translation benchmarks \cite{vaswani:etal:2017, chen:etal:2018} while showing a comparable training cost.
-% Our work is focused on assessing whether a powerful and efficient neural network based on convolutional connections
-% is capable of learning to compose and generalize to unseen meanings when carefully trained on smaller semantic units.
-% We decided to make the focus of our work the qualitative and quantitative study of a convolutional architecture, as
-% it is be easier to inspect its inner components compared to self attention based networks.
-% We leave for future work similar comparative study that employs self-attentive models.
-
 
 
