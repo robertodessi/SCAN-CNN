@@ -1,0 +1,34 @@
+\section{Introduction}
+\label{sec:intro}
+
+Recent deep neural network successes rekindled classic
+debates on their natural language processing abilities
+\cite[e.g.,][]{Kirov:Cotterell:2018,McCoy:etal:2018,Pater:2018}. \citet{Lake:Baroni:2017}
+and \citet{Loula:etal:2018} proposed the SCAN challenge to
+directly assess the ability of sequence-to-sequence networks to
+perform systematic, compositional generalization of linguistic
+rules. Their results, and those of \citet{Bastings:etal:2018}, have
+shown that modern recurrent networks (gated RNNs, such as LSTMs and GRUs) generalize well
+to new sequences that resemble those encountered in training,
+but achieve very low performance when generalization must be
+supported by a systematic compositional rule, such as ``to X twice 
+you X and X'' (e.g., to jump twice, you jump and jump again).
+
+Non-recurrent models, such as convolutional neural networks
+\cite[CNNs,][]{kalchbrenner:etal:2016, gehring:etal:2016,
+  gehring:etal:2017} and self-attentive models
+\cite{vaswani:etal:2017, chen:etal:2018} have recently reached
+comparable or better performance than RNNs on machine translation and
+other benchmarks. Their linguistic properties are however still
+generally poorly understood. \newcite{Tang:etal:2018} have shown that
+RNNs and self-attentive models are better than CNNs at capturing
+long-distance agreement, while self-attentive networks excel at word
+sense disambiguation. In an extensive comparison,
+\newcite{Bai:etal:2018} showed that CNNs generally outperform RNNs,
+although the differences were typically not huge. We evaluate here an out-of-the-box CNN on the most
+challenging SCAN tasks, and we uncover the surprising fact that
+\emph{CNNs are dramatically better than RNNs at compositional
+  generalization}. As they are more cumbersome to train, we leave
+testing of self-attentive networks to future work.
+
+
